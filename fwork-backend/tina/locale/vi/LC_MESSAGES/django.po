@@ -1,0 +1,4612 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: tina-back\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-11 14:11+0200\n"
+"PO-Revision-Date: 2019-06-25 18:19+0700\n"
+"Language-Team: Tinasoft\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#: tina/auth/api.py:71
+msgid "Public register is disabled."
+msgstr "Đăng ký công khai bị vô hiệu hóa."
+
+#: tina/auth/api.py:93
+msgid "You must accept our terms of service and privacy policy"
+msgstr "Bạn phải chấp nhận các điều khoản dịch vụ và chính sách bảo mật của chúng tôi"
+
+#: tina/auth/api.py:102
+msgid "invalid register type"
+msgstr "dạng đăng ký không hợp lệ"
+
+#: tina/auth/api.py:118
+msgid "invalid login type"
+msgstr "dạng đăng nhập không hợp lệ"
+
+#: tina/auth/services.py:76
+msgid "Username is already in use."
+msgstr "Tên tài khoản đã được sử dụng."
+
+#: tina/auth/services.py:79
+msgid "Email is already in use."
+msgstr "Email đã được sử dụng."
+
+#: tina/auth/services.py:95
+msgid "Token not matches any valid invitation."
+msgstr "Mã thông báo không phù hợp với bất kỳ lời mời hợp lệ nào."
+
+#: tina/auth/services.py:124
+msgid "User is already registered."
+msgstr "Tài khoản đã được đăng ký."
+
+#: tina/auth/services.py:141
+msgid "This user is already a member of the project."
+msgstr "Người dùng này đã là thành viên của dự án."
+
+#: tina/auth/services.py:165
+msgid "Error on creating new user."
+msgstr "Lỗi khi tạo tài khoản mới."
+
+#: tina/auth/tokens.py:49 tina/auth/tokens.py:56 tina/external_apps/services.py:34 tina/projects/api.py:426 tina/projects/api.py:447
+msgid "Invalid token"
+msgstr "Mã thông báo không hợp lệ"
+
+#: tina/auth/validators.py:37 tina/users/validators.py:44
+msgid "invalid username"
+msgstr "tên sử dụng không hợp lệ"
+
+#: tina/auth/validators.py:42 tina/users/validators.py:50
+msgid "Required. 255 characters or fewer. Letters, numbers and /./-/_ characters'"
+msgstr "Bắt buộc. 255 ký tự trở xuống. Chữ cái, số và /./-/_ ký tự'"
+
+#: tina/base/api/fields.py:294
+msgid "This field is required."
+msgstr "Mục này là bắt buộc."
+
+#: tina/base/api/fields.py:295 tina/base/api/relations.py:337
+msgid "Invalid value."
+msgstr "Giá trị không hợp lệ."
+
+#: tina/base/api/fields.py:484
+#, python-format
+msgid "'%s' value must be either True or False."
+msgstr "'%s' giá trị phải là Đúng hoặc Sai."
+
+#: tina/base/api/fields.py:549
+msgid "Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr "Nhập giá trị 'slug' hợp lệ chỉ bao gồm chữ cái, số, dấu gạch dưới hoặc dấu gạch ngang."
+
+#: tina/base/api/fields.py:564
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "Chọn phương án hợp lệ. %(value)s không phải là một trong những phương án có sẵn."
+
+#: tina/base/api/fields.py:638
+msgid "You email domain is not allowed"
+msgstr "Tên miền email của bạn không được phép sử dụng "
+
+#: tina/base/api/fields.py:647
+msgid "Enter a valid email address."
+msgstr "Vui lòng nhập địa chỉ email hợp lệ."
+
+#: tina/base/api/fields.py:689
+#, python-format
+msgid "Date has wrong format. Use one of these formats instead: %s"
+msgstr "Định dạng ngày sai. Sử dụng một trong những định dạng này để thay thế: %s"
+
+#: tina/base/api/fields.py:753
+#, python-format
+msgid "Datetime has wrong format. Use one of these formats instead: %s"
+msgstr "Định dạng thời gian sai. Sử dụng một trong những định dạng sau để thay thế: %s"
+
+#: tina/base/api/fields.py:823
+#, python-format
+msgid "Time has wrong format. Use one of these formats instead: %s"
+msgstr "Định dạng thời gian sai. Sử dụng một trong các định dạng này thay thế: %s"
+
+#: tina/base/api/fields.py:880
+msgid "Enter a whole number."
+msgstr "Nhập số nguyên."
+
+#: tina/base/api/fields.py:881 tina/base/api/fields.py:934
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "Đảm bảo giá trị này nhỏ hơn hoặc bằng %(limit_value)s."
+
+#: tina/base/api/fields.py:882 tina/base/api/fields.py:935
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "Đảm bảo giá trị này lớn hơn hoặc bằng %(limit_value)s."
+
+#: tina/base/api/fields.py:912
+#, python-format
+msgid "\"%s\" value must be a float."
+msgstr "\"%s\" giá trị phải có dấu phẩy."
+
+#: tina/base/api/fields.py:933
+msgid "Enter a number."
+msgstr "Hãy nhập số."
+
+#: tina/base/api/fields.py:936
+#, python-format
+msgid "Ensure that there are no more than %s digits in total."
+msgstr "Đảm bảo rằng không có nhiều hơn %s chữ số trong tổng số."
+
+#: tina/base/api/fields.py:937
+#, python-format
+msgid "Ensure that there are no more than %s decimal places."
+msgstr "Đảm bảo rằng không có nhiều hơn %s chữ số thập phân."
+
+#: tina/base/api/fields.py:938
+#, python-format
+msgid "Ensure that there are no more than %s digits before the decimal point."
+msgstr "Đảm bảo rằng không có nhiều hơn %s chữ số trước dấu thập phân."
+
+#: tina/base/api/fields.py:1005
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "Không có tệp tin nào được gửi đi. Kiểm tra loại mã trên biểu mẫu."
+
+#: tina/base/api/fields.py:1006
+msgid "No file was submitted."
+msgstr "Không có tệp tin nào được gửi ."
+
+#: tina/base/api/fields.py:1007
+msgid "The submitted file is empty."
+msgstr "Tệp tin mà bạn vừa gửi trống."
+
+#: tina/base/api/fields.py:1008
+#, python-format
+msgid "Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr "Đảm bảo tên tệp này có tối đa %(max)d ký tự (it has %(length)d)."
+
+#: tina/base/api/fields.py:1009
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "Vui lòng chỉ gửi tệp hoặc chỉ đánh dấu vào ô trống."
+
+#: tina/base/api/fields.py:1049
+msgid "Upload a valid image. The file you uploaded was either not an image or a corrupted image."
+msgstr "Tải lên hình ảnh hợp lệ. Tệp tin bạn tải lên không phải là hình ảnh hoặc hình ảnh bị hỏng."
+
+#: tina/base/api/mixins.py:284 tina/base/exceptions.py:211 tina/hooks/api.py:69 tina/projects/api.py:461 tina/projects/api.py:494 tina/projects/api.py:970 tina/projects/epics/api.py:200
+#: tina/projects/epics/api.py:284 tina/projects/issues/api.py:233 tina/projects/mixins/ordering.py:59 tina/projects/tasks/api.py:259 tina/projects/tasks/api.py:284
+#: tina/projects/userstories/api.py:346 tina/projects/userstories/api.py:398 tina/webhooks/api.py:71
+msgid "Blocked element"
+msgstr "Thành phần bị chặn"
+
+#: tina/base/api/pagination.py:228
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr "Trang không là 'last', cũng không thể chuyển đổi thành int."
+
+#: tina/base/api/pagination.py:232
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "Trang không hợp lệ (%(page_number)s): %(message)s"
+
+#: tina/base/api/permissions.py:65
+msgid "Invalid permission definition."
+msgstr "Định nghĩa cấp phép không hợp lệ."
+
+#: tina/base/api/relations.py:247
+#, python-format
+msgid "Invalid pk '%s' - object does not exist."
+msgstr "Pk '%s' không hợp lệ - đối tượng không tồn tại."
+
+#: tina/base/api/relations.py:248
+#, python-format
+msgid "Incorrect type. Expected pk value, received %s."
+msgstr "Định dạng không chính xác. Giá trị pk dự kiến, đã nhận được %s."
+
+#: tina/base/api/relations.py:336
+#, python-format
+msgid "Object with %s=%s does not exist."
+msgstr "Đối tượng với %s=%s không tồn tại."
+
+#: tina/base/api/relations.py:372
+msgid "Invalid hyperlink - No URL match"
+msgstr "Siêu liên kết không hợp lệ - Không có URL nào khớp"
+
+#: tina/base/api/relations.py:373
+msgid "Invalid hyperlink - Incorrect URL match"
+msgstr "Siêu liên kết không hợp lệ - Kết hợp URL không chính xác"
+
+#: tina/base/api/relations.py:374
+msgid "Invalid hyperlink due to configuration error"
+msgstr "Siêu liên kết không hợp lệ do lỗi cấu hình"
+
+#: tina/base/api/relations.py:375
+msgid "Invalid hyperlink - object does not exist."
+msgstr "Siêu liên kết không hợp lệ - đối tượng không tồn tại."
+
+#: tina/base/api/relations.py:376
+#, python-format
+msgid "Incorrect type.  Expected url string, received %s."
+msgstr "Dạng không chính xác. Chuỗi url dự kiến, đã nhận được %s."
+
+#: tina/base/api/serializers.py:325
+msgid "Invalid data"
+msgstr "Dữ liệu không hợp lệ"
+
+#: tina/base/api/serializers.py:417
+msgid "No input provided"
+msgstr "Không có dữ liệu đầu vào"
+
+#: tina/base/api/serializers.py:580
+msgid "Cannot create a new item, only existing items may be updated."
+msgstr "Không thể tạo mục mới, chỉ các mục hiện có mới có thể được cập nhật."
+
+#: tina/base/api/serializers.py:591
+msgid "Expected a list of items."
+msgstr "Danh sách các mục dự kiến."
+
+#: tina/base/api/views.py:126
+msgid "Not found"
+msgstr "Không tìm thấy"
+
+#: tina/base/api/views.py:129
+msgid "Permission denied"
+msgstr "Việc cho phép bị từ chối"
+
+#: tina/base/api/views.py:491
+msgid "Server application error"
+msgstr "Lỗi ứng dụng máy chủ"
+
+#: tina/base/connectors/exceptions.py:26
+msgid "Connection error."
+msgstr "Lỗi kết nối."
+
+#: tina/base/exceptions.py:79
+msgid "Malformed request."
+msgstr "Yêu cầu không đúng."
+
+#: tina/base/exceptions.py:84
+msgid "Incorrect authentication credentials."
+msgstr "Thông tin xác thực không chính xác."
+
+#: tina/base/exceptions.py:89
+msgid "Authentication credentials were not provided."
+msgstr "Thông tin xác thực không được cung cấp."
+
+#: tina/base/exceptions.py:94
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không có quyền thực hiện hành động này."
+
+#: tina/base/exceptions.py:99
+#, python-format
+msgid "Method '%s' not allowed."
+msgstr "Phương pháp '%s' không được phép."
+
+#: tina/base/exceptions.py:107
+msgid "Could not satisfy the request's Accept header"
+msgstr "Không thể đáp ứng yêu cầu Chấp nhận tiêu đề"
+
+#: tina/base/exceptions.py:116
+#, python-format
+msgid "Unsupported media type '%s' in request."
+msgstr "Không hỗ trợ loại phương tiện truyền thông '%s' trong yêu cầu."
+
+#: tina/base/exceptions.py:124
+msgid "Request was throttled."
+msgstr "Yêu cầu đã được điều chỉnh."
+
+#: tina/base/exceptions.py:125
+#, python-format
+msgid "Expected available in %d second%s."
+msgstr "Dự kiến có sẵn trong %d giây%s."
+
+#: tina/base/exceptions.py:139
+msgid "Unexpected error"
+msgstr "Lỗi bất thường"
+
+#: tina/base/exceptions.py:151
+msgid "Not found."
+msgstr "Không tìm thấy."
+
+#: tina/base/exceptions.py:156
+msgid "Method not supported for this endpoint."
+msgstr "Phương pháp không hỗ trợ cho điểm cuối này."
+
+#: tina/base/exceptions.py:164 tina/base/exceptions.py:172
+msgid "Wrong arguments."
+msgstr "Sai đối số."
+
+#: tina/base/exceptions.py:176
+msgid "Data validation error"
+msgstr "Lỗi xác thực dữ liệu"
+
+#: tina/base/exceptions.py:188
+msgid "Integrity Error for wrong or invalid arguments"
+msgstr "Lỗi toàn diện cho các đối số sai hoặc không hợp lệ"
+
+#: tina/base/exceptions.py:195
+msgid "Precondition error"
+msgstr "Lỗi điều kiện tiên quyết"
+
+#: tina/base/exceptions.py:219
+msgid "No room left for more projects."
+msgstr "Không còn thừa chỗ cho nhiều dự án."
+
+#: tina/base/filters.py:105 tina/base/filters.py:526
+msgid "Error in filter params types."
+msgstr "Lỗi trong  lọc các loại thông số."
+
+#: tina/base/filters.py:171 tina/base/filters.py:278 tina/projects/filters.py:65
+msgid "'project' must be an integer value."
+msgstr "'dự án' phải là một giá trị nguyên."
+
+#: tina/base/templates/emails/base-body-html.jinja:6
+msgid "tina"
+msgstr "Fwork "
+
+#: tina/base/templates/emails/base-body-html.jinja:421 tina/base/templates/emails/hero-body-html.jinja:380 tina/base/templates/emails/updates-body-html.jinja:442
+msgid "Follow us on Twitter"
+msgstr "Theo dõi chúng tôi trên Twitter"
+
+#: tina/base/templates/emails/base-body-html.jinja:421 tina/base/templates/emails/hero-body-html.jinja:380 tina/base/templates/emails/updates-body-html.jinja:442
+msgid "Twitter"
+msgstr "Twitter"
+
+#: tina/base/templates/emails/base-body-html.jinja:422 tina/base/templates/emails/hero-body-html.jinja:381 tina/base/templates/emails/updates-body-html.jinja:443
+msgid "Get the code on GitHub"
+msgstr "Nhận mã trên GitHub"
+
+#: tina/base/templates/emails/base-body-html.jinja:422 tina/base/templates/emails/hero-body-html.jinja:381 tina/base/templates/emails/updates-body-html.jinja:443
+msgid "GitHub"
+msgstr "Github"
+
+#: tina/base/templates/emails/base-body-html.jinja:423 tina/base/templates/emails/hero-body-html.jinja:382 tina/base/templates/emails/updates-body-html.jinja:444
+msgid "Visit our website"
+msgstr "Truy cập trang web của chúng tôi"
+
+#: tina/base/templates/emails/base-body-html.jinja:423 tina/base/templates/emails/hero-body-html.jinja:382 tina/base/templates/emails/updates-body-html.jinja:444
+msgid "tina.io"
+msgstr "Fwork"
+
+#: tina/base/templates/emails/base-body-html.jinja:438 tina/base/templates/emails/hero-body-html.jinja:397 tina/base/templates/emails/updates-body-html.jinja:459
+#, python-format
+msgid ""
+"\n"
+"                                                    <strong>Configure email notifications or unsubscribe:</strong>\n"
+"                                                    <a href=\"%(unsubscribe_url)s\" title=\"Unsubscribe\" style=\"color: #9dce0a\">%(unsubscribe_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>tina Support:</strong>\n"
+"                                                    <a href=\"%(support_url)s\" title=\"Support page\" style=\"color: #9dce0a\">%(support_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Contact us:</strong>\n"
+"                                                     <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #9dce0a\">\n"
+"                                                        %(support_email)s\n"
+"                                                    </a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Mailing list:</strong>\n"
+"                                                    <a href=\"%(mailing_list_url)s\" title=\"Mailing list\" style=\"color: #9dce0a\">\n"
+"                                                        %(mailing_list_url)s\n"
+"                                                    </a>\n"
+"                                                    "
+msgstr ""
+"\n"
+"                                                    <strong>Configure email notifications or unsubscribe:</strong>\n"
+"                                                    <a href=\"%(unsubscribe_url)s\" title=\"Unsubscribe\" style=\"color: #9dce0a\">%(unsubscribe_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>tina Support:</strong>\n"
+"                                                    <a href=\"%(support_url)s\" title=\"Support page\" style=\"color: #9dce0a\">%(support_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Contact us:</strong>\n"
+"                                                     <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #9dce0a\">\n"
+"                                                        %(support_email)s\n"
+"                                                    </a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Mailing list:</strong>\n"
+"                                                    <a href=\"%(mailing_list_url)s\" title=\"Mailing list\" style=\"color: #9dce0a\">\n"
+"                                                        %(mailing_list_url)s\n"
+"                                                    </a>\n"
+"                                                    "
+
+#: tina/base/templates/emails/hero-body-html.jinja:6
+msgid "You have been tinatized"
+msgstr "Bạn đã đăng ký Fwork thành công"
+
+#: tina/base/templates/emails/hero-body-html.jinja:359
+msgid ""
+"\n"
+"                                                <h1>You have been tinatized!</h1>\n"
+"                                                <p>Welcome to tina, an Open Source, Agile Project Management Tool</p>\n"
+"                                                "
+msgstr ""
+"\n"
+"                                                <h1>Bạn đã đăng ký Fwork thành công !</h1>\n"
+"                                                <p>Chào mừng bạn đến với Fwork,công cụ quản lý dự án </p>\n"
+"                                                "
+
+#: tina/base/templates/emails/updates-body-html.jinja:6
+msgid "[tina] Updates"
+msgstr "[Fwork] Các cập nhật "
+
+#: tina/base/templates/emails/updates-body-html.jinja:417
+msgid "Updates"
+msgstr "Các cập nhật"
+
+#: tina/base/templates/emails/updates-body-html.jinja:423
+#, python-format
+msgid ""
+"\n"
+"                                                                    <h3>comment:</h3>\n"
+"                                                                    <p>%(comment)s</p>\n"
+"                                                                    "
+msgstr ""
+"\n"
+"                                                                    <h3>bình luận:</h3>\n"
+"                                                                    <p>%(comment)s</p>\n"
+"                                                                    "
+
+#: tina/base/templates/emails/updates-body-text.jinja:6
+#, python-format
+msgid ""
+"\n"
+"    Comment: %(comment)s\n"
+"        "
+msgstr ""
+"\n"
+"    Bình luận: %(comment)s\n"
+"        "
+
+#: tina/base/utils/urls.py:68
+msgid "Host access error"
+msgstr "Lỗi truy cập máy chủ"
+
+#: tina/base/utils/urls.py:74
+msgid "IP Address error"
+msgstr "Lỗi địa chỉ IP"
+
+#: tina/events/events.py:106
+msgid "User story created"
+msgstr "Đã tạo tin tức người dùng "
+
+#: tina/events/events.py:109
+msgid "User story changed"
+msgstr "Thay đổi tin tức người dùng "
+
+#: tina/events/events.py:112
+msgid "User story deleted"
+msgstr "Xoá tin tức người dùng "
+
+#: tina/events/events.py:114
+msgid "US #{} - {}"
+msgstr "Chúng tôi #{} - {} "
+
+#: tina/events/events.py:117
+msgid "Task created"
+msgstr "Đã tạo nhiệm vụ"
+
+#: tina/events/events.py:120
+msgid "Task changed"
+msgstr "Nhiệm vụ đã thay đổi"
+
+#: tina/events/events.py:123
+msgid "Task deleted"
+msgstr "Nhiệm vụ đã bị xóa"
+
+#: tina/events/events.py:125
+msgid "Task #{} - {}"
+msgstr "Nhiệm vụ #{} - {}"
+
+#: tina/events/events.py:128
+msgid "Issue created"
+msgstr "Vấn đề được tạo"
+
+#: tina/events/events.py:131
+msgid "Issue changed"
+msgstr "Vấn đề đã thay đổi"
+
+#: tina/events/events.py:134
+msgid "Issue deleted"
+msgstr "Vấn đề đã bị xóa"
+
+#: tina/events/events.py:136
+msgid "Issue: #{} - {}"
+msgstr "Vấn đề: #{} - {}"
+
+#: tina/events/events.py:139
+msgid "Wiki Page created"
+msgstr "Trang Wiki đã được tạo"
+
+#: tina/events/events.py:142
+msgid "Wiki Page changed"
+msgstr "Trang Wiki đã thay đổi"
+
+#: tina/events/events.py:145
+msgid "Wiki Page deleted"
+msgstr "Trang Wiki đã bị xóa"
+
+#: tina/events/events.py:147
+msgid "Wiki Page: {}"
+msgstr "Trang Wiki: {}"
+
+#: tina/events/events.py:150
+msgid "Sprint created"
+msgstr "Sprint đã được tạo"
+
+#: tina/events/events.py:153
+msgid "Sprint changed"
+msgstr "Sprint đã thay đổi "
+
+#: tina/events/events.py:156
+msgid "Sprint deleted"
+msgstr "Sprint đã bị xóa "
+
+#: tina/events/events.py:158
+msgid "Sprint: {}"
+msgstr "Sprint: {} "
+
+#: tina/export_import/api.py:127
+msgid "We needed at least one role"
+msgstr "Chúng tôi cần ít nhất một lượt vào"
+
+#: tina/export_import/api.py:335
+msgid "Needed dump file"
+msgstr "Tập tin kết xuất cần thiết"
+
+#: tina/export_import/api.py:345
+msgid "Invalid dump format"
+msgstr "Định dạng kết xuất không hợp lệ"
+
+#: tina/export_import/services/store.py:723 tina/export_import/services/store.py:741
+msgid "error importing project data"
+msgstr "lỗi nhập dữ liệu của dự án"
+
+#: tina/export_import/services/store.py:748
+msgid "error importing roles"
+msgstr "có lỗi khi nhập"
+
+#: tina/export_import/services/store.py:753
+msgid "error importing memberships"
+msgstr "lỗi nhập thành viên"
+
+#: tina/export_import/services/store.py:764
+msgid "error importing lists of project attributes"
+msgstr "lỗi nhập danh sách các thuộc tính dự án"
+
+#: tina/export_import/services/store.py:768
+msgid "error importing default project attributes values"
+msgstr "lỗi khi nhập giá trị thuộc tính của dự án mặc định"
+
+#: tina/export_import/services/store.py:779
+msgid "error importing custom attributes"
+msgstr "lỗi nhập thuộc tính tùy chỉnh"
+
+#: tina/export_import/services/store.py:783
+msgid "error importing sprints"
+msgstr "lỗi khi nhập sprints"
+
+#: tina/export_import/services/store.py:787
+msgid "error importing issues"
+msgstr "có lỗi khi nhập "
+
+#: tina/export_import/services/store.py:791
+msgid "error importing user stories"
+msgstr "lỗi khi nhập tin tức người dùng"
+
+#: tina/export_import/services/store.py:795
+msgid "error importing epics"
+msgstr "lỗi khi nhập dữ liệu"
+
+#: tina/export_import/services/store.py:799
+msgid "error importing tasks"
+msgstr "lỗi khi nhập các nhiệm vụ "
+
+#: tina/export_import/services/store.py:803
+msgid "error importing wiki pages"
+msgstr "lỗi nhập trang wiki"
+
+#: tina/export_import/services/store.py:807
+msgid "error importing wiki links"
+msgstr "lỗi nhập liên kết wiki"
+
+#: tina/export_import/services/store.py:811
+msgid "error importing tags"
+msgstr "lỗi nhập thẻ"
+
+#: tina/export_import/services/store.py:815
+msgid "error importing timelines"
+msgstr "lỗi khi nhập các mốc thời gian "
+
+#: tina/export_import/services/store.py:837
+msgid "unexpected error importing project"
+msgstr "lỗi bất thường khi nhập dự án"
+
+#: tina/export_import/tasks.py:62 tina/export_import/tasks.py:63
+msgid "Error generating project dump"
+msgstr "Lỗi tạo kết xuất dự án"
+
+#: tina/export_import/tasks.py:91
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Error loading dump by {user_full_name} <{user_email}>:\"\n"
+"\n"
+"\n"
+"REASON:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"DETAILS:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE ERROR:\n"
+"------------"
+msgstr ""
+"\n"
+"\n"
+"Lỗi khi tải kết xuất bởi {user_full_name} <{user_email}>:\"\n"
+"\n"
+"\n"
+"LÝ DO:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"CHI TIẾT:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE ERROR:\n"
+"------------"
+
+#: tina/export_import/tasks.py:120
+msgid "Error loading project dump"
+msgstr "Lỗi tải dự án kết xuất "
+
+#: tina/export_import/tasks.py:121
+msgid "Error loading your project dump file"
+msgstr "Lỗi khi tải tệp kết xuất dự án của bạn"
+
+#: tina/export_import/tasks.py:135
+msgid "  -- no detail info --"
+msgstr "  --không có thông tin chi tiết --"
+
+#: tina/export_import/templates/emails/dump_project-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Project dump generated</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your dump from project %(project)s has been correctly generated.</h3>\n"
+"    <p>You can download it here:</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Download the dump file\">Download the dump file</a>\n"
+"    <p>This file will be deleted on %(deletion_date)s.</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"<h1>Dự án kết xuất đã được tạo</h1>\n"
+"<p>Xin chào %(user)s,</p>\n"
+"<h3> Kết xuất của bạn từ dự án %(project)s đã được tạo chính xác.</h3>\n"
+"<p> Bạn có thể tải nó ở đây:</p>\n"
+"<a class=\"button\" href=\"%(url)s\" tiêu đề=\"Download the dump file\">Tải tập tin kết xuất</a>\n"
+"<p>Tập tin này sẽ bị xóa trên %(deletion_date)s.</p>\n"
+"<p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/export_import/templates/emails/dump_project-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your dump from project %(project)s has been correctly generated. You can download it here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"This file will be deleted on %(deletion_date)s.\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Kết xuất của bạn từ dự án %(project)s đã được tạo chính xác. Bạn có thể tải xuống tại đây:\n"
+"%(url)s\n"
+"\n"
+"Tập tin này sẽ bị xóa trên %(deletion_date)s.\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/export_import/templates/emails/dump_project-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your project dump has been generated"
+msgstr "[%(project)s] Kết xuất dự án của bạn đã được tạo"
+
+#: tina/export_import/templates/emails/export_error-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <p>Your project %(project)s has not been exported correctly.</p>\n"
+"    <p>The tina system administrators have been informed.<br/> Please, try it again or contact with the support team at\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <p>Dự án của bạn %(project)s vẫn chưa được xuất chính xác.</p>\n"
+"    <p>Các quản trị viên của hệ thống Fwork đã được thông báo.<br/> Vui lòng thử lại lần nữa hoặc liên hệ với nhóm hỗ trợ tại\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/export_import/templates/emails/export_error-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"Your project %(project)s has not been exported correctly.\n"
+"\n"
+"The tina system administrators have been informed.\n"
+"\n"
+"Please, try it again or contact with the support team at %(support_email)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"Dự án của bạn %(project)s vẫn chưa được xuất một cách chính xác.\n"
+"\n"
+"Các quản trị viên của hệ thống Fwork đã được thông báo.\n"
+"\n"
+"Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ tại %(support_email)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/export_import/templates/emails/export_error-subject.jinja:1
+#, python-format
+msgid "[%(project)s] %(error_subject)s"
+msgstr "[%(project)s] %(error_subject)s"
+
+#: tina/export_import/templates/emails/import_error-body-html.jinja:4 tina/importers/templates/emails/importer_import_error-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <p>Your project has not been importer correctly.</p>\n"
+"    <p>The tina system administrators have been informed.<br/> Please, try it again or contact with the support team at\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <p>Dự án của bạn vẫn chưa được xuất chính xác.</p>\n"
+"    <p>Các quản trị viên của hệ thống Fwork đã được thông báo.<br/> Vui lòng thử lại lần nữa hoặc liên hệ với nhóm hỗ trợ tại\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style=\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/export_import/templates/emails/import_error-body-text.jinja:1 tina/importers/templates/emails/importer_import_error-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"\n"
+"Your project has not been importer correctly.\n"
+"\n"
+"The tina system administrators have been informed.\n"
+"\n"
+"Please, try it again or contact with the support team at %(support_email)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"\n"
+"Dự án của bạn vẫn chưa được xuất chính xác.\n"
+"\n"
+"Các quản trị viên của hệ thống Fwork đã được thông báo.\n"
+"\n"
+"Vui lòng thử lại hoặc liên hệ với nhóm hỗ trợ tại %(support_email)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/export_import/templates/emails/import_error-subject.jinja:1 tina/importers/templates/emails/importer_import_error-subject.jinja:1
+#, python-format
+msgid "[tina] %(error_subject)s"
+msgstr "[Fwork] %(error_subject)s"
+
+#: tina/export_import/templates/emails/load_dump-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Project dump imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your project dump has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã nhập dự án kết xuất</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <h3>Dự án kết xuất của bạn đã được nhập chính xác.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/export_import/templates/emails/load_dump-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your project dump has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Dự án kết xuất của bạn đã được nhập chính xác.\n"
+"\n"
+"Bạn có thể nhìn thấy dự án %(project)s tại đây:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+" \n"
+
+#: tina/export_import/templates/emails/load_dump-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your project dump has been imported"
+msgstr "[%(project)s] Dự án kết xuất của bạn đã được nhập"
+
+#: tina/export_import/validators/fields.py:144
+msgid "{}=\"{}\" not found in this project"
+msgstr "{}=\"{}\" không tìm thấy trong dự án này"
+
+#: tina/export_import/validators/validators.py:168 tina/projects/custom_attributes/validators.py:109
+msgid "Invalid content. It must be {\"key\": \"value\",...}"
+msgstr "Nội dung không hợp lệ. Nó phải là {\"key\": \"value\", ...}"
+
+#: tina/export_import/validators/validators.py:183 tina/projects/custom_attributes/validators.py:124
+msgid "It contain invalid custom fields."
+msgstr "Chứa các trường tùy chỉnh không hợp lệ."
+
+#: tina/export_import/validators/validators.py:263 tina/projects/validators.py:54
+msgid "Name duplicated for the project"
+msgstr "Tên đã bị trùng trong dự án "
+
+#: tina/external_apps/api.py:43 tina/external_apps/api.py:70 tina/external_apps/api.py:77
+msgid "Authentication required"
+msgstr "Yêu cầu xác thực"
+
+#: tina/external_apps/models.py:35 tina/projects/custom_attributes/models.py:36 tina/projects/milestones/models.py:37 tina/projects/models.py:148 tina/projects/models.py:521
+#: tina/projects/models.py:554 tina/projects/models.py:590 tina/projects/models.py:610 tina/projects/models.py:635 tina/projects/models.py:667 tina/projects/models.py:693
+#: tina/projects/models.py:713 tina/projects/models.py:733 tina/projects/models.py:765 tina/projects/models.py:785 tina/projects/models.py:809 tina/users/admin.py:54 tina/users/models.py:312
+#: tina/webhooks/models.py:29
+msgid "name"
+msgstr "tên"
+
+#: tina/external_apps/models.py:37
+msgid "Icon url"
+msgstr "Biểu tượng url"
+
+#: tina/external_apps/models.py:38
+msgid "web"
+msgstr "web"
+
+#: tina/external_apps/models.py:39 tina/projects/attachments/models.py:62 tina/projects/custom_attributes/models.py:37 tina/projects/epics/models.py:56
+#: tina/projects/history/templatetags/functions.py:25 tina/projects/issues/models.py:61 tina/projects/models.py:152 tina/projects/models.py:813 tina/projects/tasks/models.py:63
+#: tina/projects/userstories/models.py:96
+msgid "description"
+msgstr "mô tả"
+
+#: tina/external_apps/models.py:41
+msgid "Next url"
+msgstr "Url tiếp theo"
+
+#: tina/external_apps/models.py:55 tina/projects/contact/models.py:26 tina/projects/likes/models.py:31 tina/projects/notifications/models.py:88 tina/projects/votes/models.py:52
+msgid "user"
+msgstr "người dùng"
+
+#: tina/external_apps/models.py:59
+msgid "application"
+msgstr "ứng dụng"
+
+#: tina/feedback/models.py:25 tina/users/models.py:147
+msgid "full name"
+msgstr "tên đầy đủ"
+
+#: tina/feedback/models.py:27 tina/users/models.py:142
+msgid "email address"
+msgstr "địa chỉ email"
+
+#: tina/feedback/models.py:29 tina/projects/contact/models.py:31
+msgid "comment"
+msgstr "bình luận"
+
+#: tina/feedback/models.py:31 tina/projects/attachments/models.py:48 tina/projects/contact/models.py:34 tina/projects/custom_attributes/models.py:46 tina/projects/epics/models.py:49
+#: tina/projects/issues/models.py:53 tina/projects/likes/models.py:33 tina/projects/milestones/models.py:48 tina/projects/models.py:159 tina/projects/models.py:817
+#: tina/projects/notifications/models.py:90 tina/projects/tasks/models.py:49 tina/projects/userstories/models.py:88 tina/projects/votes/models.py:54 tina/projects/wiki/models.py:44
+#: tina/userstorage/models.py:29
+msgid "created date"
+msgstr "ngày tạo"
+
+#: tina/feedback/templates/emails/feedback_notification-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Feedback</h1>\n"
+"    <p>tina has received feedback from %(full_name)s <%(email)s></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Phản hồi</h1>\n"
+"    <p>Fwork đã nhận được phản hồi từ %(full_name)s <%(email)s></p>\n"
+"    "
+
+#: tina/feedback/templates/emails/feedback_notification-body-html.jinja:9
+#, python-format
+msgid ""
+"\n"
+"    <h3>Comment</h3>\n"
+"    <p>%(comment)s</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h3>Bình luận</h3>\n"
+"    <p>%(comment)s</p>\n"
+"    "
+
+#: tina/feedback/templates/emails/feedback_notification-body-html.jinja:18 tina/projects/admin.py:106 tina/users/admin.py:120
+msgid "Extra info"
+msgstr "Thông tin thêm"
+
+#: tina/feedback/templates/emails/feedback_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"---------\n"
+"- From: %(full_name)s <%(email)s>\n"
+"---------\n"
+"- Comment:\n"
+"%(comment)s\n"
+"---------"
+msgstr ""
+"---------\n"
+"- Từ: %(full_name)s <%(email)s>\n"
+"---------\n"
+"- Bình luận:\n"
+"%(comment)s\n"
+"---------"
+
+#: tina/feedback/templates/emails/feedback_notification-body-text.jinja:8
+msgid "- Extra info:"
+msgstr "- Thông tin thêm:"
+
+#: tina/feedback/templates/emails/feedback_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[tina] Feedback from %(full_name)s <%(email)s>\n"
+msgstr ""
+"\n"
+"[Fwork] Phản hồi từ %(full_name)s <%(email)s>\n"
+
+#: tina/hooks/api.py:54
+msgid "The payload is not a valid json"
+msgstr "json không hợp lệ "
+
+#: tina/hooks/api.py:63 tina/projects/epics/api.py:154 tina/projects/issues/api.py:142 tina/projects/tasks/api.py:211 tina/projects/userstories/api.py:290
+msgid "The project doesn't exist"
+msgstr "Dự án không tồn tại"
+
+#: tina/hooks/api.py:66
+msgid "Bad signature"
+msgstr "Hình ảnh chữ ký không đẹp"
+
+#: tina/hooks/event_hooks.py:66
+#, python-brace-format
+msgid ""
+"[@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") says in [{platform}#{number}]({comment_url} \"Go to comment\"):\n"
+"\n"
+"\"{comment_message}\""
+msgstr ""
+"[@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") says in [{platform}#{number}]({comment_url} \"Go to comment\"):\n"
+"\n"
+"\"{comment_message}\""
+
+#: tina/hooks/event_hooks.py:71
+#, python-brace-format
+msgid ""
+"Comment From {platform}:\n"
+"\n"
+"> {comment_message}"
+msgstr ""
+"Bình luận {platform}:\n"
+"\n"
+"> {comment_message}"
+
+#: tina/hooks/event_hooks.py:84
+msgid "Invalid issue comment information"
+msgstr "Thông tin về lỗi bình luận không hợp lệ "
+
+#: tina/hooks/event_hooks.py:103
+#, python-brace-format
+msgid "Issue created by [@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") from [{platform}#{number}]({url} \"Go to issue\")."
+msgstr "Lỗi được tạo bởi [@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") từ [{platform}#{number}]({url} \"Go to issue\")."
+
+#: tina/hooks/event_hooks.py:107
+#, python-brace-format
+msgid "Issue created from {platform}."
+msgstr "Lỗi được tạo từ {platform}."
+
+#: tina/hooks/event_hooks.py:120
+msgid "Invalid issue information"
+msgstr "Thông tin về vấn đề không hợp lệ"
+
+#: tina/hooks/event_hooks.py:149 tina/hooks/event_hooks.py:171
+msgid "unknown user"
+msgstr "người dùng không xác định"
+
+#: tina/hooks/event_hooks.py:156
+#, python-brace-format
+msgid ""
+"{user_text} changed the status from [{platform} commit]({commit_url} \"See commit '{commit_id} - {commit_short_message}'\")\n"
+"\n"
+"  - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+"{user_text} thay đổi trạng thái từ [{platform} commit]({commit_url} \"See commit '{commit_id} - {commit_short_message}'\")\n"
+"\n"
+"  - Trạng thái: **{src_status}** → **{dst_status}**"
+
+#: tina/hooks/event_hooks.py:161
+#, python-brace-format
+msgid ""
+"Changed status from {platform} commit.\n"
+"\n"
+" - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+"Thay đổi trạng thái từ {platform} cam kết.\n"
+"\n"
+" - Trạng thái: **{src_status}** → **{dst_status}**"
+
+#: tina/hooks/event_hooks.py:179
+#, python-brace-format
+msgid "This {type_name} has been mentioned by {user_text} in the [{platform} commit]({commit_url} \"See commit '{commit_id} - {commit_short_message}'\") \"{commit_message}\""
+msgstr "Điều này {type_name} đã được đề cập bởi {user_text} ở trong [{platform} commit]({commit_url} \"See commit '{commit_id} - {commit_short_message}'\") \"{commit_message}\""
+
+#: tina/hooks/event_hooks.py:184
+#, python-brace-format
+msgid "This issue has been mentioned in the {platform} commit \"{commit_message}\""
+msgstr "Vấn đề này đã được đề cập trong {platform} cam kết \"{commit_message}\""
+
+#: tina/hooks/event_hooks.py:206
+msgid "The referenced element doesn't exist"
+msgstr "Các phần được tham chiếu không tồn tại"
+
+#: tina/hooks/event_hooks.py:222
+msgid "The status doesn't exist"
+msgstr "Tình trạng không tồn tại"
+
+#: tina/importers/asana/api.py:43 tina/importers/asana/api.py:85 tina/importers/github/api.py:44 tina/importers/github/api.py:74 tina/importers/jira/api.py:60 tina/importers/jira/api.py:106
+#: tina/importers/pivotal/api.py:43 tina/importers/pivotal/api.py:80 tina/importers/trello/api.py:46 tina/importers/trello/api.py:83
+msgid "The project param is needed"
+msgstr "Yêu cầu tham số dự án"
+
+#: tina/importers/asana/api.py:50 tina/importers/asana/api.py:73 tina/importers/asana/api.py:139
+msgid "Invalid Asana API request"
+msgstr "Yêu cầu API Asana không hợp lệ"
+
+#: tina/importers/asana/api.py:52 tina/importers/asana/api.py:75 tina/importers/asana/api.py:141
+msgid "Failed to make the request to Asana API"
+msgstr "Không thể yêu cầu API Asana"
+
+#: tina/importers/asana/api.py:129 tina/importers/github/api.py:123
+msgid "Code param needed"
+msgstr "Yêu cầu mã tham số "
+
+#: tina/importers/asana/tasks.py:42 tina/importers/asana/tasks.py:43
+msgid "Error importing Asana project"
+msgstr "Lỗi khi nhập dự án Asana"
+
+#: tina/importers/github/api.py:135
+msgid "Invalid auth data"
+msgstr "Dữ liệu xác thực không hợp lệ"
+
+#: tina/importers/github/api.py:137
+msgid "Third party service failing"
+msgstr "Dịch vụ cho bên thứ ba không thành công"
+
+#: tina/importers/github/tasks.py:42 tina/importers/github/tasks.py:43
+msgid "Error importing GitHub project"
+msgstr "Lỗi khi nhập dự án GitHub"
+
+#: tina/importers/jira/api.py:62 tina/importers/jira/api.py:89 tina/importers/jira/api.py:109 tina/importers/jira/api.py:182
+msgid "The url param is needed"
+msgstr "Yêu cầu tham số url "
+
+#: tina/importers/jira/api.py:158
+msgid "Invalid project_type {}"
+msgstr "Project_type không hợp lệ {}"
+
+#: tina/importers/jira/api.py:192
+msgid "Invalid Jira server configuration."
+msgstr "Cấu hình máy chủ Jira không hợp lệ."
+
+#: tina/importers/jira/api.py:233 tina/importers/pivotal/api.py:138 tina/importers/trello/api.py:143
+msgid "Invalid or expired auth token"
+msgstr "Mã thông báo xác thực không hợp lệ hoặc đã hết hạn"
+
+#: tina/importers/jira/tasks.py:48 tina/importers/jira/tasks.py:49
+msgid "Error importing Jira project"
+msgstr "Lỗi nhập dự án Jira"
+
+#: tina/importers/pivotal/tasks.py:42 tina/importers/pivotal/tasks.py:43
+msgid "Error importing PivotalTracker project"
+msgstr "Lỗi khi nhập dự án PivotalTracker"
+
+#: tina/importers/templates/emails/asana_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Asana Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Asana project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã nhập dự án Asana</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <h3>Dự án Asana của bạn đã được nhập thành công.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/importers/templates/emails/asana_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Asana project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Dự án Asana của bạn đã được nhập thành công.\n"
+"\n"
+"Bạn có thể nhìn thấy dự án %(project)s tại đây:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/importers/templates/emails/asana_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Asana project has been imported"
+msgstr "[%(project)s] Dự án Asana của bạn đã được nhập"
+
+#: tina/importers/templates/emails/github_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>GitHub Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your GitHub project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Dự án GitHub đã được nhập</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <h3>Dự án GitHub của bạn đã được nhập thành công.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/importers/templates/emails/github_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your GitHub project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Dự án GitHub của bạn đã được nhập thành công.\n"
+"\n"
+"Bạn có thể nhìn thấy dự án %(project)s tại đây:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/importers/templates/emails/github_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your GitHub project has been imported"
+msgstr "[%(project)s] Dự án GitHub của bạn đã được nhập "
+
+#: tina/importers/templates/emails/jira_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Jira Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Jira project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Dự án Jira đã được nhập</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <h3>Dựa án Jira của bạn đã được nhập thành công.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/importers/templates/emails/jira_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Jira project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Dự án Jira của bạn đã được nhập thành công.\n"
+"\n"
+"Bạn có thể nhìn thấy dự án %(project)s tại đây:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/importers/templates/emails/jira_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Jira project has been imported"
+msgstr "[%(project)s] Dự án Jira của bạn đã được nhập "
+
+#: tina/importers/templates/emails/trello_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Trello Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Trello project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Dự án Trello đã được nhập</h1>\n"
+"    <p>Xin chào %(user)s,</p>\n"
+"    <h3>Dự án Trello của bạn đã được nhập thành công.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project %(project)s\">Go to %(project)s</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/importers/templates/emails/trello_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Trello project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(user)s,\n"
+"\n"
+"Dự án Trello của bạn đã được nhập thành công.\n"
+"\n"
+"Bạn có thể nhìn thấy dự án %(project)s tại đây:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/importers/templates/emails/trello_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Trello project has been imported"
+msgstr "[%(project)s] Dự án Trello của bạn đã được nhập "
+
+#: tina/importers/trello/importer.py:78
+#, python-format
+msgid "Invalid Request: %s at %s"
+msgstr "Yêu cầu không hợp lệ: %s tại %s"
+
+#: tina/importers/trello/importer.py:80 tina/importers/trello/importer.py:82
+#, python-format
+msgid "Unauthorized: %s at %s"
+msgstr "Không được phép: %s tại %s"
+
+#: tina/importers/trello/importer.py:84 tina/importers/trello/importer.py:86
+#, python-format
+msgid "Resource Unavailable: %s at %s"
+msgstr "Nguồn không có sẵn:%s tại %s"
+
+#: tina/importers/trello/tasks.py:42 tina/importers/trello/tasks.py:43
+msgid "Error importing Trello project"
+msgstr "Lỗi khi nhập dự án Trello"
+
+#: tina/permissions/choices.py:23 tina/permissions/choices.py:34
+msgid "View project"
+msgstr "Hiển thị dự án"
+
+#: tina/permissions/choices.py:24 tina/permissions/choices.py:36
+msgid "View milestones"
+msgstr "Hiển thị các mốc quan trọng"
+
+#: tina/permissions/choices.py:25 tina/permissions/choices.py:41
+msgid "View epic"
+msgstr "Hiển thị lịch sử "
+
+#: tina/permissions/choices.py:26
+msgid "View user stories"
+msgstr "Hiển thị tin tức người dùng "
+
+#: tina/permissions/choices.py:27 tina/permissions/choices.py:53
+msgid "View tasks"
+msgstr "Hiển thị các nhiệm vụ "
+
+#: tina/permissions/choices.py:28 tina/permissions/choices.py:59
+msgid "View issues"
+msgstr "Hiển thị các vấn đề "
+
+#: tina/permissions/choices.py:29 tina/permissions/choices.py:65
+msgid "View wiki pages"
+msgstr "Hiển thị các trang wiki"
+
+#: tina/permissions/choices.py:30 tina/permissions/choices.py:71
+msgid "View wiki links"
+msgstr "Hiển thị các liên kết wiki "
+
+#: tina/permissions/choices.py:37
+msgid "Add milestone"
+msgstr "Thêm cột mốc"
+
+#: tina/permissions/choices.py:38
+msgid "Modify milestone"
+msgstr "Điều chỉnh cột mốc"
+
+#: tina/permissions/choices.py:39
+msgid "Delete milestone"
+msgstr "Xóa cột mốc"
+
+#: tina/permissions/choices.py:42
+msgid "Add epic"
+msgstr "Thêm lịch sử "
+
+#: tina/permissions/choices.py:43
+msgid "Modify epic"
+msgstr "Điều chỉnh lịch sử "
+
+#: tina/permissions/choices.py:44
+msgid "Comment epic"
+msgstr "Bình luận lịch sử"
+
+#: tina/permissions/choices.py:45
+msgid "Delete epic"
+msgstr "Xóa lịch sử "
+
+#: tina/permissions/choices.py:47
+msgid "View user story"
+msgstr "Hiển thị tin tức người dùng"
+
+#: tina/permissions/choices.py:48
+msgid "Add user story"
+msgstr "Thêm tin tức người dùng"
+
+#: tina/permissions/choices.py:49
+msgid "Modify user story"
+msgstr "Chỉnh sửa tin tức người dùng"
+
+#: tina/permissions/choices.py:50
+msgid "Comment user story"
+msgstr "Bình luận tin tức người dùng "
+
+#: tina/permissions/choices.py:51
+msgid "Delete user story"
+msgstr "Xoá tin tức người dùng "
+
+#: tina/permissions/choices.py:54
+msgid "Add task"
+msgstr "Thêm công việc"
+
+#: tina/permissions/choices.py:55
+msgid "Modify task"
+msgstr "Sửa công việc"
+
+#: tina/permissions/choices.py:56
+msgid "Comment task"
+msgstr "Bình luận công việc"
+
+#: tina/permissions/choices.py:57
+msgid "Delete task"
+msgstr "Xóa công việc"
+
+#: tina/permissions/choices.py:60
+msgid "Add issue"
+msgstr "Thêm vấn đề"
+
+#: tina/permissions/choices.py:61
+msgid "Modify issue"
+msgstr "Chỉnh sửa vấn đề"
+
+#: tina/permissions/choices.py:62
+msgid "Comment issue"
+msgstr "Bình luận vấn đề "
+
+#: tina/permissions/choices.py:63
+msgid "Delete issue"
+msgstr "Xóa vấn đề"
+
+#: tina/permissions/choices.py:66
+msgid "Add wiki page"
+msgstr "Thêm trang wiki"
+
+#: tina/permissions/choices.py:67
+msgid "Modify wiki page"
+msgstr "Sửa đổi trang wiki"
+
+#: tina/permissions/choices.py:68
+msgid "Comment wiki page"
+msgstr "Bình luận trang wiki "
+
+#: tina/permissions/choices.py:69
+msgid "Delete wiki page"
+msgstr "Xóa trang wiki"
+
+#: tina/permissions/choices.py:72
+msgid "Add wiki link"
+msgstr "Thêm liên kết wiki"
+
+#: tina/permissions/choices.py:73
+msgid "Modify wiki link"
+msgstr "Sửa đổi liên kết wiki"
+
+#: tina/permissions/choices.py:74
+msgid "Delete wiki link"
+msgstr "Xóa liên kết wiki"
+
+#: tina/permissions/choices.py:78
+msgid "Modify project"
+msgstr "Điều chỉnh dự án"
+
+#: tina/permissions/choices.py:79
+msgid "Delete project"
+msgstr "Xóa dự án"
+
+#: tina/permissions/choices.py:80
+msgid "Add member"
+msgstr "Thêm thành viên"
+
+#: tina/permissions/choices.py:81
+msgid "Remove member"
+msgstr "Xóa thành viên"
+
+#: tina/permissions/choices.py:82
+msgid "Admin project values"
+msgstr "Giá trị dự án quản trị"
+
+#: tina/permissions/choices.py:83
+msgid "Admin roles"
+msgstr "Vai trò quản trị viên"
+
+#: tina/projects/admin.py:100
+msgid "Privacity"
+msgstr "Quyền riêng tư"
+
+#: tina/projects/admin.py:111
+msgid "Modules"
+msgstr "Các mô đun"
+
+#: tina/projects/admin.py:119
+msgid "Default values"
+msgstr "Giá trị mặc định"
+
+#: tina/projects/admin.py:126
+msgid "Activity"
+msgstr "Dịch vụ khác"
+
+#: tina/projects/admin.py:131
+msgid "Fans"
+msgstr "Người yêu thích "
+
+#: tina/projects/admin.py:145 tina/projects/attachments/models.py:39 tina/projects/epics/models.py:40 tina/projects/issues/models.py:38 tina/projects/milestones/models.py:42
+#: tina/projects/models.py:164 tina/projects/notifications/models.py:63 tina/projects/tasks/models.py:40 tina/projects/userstories/models.py:70 tina/projects/wiki/models.py:40
+#: tina/users/admin.py:69 tina/userstorage/models.py:27
+msgid "owner"
+msgstr "người sở hữu"
+
+#: tina/projects/admin.py:193
+#, python-brace-format
+msgid "{count} successfully made public."
+msgstr "{count} được công khai thành công."
+
+#: tina/projects/admin.py:194
+msgid "Make public"
+msgstr "Công bố công khai"
+
+#: tina/projects/admin.py:208
+#, python-brace-format
+msgid "{count} successfully made private."
+msgstr "{count} công bố công khai thành công."
+
+#: tina/projects/admin.py:209
+msgid "Make private"
+msgstr "Đặt quyền riêng tư "
+
+#: tina/projects/admin.py:239
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Xóa dòng đã chọn %(verbose_name_plural)s"
+
+#: tina/projects/api.py:175 tina/users/api.py:244
+msgid "Incomplete arguments"
+msgstr "Thông tin chưa đầy đủ "
+
+#: tina/projects/api.py:179 tina/users/api.py:249
+msgid "Invalid image format"
+msgstr "Định dạng ảnh không hợp lệ"
+
+#: tina/projects/api.py:240
+msgid "Not valid template name"
+msgstr "Tên mẫu không hợp lệ "
+
+#: tina/projects/api.py:243
+msgid "Not valid template description"
+msgstr "Mô tả mẫu không hợp lệ"
+
+#: tina/projects/api.py:406 tina/projects/api.py:1005
+msgid "Invalid user id"
+msgstr "ID người dùng không hợp lệ"
+
+#: tina/projects/api.py:412 tina/projects/api.py:1011
+msgid "The user doesn't exist"
+msgstr "Người dùng không tồn tại"
+
+#: tina/projects/api.py:416
+msgid "The user must be already a project member"
+msgstr "Người dùng phải là thành viên dự án"
+
+#: tina/projects/api.py:642
+msgid "You can't delete user story due date by default"
+msgstr "Theo mặc định, bạn không thể xóa tin tức người dùng"
+
+#: tina/projects/api.py:658
+msgid "Project already have due dates"
+msgstr "Dự án đã đến ngày đáo hạn"
+
+#: tina/projects/api.py:718
+msgid "You can't delete task due date by default"
+msgstr "Bạn không thể xóa ngày hết hạn nhiệm vụ theo mặc định"
+
+#: tina/projects/api.py:734
+msgid "Project already have task due dates"
+msgstr "Dự án đã có ngày hoàn thành nhiệm vụ"
+
+#: tina/projects/api.py:858
+msgid "You can't delete issue due date by default"
+msgstr "Bạn không thể xoá vấn đề ngày hết hạn theo mặc định "
+
+#: tina/projects/api.py:874
+msgid "Project already have issue due dates"
+msgstr "Dự án đã có ngày đáo hạn "
+
+#: tina/projects/api.py:1023
+msgid "This user can't be removed from the following projects, because would leave them without any active admin: {}."
+msgstr "Người dùng này không thể bị xóa khỏi các dự án sau, bởi vì dự án có thể để họ lại mà không cần bất kỳ hoạt động nào của quản trị viên: {}"
+
+#: tina/projects/api.py:1033
+msgid "The project must have an owner and at least one of the users must be an active admin"
+msgstr "Dự án phải có chủ sở hữu và ít nhất một trong số những người dùng phải là quản trị viên tích cực"
+
+#: tina/projects/api.py:1067
+msgid "You don't have permisions to see that."
+msgstr "Bạn không có quyền để thấy điều đó."
+
+#: tina/projects/attachments/api.py:54
+msgid "Partial updates are not supported"
+msgstr "Cập nhật một phần không được hỗ trợ"
+
+#: tina/projects/attachments/api.py:69
+msgid "Object id issue isn't exists"
+msgstr "Không tồn tại vấn đề về id của đối tượng "
+
+#: tina/projects/attachments/api.py:72
+msgid "Project ID not matches between object and project"
+msgstr "ID của dự án không khớp giữa đối tượng và dự án"
+
+#: tina/projects/attachments/models.py:41 tina/projects/contact/models.py:29 tina/projects/custom_attributes/models.py:43 tina/projects/epics/models.py:38 tina/projects/issues/models.py:51
+#: tina/projects/milestones/models.py:44 tina/projects/models.py:509 tina/projects/models.py:531 tina/projects/models.py:568 tina/projects/models.py:596 tina/projects/models.py:620
+#: tina/projects/models.py:645 tina/projects/models.py:677 tina/projects/models.py:699 tina/projects/models.py:719 tina/projects/models.py:743 tina/projects/models.py:771
+#: tina/projects/models.py:795 tina/projects/notifications/models.py:75 tina/projects/notifications/models.py:92 tina/projects/tasks/models.py:44 tina/projects/userstories/models.py:68
+#: tina/projects/wiki/models.py:34 tina/projects/wiki/models.py:72 tina/users/models.py:323
+msgid "project"
+msgstr "dự án"
+
+#: tina/projects/attachments/models.py:43
+msgid "content type"
+msgstr "kiểu nội dung"
+
+#: tina/projects/attachments/models.py:45
+msgid "object id"
+msgstr "id của đối tượng"
+
+#: tina/projects/attachments/models.py:51 tina/projects/custom_attributes/models.py:48 tina/projects/epics/models.py:52 tina/projects/issues/models.py:56 tina/projects/milestones/models.py:51
+#: tina/projects/models.py:162 tina/projects/models.py:820 tina/projects/tasks/models.py:52 tina/projects/userstories/models.py:91 tina/projects/wiki/models.py:47 tina/userstorage/models.py:31
+msgid "modified date"
+msgstr "Lần sửa cuối"
+
+#: tina/projects/attachments/models.py:56
+msgid "attached file"
+msgstr "tập tin đính kèm"
+
+#: tina/projects/attachments/models.py:58
+msgid "sha1"
+msgstr "sha1"
+
+#: tina/projects/attachments/models.py:60
+msgid "is deprecated"
+msgstr "không được chấp nhận"
+
+#: tina/projects/attachments/models.py:61
+msgid "from comment"
+msgstr "từ bình luận"
+
+#: tina/projects/attachments/models.py:63 tina/projects/custom_attributes/models.py:41 tina/projects/epics/models.py:104 tina/projects/milestones/models.py:57 tina/projects/models.py:525
+#: tina/projects/models.py:558 tina/projects/models.py:592 tina/projects/models.py:612 tina/projects/models.py:639 tina/projects/models.py:669 tina/projects/models.py:695
+#: tina/projects/models.py:715 tina/projects/models.py:737 tina/projects/models.py:767 tina/projects/models.py:787 tina/projects/wiki/models.py:77 tina/users/models.py:318
+msgid "order"
+msgstr "thứ tự"
+
+#: tina/projects/choices.py:23
+msgid "AppearIn"
+msgstr "Xuất hiện ở"
+
+#: tina/projects/choices.py:24
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: tina/projects/choices.py:25
+msgid "Custom"
+msgstr "Tùy chỉnh"
+
+#: tina/projects/choices.py:26
+msgid "Talky"
+msgstr "Talky"
+
+#: tina/projects/choices.py:35
+msgid "This project is blocked due to payment failure"
+msgstr "Dự án này bị chặn do thanh toán thất bại"
+
+#: tina/projects/choices.py:36
+msgid "This project is blocked by admin staff"
+msgstr "Dự án này bị chặn bởi nhân viên quản trị"
+
+#: tina/projects/choices.py:37
+msgid "This project is blocked because the owner left"
+msgstr "Dự án này bị chặn vì chủ sở hữu đã ngừng hoạt động"
+
+#: tina/projects/choices.py:38
+msgid "This project is blocked while it's deleted"
+msgstr "Dự án này bị chặn trong lúc bị xóa"
+
+#: tina/projects/contact/templates/emails/contact_notification-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"        <a style=\"font-weight: bold;text-decoration:none;color:#222;\" href=\"%(user_profile_url)s\" title=\"%(full_name)s\">%(full_name)s</a> has written to %(project_name)s\n"
+"    "
+msgstr ""
+"\n"
+"        <a style=\"font-weight: bold;text-decoration:none;color:#222;\" href=\"%(user_profile_url)s\" title=\"%(full_name)s\">%(full_name)s</a> has written to %(project_name)s\n"
+"    "
+
+#: tina/projects/contact/templates/emails/contact_notification-body-html.jinja:20
+#, python-format
+msgid ""
+"\n"
+"        You are receiving this message because you are listed as administrator of the project titled %(project_name)s. If you don't want members of the tina community contacting your project, "
+"please <a href=\"%(project_settings_url)s\">update your project settings</a> to prevent such contacts. Regular communications amongst members of the project will not be affected.\n"
+"    "
+msgstr ""
+"\n"
+"         Bạn nhận được thông báo này bởi vì bạn là quản trị viên của dự án có tiêu đề %(project_name)s. Nếu bạn không muốn các thành viên của cộng đồng Fwork liên hệ với dự án của bạn, vui lòng "
+"<a href=\"%(project_settings_url)s\">cập nhật cài đặt dự án của bạn</a> để ngăn chặn các liên hệ đó. Thông tin liên lạc thường xuyên giữa các thành viên trong dự án sẽ không bị ảnh hưởng.\n"
+"    "
+
+#: tina/projects/contact/templates/emails/contact_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"%(full_name)s has written to %(project_name)s\n"
+msgstr ""
+"\n"
+"%(full_name)s đã đươcj ghi vào %(project_name)s\n"
+
+#: tina/projects/contact/templates/emails/contact_notification-body-text.jinja:7
+#, python-format
+msgid ""
+"\n"
+"You are receiving this message because you are listed as administrator of the project titled %(project_name)s. If you don't want members of the tina community contacting your project, please "
+"update your project settings in %(project_settings_url)s to prevent such contacts. Regular communications amongst members of the project will not be affected.\n"
+msgstr ""
+"\n"
+"         Bạn nhận được thông báo này bởi vì bạn là quản trị viên của dự án có tiêu đề %(project_name)s. Nếu bạn không muốn các thành viên của cộng đồng Fwork liên hệ với dự án của bạn, vui lòng "
+"cập nhật cài đặt dự án của bạn trong %(project_settings_url)s để ngăn chặn các liên hệ đó. Thông tin liên lạc thường xuyên giữa các thành viên trong dự án sẽ không bị ảnh hưởng.\n"
+"    \n"
+
+#: tina/projects/contact/templates/emails/contact_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[tina] %(full_name)s has sent a message to the project %(project_name)s\n"
+msgstr ""
+"\n"
+"[Fwork] %(full_name)s đã gửi tin nhắn đến dự án %(project_name)s\n"
+
+#: tina/projects/custom_attributes/choices.py:29
+msgid "Text"
+msgstr "Văn bản"
+
+#: tina/projects/custom_attributes/choices.py:30
+msgid "Multi-Line Text"
+msgstr "Văn bản có nhiều dòng "
+
+#: tina/projects/custom_attributes/choices.py:31
+msgid "Rich text"
+msgstr "Văn bản đa dạng "
+
+#: tina/projects/custom_attributes/choices.py:32
+msgid "Date"
+msgstr "Ngày"
+
+#: tina/projects/custom_attributes/choices.py:33
+msgid "Url"
+msgstr "Url"
+
+#: tina/projects/custom_attributes/models.py:40 tina/projects/issues/models.py:46
+msgid "type"
+msgstr "loại"
+
+#: tina/projects/custom_attributes/models.py:95
+msgid "values"
+msgstr "các giá trị "
+
+#: tina/projects/custom_attributes/models.py:105
+msgid "epic"
+msgstr "lịch sử "
+
+#: tina/projects/custom_attributes/models.py:121 tina/projects/tasks/models.py:36 tina/projects/userstories/models.py:39
+msgid "user story"
+msgstr "tin tức người dùng "
+
+#: tina/projects/custom_attributes/models.py:137
+msgid "task"
+msgstr "nhiệm vụ "
+
+#: tina/projects/custom_attributes/models.py:153
+msgid "issue"
+msgstr "lỗi "
+
+#: tina/projects/custom_attributes/validators.py:58
+msgid "Already exists one with the same name."
+msgstr "Đã tồn tại với cùng một tên."
+
+#: tina/projects/due_dates/models.py:21
+msgid "due date"
+msgstr "ngày đáo hạn"
+
+#: tina/projects/due_dates/models.py:24
+msgid "reason for the due date"
+msgstr "lý do cho ngày đáo hạn"
+
+#: tina/projects/epics/api.py:94
+msgid "You don't have permissions to set this status to this epic."
+msgstr "Bạn không có quyền đặt trạng thái cho lịch sử này."
+
+#: tina/projects/epics/models.py:36 tina/projects/issues/models.py:36 tina/projects/tasks/models.py:38 tina/projects/userstories/models.py:63
+msgid "ref"
+msgstr "tham chiếu "
+
+#: tina/projects/epics/models.py:43 tina/projects/issues/models.py:40 tina/projects/tasks/models.py:42 tina/projects/userstories/models.py:73
+msgid "status"
+msgstr "trạng thái"
+
+#: tina/projects/epics/models.py:46
+msgid "epics order"
+msgstr "thứ tự lịch sử "
+
+#: tina/projects/epics/models.py:55 tina/projects/issues/models.py:60 tina/projects/tasks/models.py:56 tina/projects/userstories/models.py:95
+msgid "subject"
+msgstr "Chủ đề"
+
+#: tina/projects/epics/models.py:59 tina/projects/models.py:529 tina/projects/models.py:564 tina/projects/models.py:616 tina/projects/models.py:643 tina/projects/models.py:673
+#: tina/projects/models.py:697 tina/projects/models.py:717 tina/projects/models.py:741 tina/projects/models.py:769 tina/projects/models.py:791 tina/users/models.py:149
+msgid "color"
+msgstr "màu sắc"
+
+#: tina/projects/epics/models.py:62 tina/projects/issues/models.py:64 tina/projects/tasks/models.py:66 tina/projects/userstories/models.py:99
+msgid "assigned to"
+msgstr "giao cho "
+
+#: tina/projects/epics/models.py:64 tina/projects/userstories/models.py:104
+msgid "is client requirement"
+msgstr "là yêu cầu của khách hàng"
+
+#: tina/projects/epics/models.py:66 tina/projects/userstories/models.py:106
+msgid "is team requirement"
+msgstr "là yêu cầu của nhóm "
+
+#: tina/projects/epics/models.py:70
+msgid "user stories"
+msgstr "các tin tức của người dùng"
+
+#: tina/projects/epics/models.py:72 tina/projects/issues/models.py:67 tina/projects/tasks/models.py:71 tina/projects/userstories/models.py:113
+msgid "external reference"
+msgstr "tài liệu tham khảo bên ngoài"
+
+#: tina/projects/epics/validators.py:37
+msgid "There's no epic with that id"
+msgstr "Không có lịch sử với id đó "
+
+#: tina/projects/history/api.py:93
+msgid "comment is required"
+msgstr "yêu cầu bình luận"
+
+#: tina/projects/history/api.py:96
+msgid "deleted comments can't be edited"
+msgstr "các bình luận đã xoá không thể chỉnh sửa lại được"
+
+#: tina/projects/history/api.py:130
+msgid "Comment already deleted"
+msgstr "Bình luận đã bị xóa"
+
+#: tina/projects/history/api.py:151
+msgid "Comment not deleted"
+msgstr "Bình luận không bị xóa"
+
+#: tina/projects/history/choices.py:31
+msgid "Change"
+msgstr "Thay đổi"
+
+#: tina/projects/history/choices.py:32
+msgid "Create"
+msgstr "Tạo mới"
+
+#: tina/projects/history/choices.py:33
+msgid "Delete"
+msgstr "Xóa bỏ"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:25
+#, python-format
+msgid "%(role)s role points"
+msgstr "%(role)s điểm vai trò của"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:28 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:133
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:136 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:160
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:163 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:187
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:190 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:213
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:267
+msgid "from"
+msgstr "từ"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:34 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:144
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:147 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:171
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:174 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:198
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:201 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:219
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:244 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:273
+msgid "to"
+msgstr "đến"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:46
+msgid "Added new attachment"
+msgstr "Đã thêm tệp đính kèm mới"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:64
+msgid "Updated attachment"
+msgstr "Cập nhật tệp đính kèm"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:70
+msgid "deprecated"
+msgstr "ngưng phát triển "
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:72
+msgid "not deprecated"
+msgstr "không tán thành "
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:88
+msgid "Deleted attachment"
+msgstr "Xóa tệp đính kèm"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:107
+msgid "added"
+msgstr "đã thêm"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:112
+msgid "removed"
+msgstr "đã xóa"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:137 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:148
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:191 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:202 tina/projects/services/stats.py:55
+#: tina/projects/services/stats.py:56
+msgid "Unassigned"
+msgstr "Chưa phân công"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:164 tina/projects/history/templates/emails/includes/fields_diff-html.jinja:175
+msgid "Not set"
+msgstr "Không thiết lập"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-html.jinja:286 tina/projects/history/templates/emails/includes/fields_diff-text.jinja:91
+msgid "-deleted-"
+msgstr "-đã xoá-"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:23
+msgid "to:"
+msgstr "đến:"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:23
+msgid "from:"
+msgstr "từ:"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:29
+msgid "Added"
+msgstr "Đã thêm"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:36
+msgid "Changed"
+msgstr "Đã thay đổi"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:43
+msgid "Deleted"
+msgstr "Đã xóa"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:57
+msgid "added:"
+msgstr "đã thêm:"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:60
+msgid "removed:"
+msgstr "đã xóa bỏ:"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:65 tina/projects/history/templates/emails/includes/fields_diff-text.jinja:83
+msgid "From:"
+msgstr "Từ:"
+
+#: tina/projects/history/templates/emails/includes/fields_diff-text.jinja:66 tina/projects/history/templates/emails/includes/fields_diff-text.jinja:84
+msgid "To:"
+msgstr "Tới:"
+
+#: tina/projects/history/templatetags/functions.py:26 tina/projects/wiki/models.py:38
+msgid "content"
+msgstr "nội dung"
+
+#: tina/projects/history/templatetags/functions.py:27 tina/projects/mixins/blocked.py:33
+msgid "blocked note"
+msgstr "ghi chú bị chặn"
+
+#: tina/projects/history/templatetags/functions.py:28
+msgid "sprint"
+msgstr "sprint"
+
+#: tina/projects/issues/api.py:164
+msgid "You don't have permissions to set this sprint to this issue."
+msgstr "Bạn không có quyền thiết lập sprint cho vấn đề này."
+
+#: tina/projects/issues/api.py:168
+msgid "You don't have permissions to set this status to this issue."
+msgstr "Bạn không có quyền đặt trạng thái này cho vấn đề này."
+
+#: tina/projects/issues/api.py:172
+msgid "You don't have permissions to set this severity to this issue."
+msgstr "Bạn không có quyền thiết lập mức độ nghiêm trọng này cho vấn đề này."
+
+#: tina/projects/issues/api.py:176
+msgid "You don't have permissions to set this priority to this issue."
+msgstr "Bạn không có quyền thiết lập việc ưu tiên cho vấn đề này."
+
+#: tina/projects/issues/api.py:180
+msgid "You don't have permissions to set this type to this issue."
+msgstr "Bạn không có quyền đặt loại này cho vấn đề này."
+
+#: tina/projects/issues/models.py:42
+msgid "severity"
+msgstr "mức độ nghiêm trọng"
+
+#: tina/projects/issues/models.py:44
+msgid "priority"
+msgstr "ưu tiên"
+
+#: tina/projects/issues/models.py:49 tina/projects/tasks/models.py:47 tina/projects/userstories/models.py:66
+msgid "milestone"
+msgstr "cột mốc"
+
+#: tina/projects/issues/models.py:58 tina/projects/tasks/models.py:54
+msgid "finished date"
+msgstr "ngày kết thúc"
+
+#: tina/projects/likes/models.py:36
+msgid "Like"
+msgstr "Thích"
+
+#: tina/projects/likes/models.py:37
+msgid "Likes"
+msgstr "Lượt Thích"
+
+#: tina/projects/milestones/models.py:40 tina/projects/models.py:150 tina/projects/models.py:523 tina/projects/models.py:556 tina/projects/models.py:637 tina/projects/models.py:735
+#: tina/projects/models.py:811 tina/projects/wiki/models.py:36 tina/users/admin.py:58 tina/users/models.py:314
+msgid "slug"
+msgstr "đường dẫn tĩnh"
+
+#: tina/projects/milestones/models.py:45
+msgid "estimated start date"
+msgstr "ước tính ngày bắt đầu"
+
+#: tina/projects/milestones/models.py:46
+msgid "estimated finish date"
+msgstr "ước tính ngày kết thúc"
+
+#: tina/projects/milestones/models.py:53 tina/projects/models.py:527 tina/projects/models.py:560 tina/projects/models.py:641 tina/projects/models.py:739
+msgid "is closed"
+msgstr "đã kết thúc"
+
+#: tina/projects/milestones/models.py:55
+msgid "disponibility"
+msgstr "sự bất đồng"
+
+#: tina/projects/milestones/models.py:79
+msgid "The estimated start must be previous to the estimated finish."
+msgstr "Ngày bắt đầu ước tính phải làm trước ngày ước tính kết thúc"
+
+#: tina/projects/milestones/validators.py:33
+msgid "There's no milestone with that id"
+msgstr "Không có cột mốc nào với id đó"
+
+#: tina/projects/mixins/blocked.py:31
+msgid "is blocked"
+msgstr "bị chặn"
+
+#: tina/projects/mixins/by_ref.py:32
+msgid "ref param is needed"
+msgstr "yêu cầu thông số tham khảo "
+
+#: tina/projects/mixins/by_ref.py:35
+msgid "project or project__slug param is needed"
+msgstr "yêu cầu dự án hoặc dự án_tham số tĩnh "
+
+#: tina/projects/mixins/ordering.py:49
+#, python-brace-format
+msgid "'{param}' parameter is mandatory"
+msgstr "Tham số '{param}' là bắt buộc"
+
+#: tina/projects/mixins/ordering.py:53
+msgid "'project' parameter is mandatory"
+msgstr "tham số 'project' là bắt buộc"
+
+#: tina/projects/mixins/validators.py:19
+msgid "The user must be a project member."
+msgstr "Người dùng phải là thành viên của dự án."
+
+#: tina/projects/models.py:79
+msgid "email"
+msgstr "email"
+
+#: tina/projects/models.py:81
+msgid "create at"
+msgstr "tạo lúc"
+
+#: tina/projects/models.py:83 tina/users/models.py:166
+msgid "token"
+msgstr "mã thông báo "
+
+#: tina/projects/models.py:89
+msgid "invitation extra text"
+msgstr "yêu cầu thêm văn bản "
+
+#: tina/projects/models.py:92 tina/projects/models.py:815
+msgid "user order"
+msgstr "thứ tự người dùng "
+
+#: tina/projects/models.py:108
+msgid "The user is already member of the project"
+msgstr "Tài khoản này đã là thành viên của dự án."
+
+#: tina/projects/models.py:115
+msgid "default epic status"
+msgstr "trạng thái lịch sử mặc định"
+
+#: tina/projects/models.py:119
+msgid "default US status"
+msgstr "trạng thái mặc định của Chúng tôi"
+
+#: tina/projects/models.py:122
+msgid "default points"
+msgstr "các điểm mặc định"
+
+#: tina/projects/models.py:126
+msgid "default task status"
+msgstr "trạng thái nhiệm vụ mặc định"
+
+#: tina/projects/models.py:129
+msgid "default priority"
+msgstr "mặc định quyền ưu tiên "
+
+#: tina/projects/models.py:132
+msgid "default severity"
+msgstr "mặc định mức độ nghiêm trọng "
+
+#: tina/projects/models.py:136
+msgid "default issue status"
+msgstr "trạng thái vấn đề mặc định"
+
+#: tina/projects/models.py:140
+msgid "default issue type"
+msgstr "loại vấn đề mặc định"
+
+#: tina/projects/models.py:156
+msgid "logo"
+msgstr "biểu tượng "
+
+#: tina/projects/models.py:166
+msgid "members"
+msgstr "các thành viên"
+
+#: tina/projects/models.py:169
+msgid "total of milestones"
+msgstr "toàn bộ cột mốc "
+
+#: tina/projects/models.py:170
+msgid "total story points"
+msgstr "toàn bộ các điểm tin tức "
+
+#: tina/projects/models.py:172 tina/projects/models.py:825
+msgid "active contact"
+msgstr "chủ động liên hệ "
+
+#: tina/projects/models.py:174 tina/projects/models.py:827
+msgid "active epics panel"
+msgstr "bảng lịch sử tích cực "
+
+#: tina/projects/models.py:176 tina/projects/models.py:829
+msgid "active backlog panel"
+msgstr "bảng điều khiển tồn đọng"
+
+#: tina/projects/models.py:178 tina/projects/models.py:831
+msgid "active kanban panel"
+msgstr "bảng điều khiển kanban "
+
+#: tina/projects/models.py:180 tina/projects/models.py:833
+msgid "active wiki panel"
+msgstr "bảng điều khiển wiki "
+
+#: tina/projects/models.py:182 tina/projects/models.py:835
+msgid "active issues panel"
+msgstr "bảng điều khiển hoạt động "
+
+#: tina/projects/models.py:185 tina/projects/models.py:842
+msgid "videoconference system"
+msgstr "hệ thống hội nghị truyền hình "
+
+#: tina/projects/models.py:187 tina/projects/models.py:844
+msgid "videoconference extra data"
+msgstr "hội nghị truyền hình thêm dữ liệu "
+
+#: tina/projects/models.py:193
+msgid "creation template"
+msgstr "tạo mẫu"
+
+#: tina/projects/models.py:196 tina/users/admin.py:62
+msgid "is private"
+msgstr "riêng tư "
+
+#: tina/projects/models.py:198
+msgid "anonymous permissions"
+msgstr "quyền ẩn danh"
+
+#: tina/projects/models.py:200
+msgid "user permissions"
+msgstr "quyền người sử dụng "
+
+#: tina/projects/models.py:203
+msgid "is featured"
+msgstr "nổi bật "
+
+#: tina/projects/models.py:206 tina/projects/models.py:837
+msgid "is looking for people"
+msgstr "đang tìm người"
+
+#: tina/projects/models.py:208 tina/projects/models.py:839
+msgid "looking for people note"
+msgstr "tìm kiếm người nổi bật "
+
+#: tina/projects/models.py:222
+msgid "project transfer token"
+msgstr "mã thông báo chuyển dự án"
+
+#: tina/projects/models.py:226
+msgid "blocked code"
+msgstr "mã bị chặn"
+
+#: tina/projects/models.py:229 tina/projects/notifications/models.py:67
+msgid "updated date time"
+msgstr "cập nhật thời gian"
+
+#: tina/projects/models.py:232 tina/projects/models.py:244 tina/projects/votes/models.py:30
+msgid "count"
+msgstr "đếm "
+
+#: tina/projects/models.py:235
+msgid "fans last week"
+msgstr "người yêu thích tuần trước"
+
+#: tina/projects/models.py:238
+msgid "fans last month"
+msgstr "người yêu thích tháng trước "
+
+#: tina/projects/models.py:241
+msgid "fans last year"
+msgstr "người yêu thích năm trước"
+
+#: tina/projects/models.py:248
+msgid "activity last week"
+msgstr "hoạt động tuần trước"
+
+#: tina/projects/models.py:252
+msgid "activity last month"
+msgstr "hoạt động tháng trước"
+
+#: tina/projects/models.py:256
+msgid "activity last year"
+msgstr "hoạt động năm ngoái"
+
+#: tina/projects/models.py:510
+msgid "modules config"
+msgstr "mô-đun cấu hình"
+
+#: tina/projects/models.py:562
+msgid "is archived"
+msgstr "được lưu trữ"
+
+#: tina/projects/models.py:566
+msgid "work in progress limit"
+msgstr "làm việc trong giới hạn tiến độ"
+
+#: tina/projects/models.py:594 tina/userstorage/models.py:33
+msgid "value"
+msgstr "giá trị"
+
+#: tina/projects/models.py:614 tina/projects/models.py:671 tina/projects/models.py:789
+msgid "by default"
+msgstr "theo mặc định"
+
+#: tina/projects/models.py:618 tina/projects/models.py:675 tina/projects/models.py:793
+msgid "days to due"
+msgstr "ngày đáo hạn"
+
+#: tina/projects/models.py:823
+msgid "default owner's role"
+msgstr "vai trò mặc định của người đứng đầu "
+
+#: tina/projects/models.py:846
+msgid "default options"
+msgstr "các tùy chọn mặc định"
+
+#: tina/projects/models.py:847
+msgid "epic statuses"
+msgstr "các trạng thaí lịch sử"
+
+#: tina/projects/models.py:848
+msgid "us statuses"
+msgstr "các trạng thái của chúng ta"
+
+#: tina/projects/models.py:849
+msgid "us duedates"
+msgstr "ngày đáo hạn của chúng ta"
+
+#: tina/projects/models.py:850 tina/projects/userstories/models.py:45 tina/projects/userstories/models.py:78
+msgid "points"
+msgstr "các điểm "
+
+#: tina/projects/models.py:851
+msgid "task statuses"
+msgstr "các trạng thái nhiệm vụ "
+
+#: tina/projects/models.py:852
+msgid "task duedates"
+msgstr "công việc đến gày đáo hạn"
+
+#: tina/projects/models.py:853
+msgid "issue statuses"
+msgstr "tình trạng vấn đề"
+
+#: tina/projects/models.py:854
+msgid "issue types"
+msgstr "loại vấn đề"
+
+#: tina/projects/models.py:855
+msgid "issue duedates"
+msgstr "công việc đến gày đáo hạn"
+
+#: tina/projects/models.py:856
+msgid "priorities"
+msgstr "những vấn đề ưu tiên"
+
+#: tina/projects/models.py:857
+msgid "severities"
+msgstr "mức độ nghiêm trọng"
+
+#: tina/projects/models.py:858
+msgid "roles"
+msgstr "vai trò"
+
+#: tina/projects/models.py:859
+msgid "epic custom attributes"
+msgstr "thuộc tính tùy chỉnh lịch sử "
+
+#: tina/projects/models.py:860
+msgid "us custom attributes"
+msgstr "thuộc tính tùy chỉnh"
+
+#: tina/projects/models.py:861
+msgid "task custom attributes"
+msgstr "nhiệm vụ thược tính tuỳ chỉnh "
+
+#: tina/projects/models.py:862
+msgid "issue custom attributes"
+msgstr "lỗi thuộc tính tuỳ chỉnh "
+
+#: tina/projects/notifications/choices.py:30
+msgid "Involved"
+msgstr "Có liên quan"
+
+#: tina/projects/notifications/choices.py:31
+msgid "All"
+msgstr "Tất cả"
+
+#: tina/projects/notifications/choices.py:32
+msgid "None"
+msgstr "Không một ai "
+
+#: tina/projects/notifications/models.py:65
+msgid "created date time"
+msgstr "tạo ngày giờ"
+
+#: tina/projects/notifications/models.py:69
+msgid "history entries"
+msgstr "lịch sử truy nhập "
+
+#: tina/projects/notifications/models.py:72
+msgid "notify users"
+msgstr "thông báo cho người dùng"
+
+#: tina/projects/notifications/models.py:94 tina/projects/notifications/models.py:95
+msgid "Watched"
+msgstr "Đã xem"
+
+#: tina/projects/notifications/services.py:71 tina/projects/notifications/services.py:90
+msgid "Notify exists for specified user and project"
+msgstr "Thông báo tồn tại cho người dùng và dự án được chỉ định"
+
+#: tina/projects/notifications/services.py:465
+msgid "Invalid value for notify level"
+msgstr "Giá trị không hợp lệ cho mức thông báo"
+
+#: tina/projects/notifications/templates/emails/epics/epic-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Epic updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a epic on %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s: %(subject)s in tina\">See epic</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã cập nhật Epic</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật epic trên %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s: %(subject)s in Fwork\">Xem Epic</a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/epics/epic-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Epic updated\n"
+"Hello %(user)s, %(changer)s has updated a epic on %(project)s\n"
+"See epic #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Đã cập nhật epic\n"
+"Xin chào %(user)s, %(changer)s đã cập nhật epic trên %(project)s\n"
+"Xem epic #%(ref)s %(subject)s tại %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/epics/epic-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật epic #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/epics/epic-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New epic created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new epic on %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s %(subject)s\">See epic</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã tạo epic mới</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo epic mới trên %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s %(subject)s\">See epic</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/epics/epic-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New epic created\n"
+"Hello %(user)s, %(changer)s has created a new epic on %(project)s\n"
+"See epic #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Epic mới đã được tạo\n"
+"Xin chào %(user)s, %(changer)s đã tạo epic mới trong %(project)s\n"
+"Xem epic #%(ref)s %(subject)s tại%(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/epics/epic-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo epic #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/epics/epic-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Epic deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a epic on %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã xóa epic</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xóa epic trong %(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/epics/epic-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Epic deleted\n"
+"Hello %(user)s, %(changer)s has deleted a epic on %(project)s\n"
+"Epic #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã xoá Epic\n"
+"Xin chào %(user)s, %(changer)s đã xoá epic trên %(project)s\n"
+"Epic #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/epics/epic-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá epic #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Issue updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated an issue on %(project)s</p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s: %(subject)s in tina\">See issue</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Vấn đề đã được cập nhật</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật lỗi trên %(project)s</p>\n"
+"    <p>Lỗi #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s: %(subject)s in Fwork\">Xem lỗi</a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/issues/issue-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Issue updated\n"
+"Hello %(user)s, %(changer)s has updated an issue on %(project)s\n"
+"See issue #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Vấn đề đã được cập nhật\n"
+"Xin chào %(user)s, %(changer)s đã cập nhật vấn đề trên%(project)s\n"
+"Xem lỗi #%(ref)s %(subject)s tại %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật lỗi #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New issue created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new issue on %(project)s</p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s %(subject)s\">See issue</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Vấn đề mới đã được tạo ra</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo một vấn đề mới trên  %(project)s</p>\n"
+"    <p>Vấn đề #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s %(subject)s\">See issue</a>\n"
+"    <p><small>Nhóm Fwork </small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/issues/issue-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New issue created\n"
+"Hello %(user)s, %(changer)s has created a new issue on %(project)s\n"
+"See issue #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã tạo vấn đề mới\n"
+"Xin chào %(user)s, %(changer)s đã tạo lỗi mới trên %(project)s\n"
+"Xem lỗi #%(ref)s %(subject)s tại %(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo vấn đề #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Issue deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted an issue on %(project)s</p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Vấn đề đã được xoá</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xoá một lỗi trên %(project)s</p>\n"
+"    <p>Vấn đề #%(ref)s %(subject)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/issues/issue-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Issue deleted\n"
+"Hello %(user)s, %(changer)s has deleted an issue on %(project)s\n"
+"Issue #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Vấn đề đã được xoá\n"
+"Xin chào %(user)s, %(changer)s đã xoá một lỗi trên %(project)s\n"
+"Vấn đề #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/issues/issue-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá lỗi #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Sprint updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated an sprint on %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint: %(name)s in tina\">See sprint</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã cập nhật Sprint</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật sprint trên %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint: %(name)s in Fwork\">Xem sprint</a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Sprint updated\n"
+"Hello %(user)s, %(changer)s has updated a sprint on %(project)s\n"
+"See sprint %(name)s at %(url)s\n"
+msgstr ""
+"\n"
+"Đã cập nhật Sprint\n"
+"Xin chào %(user)s, %(changer)s đã cập nhật sprint trên %(project)s\n"
+"Xem sprint %(name)s tại %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the sprint \"%(milestone)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật sprint \"%(milestone)s\"\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New sprint created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new sprint on %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint %(name)s\">See sprint</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Sprint đã được tạo</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo một sprint trên %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint %(name)s\">Xem sprint</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New sprint created\n"
+"Hello %(user)s, %(changer)s has created a new sprint on %(project)s\n"
+"See sprint %(name)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Sprint mới đã được tạo\n"
+"Xin chào %(user)s, %(changer)s một sprint mới đã được tạo trên %(project)s\n"
+"Xem sprint  %(name)s tại %(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the sprint \"%(milestone)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo sprint \"%(milestone)s\"\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Sprint deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted an sprint on %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã xoá sprint</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xoá một sprint trên %(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Sprint deleted\n"
+"Hello %(user)s, %(changer)s has deleted an sprint on %(project)s\n"
+"Sprint %(name)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã xoá sprint\n"
+"Xin chào %(user)s, %(changer)s đã xoá một sprint trên %(project)s\n"
+"Sprint %(name)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/milestones/milestone-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the Sprint \"%(milestone)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá sprint \"%(milestone)s\"\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Task updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a task on %(project)s</p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s: %(subject)s in tina\">See task</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã cập nhật nhiệm vụ</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật một nhiệm  trên %(project)s</p>\n"
+"    <p>Nhiệm vụ #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s: %(subject)s in Fwork\">Xem nhiệm vụ</a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/tasks/task-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Task updated\n"
+"Hello %(user)s, %(changer)s has updated a task on %(project)s\n"
+"See task #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Đã cập nhật nhiệm vụ\n"
+"Xin chào %(user)s, %(changer)s một nhiệm vụ đã được cập nhật trên %(project)s\n"
+"Xem nhiệm vụ #%(ref)s %(subject)s tại %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật nhiệm vụ #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New task created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new task on %(project)s</p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s %(subject)s\">See task</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Nhiệm vụ mới đã được taọ</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo một nhiệm vụ mới trên %(project)s</p>\n"
+"    <p>Nhiệm vụ #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s %(subject)s\">Xem nhiệm vụ</a>\n"
+"    <p><small>Nhóm </small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/tasks/task-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New task created\n"
+"Hello %(user)s, %(changer)s has created a new task on %(project)s\n"
+"See task #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã tạo nhiệm vụ mới\n"
+"Xin chào %(user)s, %(changer)s đã tạo một nhiệm vụ mới trên %(project)s\n"
+"Xem nhiệm vụ #%(ref)s %(subject)s tại %(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo nhiệm vụ #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Task deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a task on %(project)s</p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã xoá nhiệm vụ</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xoá một nhiệm vụ trên %(project)s</p>\n"
+"    <p>Nhiệm vụ #%(ref)s %(subject)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/tasks/task-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Task deleted\n"
+"Hello %(user)s, %(changer)s has deleted a task on %(project)s\n"
+"Task #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã xoa nhiệm vụ\n"
+"Xin chào %(user)s, %(changer)s đã xoá nhiệm vụ trên %(project)s\n"
+"Nhiệm vụ #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/tasks/task-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá nhiệm vụ #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>User Story updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a user story on %(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s: %(subject)s in tina\">See user story</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã cập nhật tin tức người dùng</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật tin tức người dùng trên %(project)s</p>\n"
+"    <p>Tin tức người dùng #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s: %(subject)s in Fwork\">Xem tin tức người dùng</a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"User story updated\n"
+"Hello %(user)s, %(changer)s has updated a user story on %(project)s\n"
+"See user story #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Đã cập nhật tin tức người dùng\n"
+"Xin chào %(user)s, %(changer)s đã cập nhật tin tức người dùng trên %(project)s\n"
+"Xem tin tức người dùng #%(ref)s %(subject)s tại %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật US #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New user story created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new user story on %(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s %(subject)s\">See user story</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã tạo tin tức người dùng</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo tin tức người dùng %(project)s</p>\n"
+"    <p>Tin tức người dùng #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s %(subject)s\">Xem tin tức người dùng</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New user story created\n"
+"Hello %(user)s, %(changer)s has created a new user story on %(project)s\n"
+"See user story #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã tạo tin tức người dùng\n"
+"Xin chào %(user)s, %(changer)s đã tạo tin tức người dùng trên %(project)s\n"
+"Xem tin tức người dùng #%(ref)s %(subject)s tại %(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo US #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>User Story deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a user story on %(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Tin tức người dùng đã được xoá</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xoá tin tức người dùng trên %(project)s</p>\n"
+"    <p>Tin tức người dùng #%(ref)s %(subject)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"User Story deleted\n"
+"Hello %(user)s, %(changer)s has deleted a user story on %(project)s\n"
+"User Story #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đã xoá tin tức người dùng\n"
+"Xin chào %(user)s, %(changer)s đã xoá tin tức người dùng trên %(project)s\n"
+"Tin tức người dùng #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/userstories/userstory-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá US #%(ref)s \"%(subject)s\"\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Wiki Page updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a wiki page on %(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See wiki page in tina\">See Wiki Page</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã cập nhật trang wiki</h1>\n"
+"    <p>Xin chào %(user)s, <br> %(changer)s đã cập nhật trang wiki trên %(project)s</p>\n"
+"    <p>Trang Wiki %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See wiki page in Fwork\">Xem trang Wiki </a>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Wiki Page updated\n"
+"\n"
+"Hello %(user)s, %(changer)s has updated a wiki page on %(project)s\n"
+"\n"
+"See wiki page %(page)s at %(url)s\n"
+msgstr ""
+"\n"
+"Đã cập nhật trang wiki\n"
+"\n"
+"Xin chào %(user)s, %(changer)s đã cập nhật trang wiki trên %(project)s\n"
+"\n"
+"Xem trang wiki %(page)s t %(url)s\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã cập nhật trang wiki \"%(page)s\"\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New wiki page created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new wiki page on %(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Wiki page %(page)s\">See wiki page</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã tạo một trang wiki mới</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã tạo một trang wiki mới trên %(project)s</p>\n"
+"    <p>Trang Wiki %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Wiki page %(page)s\">Xem trang wiki</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New wiki page created\n"
+"\n"
+"Hello %(user)s, %(changer)s has created a new wiki page on %(project)s\n"
+"\n"
+"See wiki page %(page)s at %(url)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"New wiki page created\n"
+"\n"
+"Xin chào %(user)s, %(changer)s đã tạo một trang wiki mới trên %(project)s\n"
+"\n"
+"Xem trang wiki %(page)s tại %(url)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã tạo trang wiki \"%(page)s\"\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Wiki page deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a wiki page on %(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Đã xoá trang wiki</h1>\n"
+"    <p>Xin chào %(user)s,<br />%(changer)s đã xoá một trang wiki trên %(project)s</p>\n"
+"    <p>Trang wiki %(page)s</p>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Wiki page deleted\n"
+"\n"
+"Hello %(user)s, %(changer)s has deleted a wiki page on %(project)s\n"
+"\n"
+"Wiki page %(page)s\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Wiki page deleted\n"
+"\n"
+"Xin chào %(user)s, %(changer)s đã xoá một trang wiki trên %(project)s\n"
+"\n"
+"Trang wiki %(page)s\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/projects/notifications/templates/emails/wiki/wikipage-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Đã xoá trang wiki \"%(page)s\"\n"
+
+#: tina/projects/notifications/validators.py:48
+msgid "Watchers contains invalid users"
+msgstr "Người theo dõi bao gồm người dùng không hợp lệ"
+
+#: tina/projects/occ/mixins.py:37
+msgid "The version must be an integer"
+msgstr "Phiên bản phải là số nguyên"
+
+#: tina/projects/occ/mixins.py:60
+msgid "The version parameter is not valid"
+msgstr "Tham số phiên bản không hợp lệ"
+
+#: tina/projects/occ/mixins.py:76
+msgid "The version doesn't match with the current one"
+msgstr "Phiên bản không khớp với phiên bản hiện tại"
+
+#: tina/projects/occ/mixins.py:95
+msgid "version"
+msgstr "phiên bản"
+
+#: tina/projects/permissions.py:44
+msgid "You can't leave the project if you are the owner or there are no more admins"
+msgstr "Bạn không thể rời khỏi dự án nếu bạn là người đứng đầu hoặc không có quản trị viên nào"
+
+#: tina/projects/services/members.py:133
+msgid "Project without owner"
+msgstr "Dự án không có người đứng "
+
+#: tina/projects/services/members.py:138
+msgid "You have reached your current limit of memberships for private projects"
+msgstr "Bạn đã đạt giới hạn hiện tại của các thành viên cho các dự án tư nhân "
+
+#: tina/projects/services/members.py:142
+msgid "You have reached your current limit of memberships for public projects"
+msgstr "Bạn đã đạt giới hạn hiện tại của các thành viên cho các dự án công cộng "
+
+#: tina/projects/services/members.py:148
+msgid "You have reached the current limit of pending memberships"
+msgstr "Bạn đã đạt đến giới hạn thành viên đang chờ xử lý"
+
+#: tina/projects/services/projects.py:101 tina/projects/services/projects.py:141 tina/users/services.py:600
+msgid "You can't have more private projects"
+msgstr "Bạn không thể có thêm nhiều dự án cá nhân nữa "
+
+#: tina/projects/services/projects.py:105 tina/projects/services/projects.py:145 tina/users/services.py:603
+msgid "This project reaches your current limit of memberships for private projects"
+msgstr "Dự án này đạt giới hạn thành viên hiện tại cho các dự án tư nhân"
+
+#: tina/projects/services/projects.py:109 tina/projects/services/projects.py:149 tina/users/services.py:607
+msgid "You can't have more public projects"
+msgstr "Bạn không thể có thêm nhiều dự án công cộng nữa "
+
+#: tina/projects/services/projects.py:113 tina/projects/services/projects.py:153 tina/users/services.py:610
+msgid "This project reaches your current limit of memberships for public projects"
+msgstr "Dự án này đạt đến giới hạn thành viên hiện tại cho các dự án công cộng"
+
+#: tina/projects/services/stats.py:197
+msgid "Future sprint"
+msgstr "Future sprint"
+
+#: tina/projects/services/stats.py:217
+msgid "Project End"
+msgstr "Kết thúc dự án"
+
+#: tina/projects/services/transfer.py:62 tina/projects/services/transfer.py:69 tina/projects/services/transfer.py:72 tina/users/api.py:193 tina/users/api.py:198
+msgid "Token is invalid"
+msgstr "Mã thông báo không hợp lệ"
+
+#: tina/projects/services/transfer.py:67
+msgid "Token has expired"
+msgstr "Mã thông báo đã hết hạn"
+
+#: tina/projects/tagging/fields.py:52
+#, python-brace-format
+msgid "Invalid tag '{value}'. The color is not a valid HEX color or null."
+msgstr "Thẻ không hợp lệ '{value}'. Màu sắc không phải là màu HEX hợp lệ hoặc vô giá trị."
+
+#: tina/projects/tagging/fields.py:55
+#, python-brace-format
+msgid "Invalid tag '{value}'. it must be the name or a pair '[\"name\", \"hex color/\" | null]'."
+msgstr "Thẻ không hợp lệ '{value}'. ó phải là tên hoặc là một cặp '[\"name\", \"hex color /\" | null]'."
+
+#: tina/projects/tagging/fields.py:77
+#, python-brace-format
+msgid "Invalid tag '{value}'. It must be the tag name."
+msgstr "Thẻ không hợp lệ '{value}'. Bắt buộc phải là tên thẻ."
+
+#: tina/projects/tagging/models.py:27
+msgid "tags"
+msgstr "các thẻ "
+
+#: tina/projects/tagging/models.py:35
+msgid "tags colors"
+msgstr "màu cho các thẻ "
+
+#: tina/projects/tagging/validators.py:47 tina/projects/tagging/validators.py:74
+msgid "This tag already exists."
+msgstr "Thẻ này đã tồn tại."
+
+#: tina/projects/tagging/validators.py:54 tina/projects/tagging/validators.py:81
+msgid "The color is not a valid HEX color."
+msgstr "Màu sắc không phải là màu HEX hợp lệ."
+
+#: tina/projects/tagging/validators.py:67 tina/projects/tagging/validators.py:101 tina/projects/tagging/validators.py:114 tina/projects/tagging/validators.py:121
+msgid "The tag doesn't exist."
+msgstr "Tag không tồn tại."
+
+#: tina/projects/tasks/api.py:108 tina/projects/tasks/api.py:117
+msgid "You don't have permissions to set this sprint to this task."
+msgstr "Bạn không có quyền thiết lập sprint cho vấn đề này."
+
+#: tina/projects/tasks/api.py:111
+msgid "You don't have permissions to set this user story to this task."
+msgstr "Bạn không có quyền thiết lập tin tức này của người dùng vào nhiệm vụ này."
+
+#: tina/projects/tasks/api.py:114
+msgid "You don't have permissions to set this status to this task."
+msgstr "Bạn không có quyền đặt trạng thái này cho nhiệm vụ này."
+
+#: tina/projects/tasks/models.py:59
+msgid "us order"
+msgstr "đặt thứ tự cho chúng tôi "
+
+#: tina/projects/tasks/models.py:61
+msgid "taskboard order"
+msgstr "thứ tự nhiệm vụ"
+
+#: tina/projects/tasks/models.py:69
+msgid "is iocaine"
+msgstr "là iocaine"
+
+#: tina/projects/tasks/validators.py:61
+msgid "Invalid milestone id."
+msgstr "Mốc id không hợp lệ."
+
+#: tina/projects/tasks/validators.py:72
+msgid "Invalid task status id."
+msgstr "Id trạng thái nhiệm vụ không hợp lệ."
+
+#: tina/projects/tasks/validators.py:85
+msgid "Invalid user story id."
+msgstr "Id tin tức người dùng không hợp lệ."
+
+#: tina/projects/tasks/validators.py:109
+msgid "Invalid task status id. The status must belong to the same project."
+msgstr "Id trạng thái nhiệm vụ không hợp lệ. Trạng thái đó phải thuộc về cùng một dự án."
+
+#: tina/projects/tasks/validators.py:123
+msgid "Invalid user story id. The user story must belong to the same project."
+msgstr "Id tin tức người dùng không hợp lệ. Tin tức đó của người dùng phải thuộc cùng một dự án."
+
+#: tina/projects/tasks/validators.py:135
+msgid "Invalid milestone id. The milestone must belong to the same project."
+msgstr "Mốc id không hợp lệ. Các cột mốc phải thuộc về cùng một dự án."
+
+#: tina/projects/tasks/validators.py:152
+msgid "Invalid task ids. All tasks must belong to the same project and, if it exists, to the same status, user story and/or milestone."
+msgstr "Id tác vụ không hợp lệ. Tất cả các nhiệm vụ phải thuộc về cùng một dự án và điều này cũng tương tự như tin tức người dùng và/hoặc cột mốc. "
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:6 tina/projects/templates/emails/membership_invitation-body-text.jinja:4
+msgid "someone"
+msgstr "ai đó"
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:11
+#, python-format
+msgid ""
+"\n"
+"    <h2>You have been invited to tina!</h2>\n"
+"<p>Hi! %(full_name)s has sent you an invitation to join project <em>%(project)s</em> in tina.</br> tina is a Free, open Source Agile Project Management Tool.</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h2>Bạn đã được mời vào Fwork!</h2>\n"
+"<p>Xin chào! %(full_name)s đã gửi bạn lời mời để tham gia vào dự án <em>%(project)s</em> trong Fwork.</p>"
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:17
+#, python-format
+msgid ""
+"\n"
+"    <p><small>And now a few words from the jolly good fellow or sistren<br/> who thought so kindly as to invite you</small></p>\n"
+"    <p><strong>%(extra)s</strong></p>\n"
+"        "
+msgstr ""
+"\n"
+"    <p><small>Và có một vài lời từ những người anh em đồng nghiệp tốt<br/> những người rất tốt bụng khi mời bạn</small></p>\n"
+"    <p><strong>%(extra)s</strong></p>\n"
+"        "
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:24
+msgid "Accept your invitation to tina"
+msgstr "Chấp nhận lời mời của bạn tham gia vào Fwork "
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:24
+msgid "Accept your invitation"
+msgstr "Chấp nhận lời mời của bạn"
+
+#: tina/projects/templates/emails/membership_invitation-body-html.jinja:25
+msgid "The tina Team"
+msgstr "Đội ngũ Fwork "
+
+#: tina/projects/templates/emails/membership_invitation-body-text.jinja:6
+#, python-format
+msgid ""
+"\n"
+"You, or someone you know, has invited you to tina\n"
+"\n"
+"Hi! %(full_name)s has sent you an invitation to join a project called %(project)s  which is being managed on tina, a Free, open Source Agile Project Management Tool.\n"
+msgstr ""
+"\n"
+"Bạn hoặc ai đó biết bạn đã mời bạn tham gia vào Fwork\n"
+"\n"
+"Xin chào! %(full_name)s đã gửi lời mời cho bạn tham gia vào dự án có tên là %(project)s  đang được quản lý trên phần mềm quản lý dự án Fwork.\n"
+"\n"
+
+#: tina/projects/templates/emails/membership_invitation-body-text.jinja:12
+#, python-format
+msgid ""
+"\n"
+"And now a few words from the jolly good fellow or sistren who thought so kindly as to invite you:\n"
+"\n"
+"%(extra)s\n"
+"    "
+msgstr ""
+"\n"
+"Và có một vài lời từ những người anh em đồng nghiệp tốt bụng đã mời bạn tham gia:\n"
+"\n"
+"%(extra)s\n"
+"    "
+
+#: tina/projects/templates/emails/membership_invitation-body-text.jinja:18
+msgid "Accept your invitation to tina following this link:"
+msgstr "Chấp nhận lời mời của bạn đến Fwork theo liên kết này:"
+
+#: tina/projects/templates/emails/membership_invitation-body-text.jinja:20
+msgid ""
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"---\n"
+"Đội ngũ Fwork\n"
+
+#: tina/projects/templates/emails/membership_invitation-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[tina] Invitation to join to the project '%(project)s'\n"
+msgstr ""
+"\n"
+"[Fwork] Lờ mời tham gia vào dự án '%(project)s'\n"
+
+#: tina/projects/templates/emails/membership_notification-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>You have been added to a project</h1>\n"
+"    <p>Hello %(full_name)s,<br />you have been added to the project %(project)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to project</a>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Bạn đã được thêm vào dự án</h1>\n"
+"    <p>Xin chào %(full_name)s,<br />bạn đã được thêm vào dự án %(project)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Chuyển đến dự án</a>\n"
+"    <p><small>Nhóm Fwork</small></p>\n"
+"    "
+
+#: tina/projects/templates/emails/membership_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"You have been added to a project\n"
+"Hello %(full_name)s,you have been added to the project %(project)s\n"
+"\n"
+"See project at %(url)s\n"
+msgstr ""
+"\n"
+"Bạn vừa được thêm vào dự án\n"
+"Xin chào %(full_name)s,bạn vừa được thêm vào dự án %(project)s\n"
+"\n"
+"Xem dự án tại %(url)s\n"
+
+#: tina/projects/templates/emails/membership_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[tina] Added to the project '%(project)s'\n"
+msgstr ""
+"\n"
+"[tina] Đã được thêm vào dự án '%(project)s'\n"
+
+#: tina/projects/templates/emails/transfer_accept-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(old_owner_name)s,</p>\n"
+"        <p>%(new_owner_name)s has accepted your offer and will become the new project owner for \"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"        <p>Xin chào %(old_owner_name)s,</p>\n"
+"        <p>%(new_owner_name)s đã chấp nhận yêu cầu của bạn và sẽ trở thành người đứng đầu mới cho dự án \"%(project_name)s\".</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_accept-body-html.jinja:10
+#, python-format
+msgid "<p>%(new_owner_name)s says:</p>"
+msgstr "<p>%(new_owner_name)s nói:</p>"
+
+#: tina/projects/templates/emails/transfer_accept-body-html.jinja:14
+msgid ""
+"\n"
+"        <p>From now on, your new status for this project will be \"admin\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"       <p> Bắt đầu từ bây giờ, trạng thái mới của bạn cho dự án này sẽ là \"quản trị viên\". </p>"
+
+#: tina/projects/templates/emails/transfer_accept-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(old_owner_name)s,\n"
+"%(new_owner_name)s has accepted your offer and will become the new project owner for \"%(project_name)s\".\n"
+msgstr ""
+"\n"
+"Xin chào %(old_owner_name)s,\n"
+"%(new_owner_name)s đã chấp nhận yêu cầu của bạn và sẽ trở thành người đứng đầu mới cho dự án \"%(project_name)s\".\n"
+
+#: tina/projects/templates/emails/transfer_accept-body-text.jinja:7
+#, python-format
+msgid "%(new_owner_name)s says:"
+msgstr "%(new_owner_name)s nói:"
+
+#: tina/projects/templates/emails/transfer_accept-body-text.jinja:11
+msgid ""
+"\n"
+"From now on, your new status for this project will be \"admin\".\n"
+msgstr ""
+"\n"
+"Bắt đầu từ bây giờ, trạng thái mới của bạn cho dự án này sẽ là \"quản trị viên\".\n"
+
+#: tina/projects/templates/emails/transfer_accept-body-text.jinja:16 tina/projects/templates/emails/transfer_reject-body-text.jinja:19
+#: tina/projects/templates/emails/transfer_request-body-text.jinja:13 tina/projects/templates/emails/transfer_start-body-text.jinja:18
+msgid ""
+"\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Đội ngũ Fwork\n"
+
+#: tina/projects/templates/emails/transfer_accept-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer offer accepted!\n"
+msgstr ""
+"\n"
+"[%(project)s] Đề nghị chuyển quyền sở hữu dự án được chấp nhận!\n"
+
+#: tina/projects/templates/emails/transfer_reject-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(owner_name)s,</p>\n"
+"        <p>%(rejecter_name)s has declined your offer and will not become the new project owner for \"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"        <p>Xin chào %(owner_name)s,</p>\n"
+"        <p>%(rejecter_name)s đã từ chối yêu cầu của bạn và sẽ không là người đứng đầu mới cho dự án \"%(project_name)s\".</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_reject-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"    <p>%(rejecter_name)s says:</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <p>%(rejecter_name)s nói:</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_reject-body-html.jinja:16
+msgid ""
+"\n"
+"    <p>If you want, you can still try to transfer the project ownership to a different person.</p>\n"
+"    "
+msgstr ""
+"\n"
+"<p> Nếu bạn muốn, bạn vẫn có thể chuyển quyền sở hữu dự án cho một người khác.</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_reject-body-html.jinja:21 tina/projects/templates/emails/transfer_reject-body-html.jinja:22
+msgid "Request transfer to a different person"
+msgstr "Yêu cầu chuyển cho một người khác"
+
+#: tina/projects/templates/emails/transfer_reject-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(owner_name)s,\n"
+"%(rejecter_name)s has declined your offer and will not become the new project owner for \"%(project_name)s\".\n"
+msgstr ""
+"\n"
+"Xin chào %(owner_name)s,\n"
+"%(rejecter_name)s đã từ chối yêu cầu của bạn và sẽ không là người đứng đầu mới cho dự án \"%(project_name)s\".\n"
+
+#: tina/projects/templates/emails/transfer_reject-body-text.jinja:7
+#, python-format
+msgid "%(rejecter_name)s says:"
+msgstr "%(rejecter_name)s nói:"
+
+#: tina/projects/templates/emails/transfer_reject-body-text.jinja:11
+msgid ""
+"\n"
+"If you want, you can still try to transfer the project ownership to a different person.\n"
+msgstr ""
+"\n"
+"Nếu bạn muốn, bạn vẫn có thể chuyển quyền sở hữu dự án cho một người khác.</p>\n"
+
+#: tina/projects/templates/emails/transfer_reject-body-text.jinja:15
+msgid "Request transfer to a different person:"
+msgstr "Yêu cầu chuyển cho một người khác:"
+
+#: tina/projects/templates/emails/transfer_reject-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer declined\n"
+msgstr ""
+"\n"
+"[%(project)s] Đề nghị chuyển quyền sở hữu dự án bị từ chối!\n"
+
+#: tina/projects/templates/emails/transfer_request-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(owner_name)s,</p>\n"
+"        <p>%(requester_name)s has requested to become the project owner for \"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"      <p>Xin chào %(owner_name)s,</p>\n"
+"      <p>%(requester_name)s đã yêu cầu trở thành người đứng đầu dự án cho \"%(project_name)s\".</p>"
+
+#: tina/projects/templates/emails/transfer_request-body-html.jinja:9
+msgid ""
+"\n"
+"        <p>Please, click on \"Continue\" if you would like to start the project transfer from the administration panel.</p>\n"
+"    "
+msgstr ""
+"\n"
+"       <p>Vui lòng nhấp vào \"Tiếp tục\" nếu bạn muốn bắt đầu chuyển dự án từ bảng quản trị.</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_request-body-html.jinja:14 tina/projects/templates/emails/transfer_start-body-html.jinja:22
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: tina/projects/templates/emails/transfer_request-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(owner_name)s,\n"
+"%(requester_name)s has requested to become the project owner for \"%(project_name)s\".\n"
+msgstr ""
+"\n"
+"Xin chào %(owner_name)s,\n"
+"%(requester_name)s đã yêu cầu trở thành người đứng đầu cho dự án \"%(project_name)s\".\n"
+
+#: tina/projects/templates/emails/transfer_request-body-text.jinja:6
+msgid ""
+"\n"
+"Please, go to your project settings if you would like to start the project transfer from the administration panel.\n"
+msgstr ""
+"\n"
+"Vui lòng truy cập cài đặt dự án nếu bạn muốn bắt đầu chuyển dự án từ bảng quản trị.\n"
+
+#: tina/projects/templates/emails/transfer_request-body-text.jinja:10
+msgid "Go to your project settings:"
+msgstr "Truy cập dự án của bạn:"
+
+#: tina/projects/templates/emails/transfer_request-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer request\n"
+msgstr ""
+"\n"
+"[%(project)s] Yêu cầu chuyển quyền sở hữu dự án\n"
+
+#: tina/projects/templates/emails/transfer_start-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(receiver_name)s,</p>\n"
+"        <p>%(owner_name)s, the current project owner at \"%(project_name)s\" would like you to become the new project owner.</p>\n"
+"    "
+msgstr ""
+"\n"
+"       <p>Xin chào %(receiver_name)s,</p>\n"
+"      <p>%(owner_name)s, người đứng đầu sở hữu dự án hiện nay tại \"%(project_name) s\" muốn bạn trở thành người đứng đầu mới của dự án.</p>\n"
+"    "
+
+#: tina/projects/templates/emails/transfer_start-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"        <p>%(owner_name)s says:</p>\n"
+"        "
+msgstr ""
+"\n"
+"       <p>%(owner_name)s nói:</p>\n"
+"        "
+
+#: tina/projects/templates/emails/transfer_start-body-html.jinja:17
+msgid ""
+"\n"
+"        <p>Please, click on \"Continue\" to either accept or reject this proposal.</p>\n"
+"    "
+msgstr ""
+"\n"
+"       <p> Vui lòng nhấp vào \"Tiếp tục\" để chấp nhận hoặc từ chối đề xuất này.</p>\n"
+"      "
+
+#: tina/projects/templates/emails/transfer_start-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(receiver_name)s,\n"
+"%(owner_name)s, the current project owner at \"%(project_name)s\" would like you to become the new project owner.\n"
+msgstr ""
+"\n"
+"Xin chào %(receiver_name)s,\n"
+"%(owner_name)s, chủ sản phẩm hiện nay tại \"%(project_name)s\" muốn bạn trở thành chủ sản phẩm mới.\n"
+
+#: tina/projects/templates/emails/transfer_start-body-text.jinja:6
+#, python-format
+msgid "%(owner_name)s says:"
+msgstr "%(owner_name)s nói:"
+
+#: tina/projects/templates/emails/transfer_start-body-text.jinja:11
+msgid ""
+"\n"
+"Please, go to the following link to either accept or reject this proposal.</p>\n"
+msgstr ""
+"\n"
+"Vui lòng truy cập vào liên kết sau để chấp nhận hoặc từ chối đề xuất này.</p>\n"
+
+#: tina/projects/templates/emails/transfer_start-body-text.jinja:15
+msgid "Accept or reject the project ownership transfer:"
+msgstr "Chấp nhận hoặc từ chối chuyển quyền sở hữu dự án:"
+
+#: tina/projects/templates/emails/transfer_start-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer offer\n"
+msgstr ""
+"\n"
+"[%(project)s] Đề nghị chuyển quyền sở hữu dự án\n"
+
+#. Translators: Name of scrum project template.
+#: tina/projects/translations.py:30
+msgid "Scrum"
+msgstr "Scrum"
+
+#. Translators: Description of scrum project template.
+#: tina/projects/translations.py:32
+msgid ""
+"The agile product backlog in Scrum is a prioritized features list, containing short descriptions of all functionality desired in the product. When applying Scrum, it's not necessary to start a "
+"project with a lengthy, upfront effort to document all requirements. The Scrum product backlog is then allowed to grow and change as more is learned about the product and its customers"
+msgstr ""
+"Tập hợp sản phẩm trong Scrum là một danh sách các tính năng ưu tiên, chứa các mô tả ngắn về tất cả các chức năng mong muốn trong sản phẩm. Khi áp dụng Scrum, để bắt đầu dự án không nhất thiết "
+"phải ghi lại tất cả các yêu cầu. Việc tập hợp sản phẩm trong Scrum sau đó được phép phát triển và thay đổi khi có nhiều thông tin hơn về sản phẩm và khách hàng."
+
+#. Translators: Name of kanban project template.
+#: tina/projects/translations.py:35
+msgid "Kanban"
+msgstr "Kanban"
+
+#. Translators: Description of kanban project template.
+#: tina/projects/translations.py:37
+msgid ""
+"Kanban is a method for managing knowledge work with an emphasis on just-in-time delivery while not overloading the team members. In this approach, the process, from definition of a task to its "
+"delivery to the customer, is displayed for participants to see and team members pull work from a queue."
+msgstr ""
+"Kanban là một phương pháp quản lý công việc tri thức, với việc tập trung chỉ trong thời gian giao hàng trong khi không làm quá tải các thành viên trong nhóm. Trong phương pháp này, qúa trình từ "
+"định nghĩa nhiệm vụ đến việc giao nó cho khách hàng được hiển thị cho người tham gia thấy và các thành viên trong nhóm xếp các công việc theo thứ tự."
+
+#. Translators: User story point value (value = undefined)
+#: tina/projects/translations.py:45
+msgid "?"
+msgstr "?"
+
+#. Translators: User story point value (value = 0)
+#: tina/projects/translations.py:47
+msgid "0"
+msgstr "0"
+
+#. Translators: User story point value (value = 0.5)
+#: tina/projects/translations.py:49
+msgid "1/2"
+msgstr "1/2"
+
+#. Translators: User story point value (value = 1)
+#: tina/projects/translations.py:51
+msgid "1"
+msgstr "1"
+
+#. Translators: User story point value (value = 2)
+#: tina/projects/translations.py:53
+msgid "2"
+msgstr "2"
+
+#. Translators: User story point value (value = 3)
+#: tina/projects/translations.py:55
+msgid "3"
+msgstr "3"
+
+#. Translators: User story point value (value = 5)
+#: tina/projects/translations.py:57
+msgid "5"
+msgstr "5"
+
+#. Translators: User story point value (value = 8)
+#: tina/projects/translations.py:59
+msgid "8"
+msgstr "8"
+
+#. Translators: User story point value (value = 10)
+#: tina/projects/translations.py:61
+msgid "10"
+msgstr "10"
+
+#. Translators: User story point value (value = 13)
+#: tina/projects/translations.py:63
+msgid "13"
+msgstr "13"
+
+#. Translators: User story point value (value = 20)
+#: tina/projects/translations.py:65
+msgid "20"
+msgstr "20"
+
+#. Translators: User story point value (value = 40)
+#: tina/projects/translations.py:67
+msgid "40"
+msgstr "40"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:75 tina/projects/translations.py:98 tina/projects/translations.py:114
+msgid "New"
+msgstr "Mới"
+
+#. Translators: User story status
+#: tina/projects/translations.py:78
+msgid "Ready"
+msgstr "Sẵn sàng"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:81 tina/projects/translations.py:100 tina/projects/translations.py:116
+msgid "In progress"
+msgstr "Đang xử lý"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:84 tina/projects/translations.py:102 tina/projects/translations.py:118
+msgid "Ready for test"
+msgstr "Sẵn sàng thử nghiệm"
+
+#. Translators: User story status
+#: tina/projects/translations.py:87
+msgid "Done"
+msgstr "Hoàn thành"
+
+#. Translators: User story status
+#: tina/projects/translations.py:90
+msgid "Archived"
+msgstr "Đã lưu trữ"
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:104 tina/projects/translations.py:120
+msgid "Closed"
+msgstr "Đã kết thúc "
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:106 tina/projects/translations.py:122
+msgid "Needs Info"
+msgstr "Cần thông tin"
+
+#. Translators: Issue status
+#: tina/projects/translations.py:124
+msgid "Postponed"
+msgstr "Hoãn lại"
+
+#. Translators: Issue status
+#: tina/projects/translations.py:126
+msgid "Rejected"
+msgstr "Từ chối"
+
+#. Translators: Issue type
+#: tina/projects/translations.py:134
+msgid "Bug"
+msgstr "Lỗi"
+
+#. Translators: Issue type
+#: tina/projects/translations.py:136
+msgid "Question"
+msgstr "Câu hỏi"
+
+#. Translators: Issue type
+#: tina/projects/translations.py:138
+msgid "Enhancement"
+msgstr "Tăng cường"
+
+#. Translators: Issue priority
+#: tina/projects/translations.py:146
+msgid "Low"
+msgstr "Thấp"
+
+#. Translators: Issue priority
+#. Translators: Issue severity
+#: tina/projects/translations.py:148 tina/projects/translations.py:161
+msgid "Normal"
+msgstr "Trung bình"
+
+#. Translators: Issue priority
+#: tina/projects/translations.py:150
+msgid "High"
+msgstr "Cao"
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:157
+msgid "Wishlist"
+msgstr "Danh sách mong muốn"
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:159
+msgid "Minor"
+msgstr "Nhỏ"
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:163
+msgid "Important"
+msgstr "Quan trọng"
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:165
+msgid "Critical"
+msgstr "Khẩn cấp"
+
+#. Translators: User role
+#: tina/projects/translations.py:172
+msgid "UX"
+msgstr "UX"
+
+#. Translators: User role
+#: tina/projects/translations.py:174
+msgid "Design"
+msgstr "Thiết kế"
+
+#. Translators: User role
+#: tina/projects/translations.py:176
+msgid "Front"
+msgstr "Trước "
+
+#. Translators: User role
+#: tina/projects/translations.py:178
+msgid "Back"
+msgstr "Sau"
+
+#. Translators: User role
+#: tina/projects/translations.py:180
+msgid "Product Owner"
+msgstr "Chủ sản phẩm"
+
+#. Translators: User role
+#: tina/projects/translations.py:182
+msgid "Stakeholder"
+msgstr "Bên liên quan "
+
+#: tina/projects/userstories/api.py:137
+msgid "You don't have permissions to set this sprint to this user story."
+msgstr "Bạn không có quyền thiết lập sprint cho tin tức này của người dùng."
+
+#: tina/projects/userstories/api.py:141
+msgid "You don't have permissions to set this status to this user story."
+msgstr "Bạn không có quyền đặt trạng thái này cho tin tức này của người dùng."
+
+#: tina/projects/userstories/api.py:235
+#, python-brace-format
+msgid "Invalid role id '{role_id}'"
+msgstr "Id vai trò không hợp lệ '{role_id}'"
+
+#: tina/projects/userstories/api.py:242
+#, python-brace-format
+msgid "Invalid points id '{points_id}'"
+msgstr "Id điểm không hợp lệ '{points_id}'"
+
+#: tina/projects/userstories/api.py:257
+#, python-brace-format
+msgid "Generating the user story #{ref} - {subject}"
+msgstr "Tạo tin tức người dùng #{ref} - {subject}"
+
+#: tina/projects/userstories/models.py:42
+msgid "role"
+msgstr "vai trò"
+
+#: tina/projects/userstories/models.py:81
+msgid "backlog order"
+msgstr "tập hợp thứ tự "
+
+#: tina/projects/userstories/models.py:83
+msgid "sprint order"
+msgstr "thứ tự sprint"
+
+#: tina/projects/userstories/models.py:85
+msgid "kanban order"
+msgstr "thứ tự kanban"
+
+#: tina/projects/userstories/models.py:93
+msgid "finish date"
+msgstr "ngày hoàn thành"
+
+#: tina/projects/userstories/models.py:102
+msgid "assigned users"
+msgstr "người dùng được chỉ định"
+
+#: tina/projects/userstories/models.py:111
+msgid "generated from issue"
+msgstr "được tạo ra từ vấn đề"
+
+#: tina/projects/userstories/validators.py:43
+msgid "There's no user story with that id"
+msgstr "Không có tin tức người dùng với id đó"
+
+#: tina/projects/userstories/validators.py:83 tina/projects/userstories/validators.py:109
+msgid "Invalid user story status id. The status must belong to the same project."
+msgstr "Id trạng thái nhiệm vụ không hợp lệ. Trạng thái đó phải thuộc về cùng một dự án."
+
+#: tina/projects/userstories/validators.py:121
+msgid "Invalid milestone id. The milistone must belong to the same project."
+msgstr "Mốc id không hợp lệ. Các cột mốc phải thuộc về cùng một dự án."
+
+#: tina/projects/userstories/validators.py:134
+msgid "Invalid user story ids. All stories must belong to the same project and, if it exists, to the same status and milestone."
+msgstr "Id tin tức người dùng không hợp lệ. Tất cả các nhiệm vụ phải thuộc về cùng một dự án và điều này cũng tương tự như tin tức người dùng và/hoặc cột mốc."
+
+#: tina/projects/userstories/validators.py:158
+msgid "The milestone isn't valid for the project"
+msgstr "Các cột mốc khôn có giá trị đối với dự án"
+
+#: tina/projects/userstories/validators.py:168
+msgid "All the user stories must be from the same project"
+msgstr "Tất cả các tin tức của người dùng phải từ cùng một dự án"
+
+#: tina/projects/validators.py:63
+msgid "There's no project with that id"
+msgstr "Không có dự án nào với id đó"
+
+#: tina/projects/validators.py:164
+msgid "The user yet exists in the project"
+msgstr "Người dùng chưa có trong dự án"
+
+#: tina/projects/validators.py:174
+msgid "Invalid role for the project"
+msgstr "Vai trò không hợp lệ đối với dự án"
+
+#: tina/projects/validators.py:189 tina/projects/validators.py:244
+msgid "The user must be a valid contact"
+msgstr "Người dùng phải có liên hệ hợp lệ "
+
+#: tina/projects/validators.py:210
+msgid "The project owner must be admin."
+msgstr "Chủ sản phẩm phải là người quản lý."
+
+#: tina/projects/validators.py:214
+msgid "At least one user must be an active admin for this project."
+msgstr "Ít nhất một người dùng phải là quản trị viên tích cực cho dự án này."
+
+#: tina/projects/validators.py:259
+msgid "Invalid role ids. All roles must belong to the same project."
+msgstr "Id vai trò không hợp lệ. Tất cả các vai trò phải liên quan cùng một dự án."
+
+#: tina/projects/validators.py:283
+msgid "Default options"
+msgstr "Tùy chọn mặc định"
+
+#: tina/projects/validators.py:284
+msgid "User story's statuses"
+msgstr "Trạng thái tin tức của người dùng"
+
+#: tina/projects/validators.py:285
+msgid "Points"
+msgstr "Điểm"
+
+#: tina/projects/validators.py:286
+msgid "Task's statuses"
+msgstr "Các trạng thái nhiệm vụ "
+
+#: tina/projects/validators.py:287
+msgid "Issue's statuses"
+msgstr "nh trạng vấn đề"
+
+#: tina/projects/validators.py:288
+msgid "Issue's types"
+msgstr "Các loại vấn đề"
+
+#: tina/projects/validators.py:289
+msgid "Priorities"
+msgstr "hững vấn đề ưu tiên"
+
+#: tina/projects/validators.py:290
+msgid "Severities"
+msgstr "Mức độ nghiêm trọng"
+
+#: tina/projects/validators.py:291
+msgid "Roles"
+msgstr "Vai trò"
+
+#: tina/projects/votes/models.py:33 tina/projects/votes/models.py:34 tina/projects/votes/models.py:58
+msgid "Votes"
+msgstr "Lượt bình chọn"
+
+#: tina/projects/votes/models.py:57
+msgid "Vote"
+msgstr "Bình chọn"
+
+#: tina/projects/wiki/api.py:77
+msgid "'content' parameter is mandatory"
+msgstr "tham số 'nội dung' là bắt buộc"
+
+#: tina/projects/wiki/api.py:80
+msgid "'project_id' parameter is mandatory"
+msgstr "tham số 'project_id' là bắt buộc"
+
+#: tina/projects/wiki/models.py:42
+msgid "last modifier"
+msgstr "lần thay đổi cuối"
+
+#: tina/projects/wiki/models.py:75
+msgid "href"
+msgstr "href"
+
+#: tina/timeline/signals.py:65
+msgid "Check the history API for the exact diff"
+msgstr "Kiểm tra lịch sử API để tìm chính xác sự khác biệt "
+
+#: tina/users/admin.py:39
+msgid "Project Member"
+msgstr "Thành viên Dự án"
+
+#: tina/users/admin.py:40
+msgid "Project Members"
+msgstr "Các Thành viên Dự án"
+
+#: tina/users/admin.py:50
+msgid "id"
+msgstr "id"
+
+#: tina/users/admin.py:81
+msgid "Project Ownership"
+msgstr "Quyền sở hữu dự án"
+
+#: tina/users/admin.py:82
+msgid "Project Ownerships"
+msgstr "Các quyền sở hữu dự án"
+
+#: tina/users/admin.py:119
+msgid "Personal info"
+msgstr "Thông tin cá nhân"
+
+#: tina/users/admin.py:122
+msgid "Permissions"
+msgstr "Quyền hạn"
+
+#: tina/users/admin.py:123
+msgid "Restrictions"
+msgstr "Những Hạn Chế"
+
+#: tina/users/admin.py:125
+msgid "Important dates"
+msgstr "Những ngày quan trọng"
+
+#: tina/users/api.py:132
+msgid "Duplicated email"
+msgstr "Email bị trùng"
+
+#: tina/users/api.py:134
+msgid "Not valid email"
+msgstr "Email không hợp lệ"
+
+#: tina/users/api.py:172
+msgid "Invalid username or email"
+msgstr "Tên người dùng hoặc email không hợp lệ"
+
+#: tina/users/api.py:181
+msgid "Mail sended successful!"
+msgstr "Thư gửi thành công!"
+
+#: tina/users/api.py:219
+msgid "Current password parameter needed"
+msgstr "Yêu cầu tham số cho mật khẩu hiện tại "
+
+#: tina/users/api.py:222
+msgid "New password parameter needed"
+msgstr "Yêu cầu tham số cho mật khẩu mới "
+
+#: tina/users/api.py:225
+msgid "Invalid password length at least 6 charaters needed"
+msgstr "Độ dài mật khẩu không hợp lệ, cần tối thiểu 6 kí tự"
+
+#: tina/users/api.py:228
+msgid "Invalid current password"
+msgstr "Mật khẩu hiện tại không hợp lệ"
+
+#: tina/users/api.py:275 tina/users/api.py:281
+msgid "Invalid, are you sure the token is correct and you didn't use it before?"
+msgstr "Không hợp lệ, bạn có chắc mã thông  là đúng và bạn chưa sử dụng nó trước đây?"
+
+#: tina/users/api.py:317 tina/users/api.py:325 tina/users/api.py:328
+msgid "Invalid, are you sure the token is correct?"
+msgstr "Không hợp lệ, bạn có chắc mã thông báo chính xác?"
+
+#: tina/users/models.py:99
+msgid "superuser status"
+msgstr "tình trạng quản lý"
+
+#: tina/users/models.py:100
+msgid "Designates that this user has all permissions without explicitly assigning them."
+msgstr "Bổ nhiệm người dùng này có tất cả các quyền mà không chỉ định rõ ràng."
+
+#: tina/users/models.py:136
+msgid "username"
+msgstr "tên đăng nhập"
+
+#: tina/users/models.py:137
+msgid "Required. 30 characters or fewer. Letters, numbers and /./-/_ characters"
+msgstr "Bắt buộc. 30 ký tự trở xuống. Chữ cái, số và /./-/_ ký tự'"
+
+#: tina/users/models.py:140
+msgid "Enter a valid username."
+msgstr "Nhập vào tên đăng nhập hợp lệ"
+
+#: tina/users/models.py:143
+msgid "active"
+msgstr "kích hoạt "
+
+#: tina/users/models.py:144
+msgid "Designates whether this user should be treated as active. Unselect this instead of deleting accounts."
+msgstr "Chỉ định xem người dùng này có nên được coi là đang hoạt động hay không. Bỏ chọn điều này thay vì xóa tài khoản."
+
+#: tina/users/models.py:150
+msgid "biography"
+msgstr "tiểu sử"
+
+#: tina/users/models.py:153
+msgid "photo"
+msgstr "hình ảnh"
+
+#: tina/users/models.py:154
+msgid "date joined"
+msgstr "ngày tham gia"
+
+#: tina/users/models.py:155
+msgid "accepted terms"
+msgstr "điều khoản được chấp nhận"
+
+#: tina/users/models.py:156
+msgid "new terms read"
+msgstr "đọc điều khoản mới "
+
+#: tina/users/models.py:158
+msgid "default language"
+msgstr "ngôn ngữ mặc định"
+
+#: tina/users/models.py:160
+msgid "default theme"
+msgstr "cấu hình mặc định "
+
+#: tina/users/models.py:162
+msgid "default timezone"
+msgstr "múi giờ mặc định"
+
+#: tina/users/models.py:164
+msgid "colorize tags"
+msgstr "các thẻ màu sắc"
+
+#: tina/users/models.py:169
+msgid "email token"
+msgstr "mã thông báo email"
+
+#: tina/users/models.py:171
+msgid "new email address"
+msgstr "địa chỉ email mới"
+
+#: tina/users/models.py:178
+msgid "max number of owned private projects"
+msgstr "số lượng dự án cá nhân tối đa mà người dùng có thể tạo"
+
+#: tina/users/models.py:181
+msgid "max number of owned public projects"
+msgstr "số lượng dự án công tối đa mà người dùng có thể tạo"
+
+#: tina/users/models.py:184
+msgid "max number of memberships for each owned private project"
+msgstr "số lượng thành viên tối đa cho mỗi dự án cá nhân mà người dùng sở hữu"
+
+#: tina/users/models.py:188
+msgid "max number of memberships for each owned public project"
+msgstr "số lượng thành viên tối đa cho mỗi dự án công mà người dùng sở hữu"
+
+#: tina/users/models.py:316
+msgid "permissions"
+msgstr "quyền"
+
+#: tina/users/services.py:58 tina/users/services.py:75
+msgid "Username or password does not matches user."
+msgstr "Tên đăng nhập hoăc mật khẩu không khớp với người dùng."
+
+#: tina/users/templates/emails/change_email-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Change your email</h1>\n"
+"    <p>Hello %(full_name)s,<br />please confirm your email</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Confirm email\">Confirm email</a>\n"
+"    <p>You can ignore this message if you did not request.</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"   <h1>Thay đổi email của bạn</h1>\n"
+"   <p>Xin chào %(full_name)s,<br /> vui lòng xác nhận email của bạn</p>\n"
+"   <a class=\"button\" href=\"%(url)s\" title=\"Xác nhận email\">Xác nhận email</a>\n"
+"   <p>Bạn có thể bỏ qua tin nhắn này nếu bạn không yêu cầu.</p>\n"
+"   <p><small>Đội Fwork</small></p>\n"
+"    "
+
+#: tina/users/templates/emails/change_email-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(full_name)s, please confirm your email\n"
+"\n"
+"%(url)s\n"
+"\n"
+"You can ignore this message if you did not request.\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(full_name)s, vui lòng xác nhận email\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Bạn có thể bỏ qua thông báo này nếu bạn không yêu cầu.\n"
+"\n"
+"---\n"
+"Đội Fwork\n"
+
+#: tina/users/templates/emails/change_email-subject.jinja:1
+msgid "[tina] Change email"
+msgstr "[Fwork] Thay đổi email"
+
+#: tina/users/templates/emails/password_recovery-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Recover your password</h1>\n"
+"    <p>Hello %(full_name)s, <br /> you asked to recover your password</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Recover your password\">Recover your password</a>\n"
+"    <p>You can ignore this message if you did not request.</p>\n"
+"    <p><small>The tina Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"   <h1>Lấy lại mật khẩu của bạn</h1>\n"
+"   <p> Xin chào %(full_name)s, <br /> bạn đã yêu cầu khôi phục mật khẩu</p> \n"
+"   <a class=\"button\" href=\"%(url)s\" title=\"Lấy lại mật khẩu của bạn\">Lấy lại mật khẩu của bạn</a> \n"
+"   <p>Bạn có thể bỏ qua tin nhắn này nếu bạn không yêu cầu.</p>\n"
+"   <p><small>Đội Fwork</small></p>\n"
+"    "
+
+#: tina/users/templates/emails/password_recovery-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(full_name)s, you asked to recover your password\n"
+"\n"
+"%(url)s\n"
+"\n"
+"You can ignore this message if you did not request.\n"
+"\n"
+"---\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Xin chào %(full_name)s, bạn đã yêu cầu khôi phục mật khẩu\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Bạn có thể bỏ qua thông báo này nếu bạn không yêu cầu.\n"
+"\n"
+"---\n"
+"Nhóm Fwork\n"
+
+#: tina/users/templates/emails/password_recovery-subject.jinja:1
+msgid "[tina] Password recovery"
+msgstr "[Fwork] Khôi phục mật khẩu"
+
+#: tina/users/templates/emails/registered_user-body-html.jinja:6
+msgid ""
+"\n"
+"        <td>\n"
+"            <h2>Thank you for registering in tina</h2>\n"
+"            <h3>We hope you enjoy it</h3>\n"
+"            <p>We built tina because we wanted the project management tool that sits open on our computers all day long, to serve as a continued reminder of why we love to collaborate, code and "
+"design.</p>\n"
+"            <p>We built it to be beautiful, elegant, simple to use and fun - without forsaking flexibility and power.</p>\n"
+"            <small>The tina Team</small>\n"
+"        </td>\n"
+"        "
+msgstr ""
+"\n"
+"        <td>\n"
+"            <h2>Cảm ơn vì bạn đã đăng ký vào Fwork</h2>\n"
+"            <h3>Chúng tôi hy vọng bạn thích</h3>\n"
+"            <p>Chúng tôi xây dựng Fwork bởi vì chúng tôi muốn công cụ quản lý dự án này hiện hữu trên máy tính của bạn suốt cả ngày, để nhắc nhớ vì sao chúng tôi yêu thích hợp tác, lập trình và "
+"thiết kế.</p>\n"
+"            <p> Chúng tôi xây dựng công cụ này trở nên đẹp đẽ, thanh lịch, đơn giản sử dụng - mà không từ bỏ sự linh hoạt và sức mạnh của công cụ quản lý.</p>\n"
+"            <small>Đội ngũ Fwork</small>\n"
+"        </td>\n"
+"        "
+
+#: tina/users/templates/emails/registered_user-body-html.jinja:23
+#, python-format
+msgid ""
+"\n"
+"    <strong>You may remove your account from this service</strong> <a href=\"%(url)s\" title=\"Remove your account\" style=\"color: #9dce0a\">clicking here</a>\n"
+"    "
+msgstr ""
+"\n"
+"<strong>Bạn có thể xóa tài khoản của bạn khỏi dịch vụ này</strong> <a href=\"%(url)s\" title=\"Xóa tài khoản của bạn\" style=\"color: #9dce0a\">bấm vào đây</a>\n"
+"    "
+
+#: tina/users/templates/emails/registered_user-body-text.jinja:1
+msgid ""
+"\n"
+"Thank you for registering in tina\n"
+"\n"
+"We hope you enjoy it\n"
+"\n"
+"We built tina because we wanted the project management tool that sits open on our computers all day long, to serve as a continued reminder of why we love to collaborate, code and design.\n"
+"\n"
+"We built it to be beautiful, elegant, simple to use and fun - without forsaking flexibility and power.\n"
+"\n"
+"--\n"
+"The tina Team\n"
+msgstr ""
+"\n"
+"Cảm ơn bạn đã đăng ký vào Fwork\n"
+"\n"
+"Chúng tôi hy vọng bạn thích \n"
+"\n"
+"Chúng tôi xây dựng Fwork vì chúng tôi muốn công cụ quản lý dự án mở trên máy tính của chúng tôi suốt cả ngày, để phục vụ như một lời nhắc nhở về lý do tại sao chúng tôi thích hợp tác, viết mã và "
+"thiết kế.\n"
+"\n"
+"Chúng tôi xây dựng công cụ này trở nên đẹp đẽ, thanh lịch, đơn giản sử dụng - mà không từ bỏ sự linh hoạt và sức mạnh của công cụ quản lý.\n"
+"\n"
+"--\n"
+"Nhóm Fwork\n"
+
+#: tina/users/templates/emails/registered_user-body-text.jinja:13
+#, python-format
+msgid ""
+"\n"
+"You may remove your account from this service: %(url)s\n"
+msgstr ""
+"\n"
+"Có thể bạn đã xóa tài khoản của mình khỏi dịch vụ này: %(url)s\n"
+
+#: tina/users/templates/emails/registered_user-subject.jinja:1
+msgid "You've been tinatized!"
+msgstr "Bạn đã đăng ký Fwork thành công"
+
+#: tina/users/validators.py:45
+msgid "invalid"
+msgstr "không hợp lệ"
+
+#: tina/users/validators.py:56
+msgid "Invalid username. Try with a different one."
+msgstr "Tên đăng nhập không hợp lệ. Vui lòng thử lại."
+
+#: tina/users/validators.py:73
+msgid "Read new terms has to be true'"
+msgstr "Đọc hiểu các điều khoản mới phải đúng'"
+
+#: tina/userstorage/api.py:53
+msgid "Duplicate key value violates unique constraint. Key '{}' already exists."
+msgstr "Giá trị khoá trùng lặp vi phạm ràng buộc duy nhất. Khóa '{}' đã được sử dụng."
+
+#: tina/userstorage/models.py:32
+msgid "key"
+msgstr "khóa"
+
+#: tina/webhooks/models.py:30 tina/webhooks/models.py:40
+msgid "URL"
+msgstr "URL"
+
+#: tina/webhooks/models.py:31
+msgid "secret key"
+msgstr "khoá bí mật"
+
+#: tina/webhooks/models.py:41
+msgid "status code"
+msgstr "mã trạng thái"
+
+#: tina/webhooks/models.py:42
+msgid "request data"
+msgstr "dữ liệu yêu cầu"
+
+#: tina/webhooks/models.py:43
+msgid "request headers"
+msgstr "tiêu đề yêu cầu"
+
+#: tina/webhooks/models.py:44
+msgid "response data"
+msgstr "dữ liệu phản hồi"
+
+#: tina/webhooks/models.py:45
+msgid "response headers"
+msgstr "tiêu đề phản hồi"
+
+#: tina/webhooks/models.py:46
+msgid "duration"
+msgstr "thời gian"
+
+#: tina/webhooks/validators.py:42
+msgid "Not allowed IP Address"
+msgstr "Địa chỉ IP không cho phép"

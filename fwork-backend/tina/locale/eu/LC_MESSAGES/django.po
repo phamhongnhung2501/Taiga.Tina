@@ -1,0 +1,2682 @@
+msgid ""
+msgstr ""
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: tina/auth/api.py:71
+msgid "Public register is disabled."
+msgstr ""
+
+#: tina/auth/api.py:93
+msgid "You must accept our terms of service and privacy policy"
+msgstr ""
+
+#: tina/auth/api.py:102
+msgid "invalid register type"
+msgstr ""
+
+#: tina/auth/api.py:118
+msgid "invalid login type"
+msgstr ""
+
+#: tina/auth/services.py:76
+msgid "Username is already in use."
+msgstr ""
+
+#: tina/auth/services.py:79
+msgid "Email is already in use."
+msgstr ""
+
+#: tina/auth/services.py:95
+msgid "Token not matches any valid invitation."
+msgstr ""
+
+#: tina/auth/services.py:124
+msgid "User is already registered."
+msgstr ""
+
+#: tina/auth/services.py:141
+msgid "This user is already a member of the project."
+msgstr ""
+
+#: tina/auth/services.py:165
+msgid "Error on creating new user."
+msgstr ""
+
+#: tina/auth/tokens.py:49 tina/auth/tokens.py:56
+#: tina/external_apps/services.py:34 tina/projects/api.py:427
+#: tina/projects/api.py:448
+msgid "Invalid token"
+msgstr ""
+
+#: tina/auth/validators.py:37 tina/users/validators.py:44
+msgid "invalid username"
+msgstr ""
+
+#: tina/auth/validators.py:42 tina/users/validators.py:50
+msgid ""
+"Required. 255 characters or fewer. Letters, numbers and /./-/_ characters'"
+msgstr ""
+
+#: tina/base/api/fields.py:294
+msgid "This field is required."
+msgstr ""
+
+#: tina/base/api/fields.py:295 tina/base/api/relations.py:337
+msgid "Invalid value."
+msgstr ""
+
+#: tina/base/api/fields.py:484
+#, python-format
+msgid "'%s' value must be either True or False."
+msgstr ""
+
+#: tina/base/api/fields.py:549
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: tina/base/api/fields.py:564
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: tina/base/api/fields.py:638
+msgid "You email domain is not allowed"
+msgstr ""
+
+#: tina/base/api/fields.py:647
+msgid "Enter a valid email address."
+msgstr ""
+
+#: tina/base/api/fields.py:689
+#, python-format
+msgid "Date has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tina/base/api/fields.py:753
+#, python-format
+msgid "Datetime has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tina/base/api/fields.py:823
+#, python-format
+msgid "Time has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tina/base/api/fields.py:880
+msgid "Enter a whole number."
+msgstr ""
+
+#: tina/base/api/fields.py:881 tina/base/api/fields.py:934
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: tina/base/api/fields.py:882 tina/base/api/fields.py:935
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: tina/base/api/fields.py:912
+#, python-format
+msgid "\"%s\" value must be a float."
+msgstr ""
+
+#: tina/base/api/fields.py:933
+msgid "Enter a number."
+msgstr ""
+
+#: tina/base/api/fields.py:936
+#, python-format
+msgid "Ensure that there are no more than %s digits in total."
+msgstr ""
+
+#: tina/base/api/fields.py:937
+#, python-format
+msgid "Ensure that there are no more than %s decimal places."
+msgstr ""
+
+#: tina/base/api/fields.py:938
+#, python-format
+msgid "Ensure that there are no more than %s digits before the decimal point."
+msgstr ""
+
+#: tina/base/api/fields.py:1005
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: tina/base/api/fields.py:1006
+msgid "No file was submitted."
+msgstr ""
+
+#: tina/base/api/fields.py:1007
+msgid "The submitted file is empty."
+msgstr ""
+
+#: tina/base/api/fields.py:1008
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr ""
+
+#: tina/base/api/fields.py:1009
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: tina/base/api/fields.py:1049
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: tina/base/api/mixins.py:284 tina/base/exceptions.py:211
+#: tina/hooks/api.py:69 tina/projects/api.py:462 tina/projects/api.py:495
+#: tina/projects/api.py:971 tina/projects/epics/api.py:200
+#: tina/projects/epics/api.py:284 tina/projects/issues/api.py:238
+#: tina/projects/mixins/ordering.py:59 tina/projects/tasks/api.py:263
+#: tina/projects/tasks/api.py:305 tina/projects/userstories/api.py:355
+#: tina/projects/userstories/api.py:407 tina/webhooks/api.py:71
+msgid "Blocked element"
+msgstr ""
+
+#: tina/base/api/pagination.py:228
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: tina/base/api/pagination.py:232
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: tina/base/api/permissions.py:65
+msgid "Invalid permission definition."
+msgstr ""
+
+#: tina/base/api/relations.py:247
+#, python-format
+msgid "Invalid pk '%s' - object does not exist."
+msgstr ""
+
+#: tina/base/api/relations.py:248
+#, python-format
+msgid "Incorrect type. Expected pk value, received %s."
+msgstr ""
+
+#: tina/base/api/relations.py:336
+#, python-format
+msgid "Object with %s=%s does not exist."
+msgstr ""
+
+#: tina/base/api/relations.py:372
+msgid "Invalid hyperlink - No URL match"
+msgstr ""
+
+#: tina/base/api/relations.py:373
+msgid "Invalid hyperlink - Incorrect URL match"
+msgstr ""
+
+#: tina/base/api/relations.py:374
+msgid "Invalid hyperlink due to configuration error"
+msgstr ""
+
+#: tina/base/api/relations.py:375
+msgid "Invalid hyperlink - object does not exist."
+msgstr ""
+
+#: tina/base/api/relations.py:376
+#, python-format
+msgid "Incorrect type.  Expected url string, received %s."
+msgstr ""
+
+#: tina/base/api/serializers.py:325
+msgid "Invalid data"
+msgstr ""
+
+#: tina/base/api/serializers.py:417
+msgid "No input provided"
+msgstr ""
+
+#: tina/base/api/serializers.py:580
+msgid "Cannot create a new item, only existing items may be updated."
+msgstr ""
+
+#: tina/base/api/serializers.py:591
+msgid "Expected a list of items."
+msgstr ""
+
+#: tina/base/api/views.py:126
+msgid "Not found"
+msgstr ""
+
+#: tina/base/api/views.py:129
+msgid "Permission denied"
+msgstr ""
+
+#: tina/base/api/views.py:491
+msgid "Server application error"
+msgstr ""
+
+#: tina/base/connectors/exceptions.py:26
+msgid "Connection error."
+msgstr ""
+
+#: tina/base/exceptions.py:79
+msgid "Malformed request."
+msgstr ""
+
+#: tina/base/exceptions.py:84
+msgid "Incorrect authentication credentials."
+msgstr ""
+
+#: tina/base/exceptions.py:89
+msgid "Authentication credentials were not provided."
+msgstr ""
+
+#: tina/base/exceptions.py:94
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: tina/base/exceptions.py:99
+#, python-format
+msgid "Method '%s' not allowed."
+msgstr ""
+
+#: tina/base/exceptions.py:107
+msgid "Could not satisfy the request's Accept header"
+msgstr ""
+
+#: tina/base/exceptions.py:116
+#, python-format
+msgid "Unsupported media type '%s' in request."
+msgstr ""
+
+#: tina/base/exceptions.py:124
+msgid "Request was throttled."
+msgstr ""
+
+#: tina/base/exceptions.py:125
+#, python-format
+msgid "Expected available in %d second%s."
+msgstr ""
+
+#: tina/base/exceptions.py:139
+msgid "Unexpected error"
+msgstr ""
+
+#: tina/base/exceptions.py:151
+msgid "Not found."
+msgstr ""
+
+#: tina/base/exceptions.py:156
+msgid "Method not supported for this endpoint."
+msgstr ""
+
+#: tina/base/exceptions.py:164 tina/base/exceptions.py:172
+msgid "Wrong arguments."
+msgstr ""
+
+#: tina/base/exceptions.py:176
+msgid "Data validation error"
+msgstr ""
+
+#: tina/base/exceptions.py:188
+msgid "Integrity Error for wrong or invalid arguments"
+msgstr ""
+
+#: tina/base/exceptions.py:195
+msgid "Precondition error"
+msgstr ""
+
+#: tina/base/exceptions.py:219
+msgid "No room left for more projects."
+msgstr ""
+
+#: tina/base/filters.py:105 tina/base/filters.py:566
+msgid "Error in filter params types."
+msgstr ""
+
+#: tina/base/filters.py:171 tina/base/filters.py:278
+#: tina/projects/filters.py:65
+msgid "'project' must be an integer value."
+msgstr ""
+
+#: tina/base/utils/urls.py:68
+msgid "Host access error"
+msgstr ""
+
+#: tina/base/utils/urls.py:74
+msgid "IP Address error"
+msgstr ""
+
+#: tina/events/events.py:122
+msgid "User story created"
+msgstr ""
+
+#: tina/events/events.py:125
+msgid "User story changed"
+msgstr ""
+
+#: tina/events/events.py:128
+msgid "User story deleted"
+msgstr ""
+
+#: tina/events/events.py:130
+msgid "US #{} - {}"
+msgstr ""
+
+#: tina/events/events.py:133
+msgid "Task created"
+msgstr ""
+
+#: tina/events/events.py:136
+msgid "Task changed"
+msgstr ""
+
+#: tina/events/events.py:139
+msgid "Task deleted"
+msgstr ""
+
+#: tina/events/events.py:141
+msgid "Task #{} - {}"
+msgstr ""
+
+#: tina/events/events.py:144
+msgid "Issue created"
+msgstr ""
+
+#: tina/events/events.py:147
+msgid "Issue changed"
+msgstr ""
+
+#: tina/events/events.py:150
+msgid "Issue deleted"
+msgstr ""
+
+#: tina/events/events.py:152
+msgid "Issue: #{} - {}"
+msgstr ""
+
+#: tina/events/events.py:155
+msgid "Wiki Page created"
+msgstr ""
+
+#: tina/events/events.py:158
+msgid "Wiki Page changed"
+msgstr ""
+
+#: tina/events/events.py:161
+msgid "Wiki Page deleted"
+msgstr ""
+
+#: tina/events/events.py:163
+msgid "Wiki Page: {}"
+msgstr ""
+
+#: tina/events/events.py:166
+msgid "Sprint created"
+msgstr ""
+
+#: tina/events/events.py:169
+msgid "Sprint changed"
+msgstr ""
+
+#: tina/events/events.py:172
+msgid "Sprint deleted"
+msgstr ""
+
+#: tina/events/events.py:174
+msgid "Sprint: {}"
+msgstr ""
+
+#: tina/export_import/api.py:127
+msgid "We needed at least one role"
+msgstr ""
+
+#: tina/export_import/api.py:335
+msgid "Needed dump file"
+msgstr ""
+
+#: tina/export_import/api.py:345
+msgid "Invalid dump format"
+msgstr ""
+
+#: tina/export_import/services/store.py:730
+#: tina/export_import/services/store.py:748
+msgid "error importing project data"
+msgstr ""
+
+#: tina/export_import/services/store.py:755
+msgid "error importing roles"
+msgstr ""
+
+#: tina/export_import/services/store.py:760
+msgid "error importing memberships"
+msgstr ""
+
+#: tina/export_import/services/store.py:771
+msgid "error importing lists of project attributes"
+msgstr ""
+
+#: tina/export_import/services/store.py:775
+msgid "error importing default project attributes values"
+msgstr ""
+
+#: tina/export_import/services/store.py:786
+msgid "error importing custom attributes"
+msgstr ""
+
+#: tina/export_import/services/store.py:789
+msgid "error importing sprints"
+msgstr ""
+
+#: tina/export_import/services/store.py:793
+msgid "error importing issues"
+msgstr ""
+
+#: tina/export_import/services/store.py:797
+msgid "error importing user stories"
+msgstr ""
+
+#: tina/export_import/services/store.py:801
+msgid "error importing epics"
+msgstr ""
+
+#: tina/export_import/services/store.py:805
+msgid "error importing tasks"
+msgstr ""
+
+#: tina/export_import/services/store.py:809
+msgid "error importing wiki pages"
+msgstr ""
+
+#: tina/export_import/services/store.py:813
+msgid "error importing wiki links"
+msgstr ""
+
+#: tina/export_import/services/store.py:817
+msgid "error importing tags"
+msgstr ""
+
+#: tina/export_import/services/store.py:821
+msgid "error importing timelines"
+msgstr ""
+
+#: tina/export_import/services/store.py:843
+msgid "unexpected error importing project"
+msgstr ""
+
+#: tina/export_import/tasks.py:62 tina/export_import/tasks.py:63
+msgid "Error generating project dump"
+msgstr ""
+
+#: tina/export_import/tasks.py:91
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Error loading dump by {user_full_name} <{user_email}>:\"\n"
+"\n"
+"\n"
+"REASON:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"DETAILS:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE ERROR:\n"
+"------------"
+msgstr ""
+
+#: tina/export_import/tasks.py:120
+msgid "Error loading project dump"
+msgstr ""
+
+#: tina/export_import/tasks.py:121
+msgid "Error loading your project dump file"
+msgstr ""
+
+#: tina/export_import/tasks.py:135
+msgid "  -- no detail info --"
+msgstr ""
+
+#: tina/export_import/validators/fields.py:144
+msgid "{}=\"{}\" not found in this project"
+msgstr ""
+
+#: tina/export_import/validators/validators.py:168
+#: tina/projects/custom_attributes/validators.py:109
+msgid "Invalid content. It must be {\"key\": \"value\",...}"
+msgstr ""
+
+#: tina/export_import/validators/validators.py:183
+#: tina/projects/custom_attributes/validators.py:124
+msgid "It contain invalid custom fields."
+msgstr ""
+
+#: tina/export_import/validators/validators.py:263
+#: tina/projects/validators.py:54
+msgid "Name duplicated for the project"
+msgstr ""
+
+#: tina/external_apps/api.py:43 tina/external_apps/api.py:70
+#: tina/external_apps/api.py:77
+msgid "Authentication required"
+msgstr ""
+
+#: tina/external_apps/models.py:35
+#: tina/projects/custom_attributes/models.py:36
+#: tina/projects/milestones/models.py:37 tina/projects/models.py:148
+#: tina/projects/models.py:521 tina/projects/models.py:554
+#: tina/projects/models.py:590 tina/projects/models.py:610
+#: tina/projects/models.py:635 tina/projects/models.py:667
+#: tina/projects/models.py:693 tina/projects/models.py:713
+#: tina/projects/models.py:733 tina/projects/models.py:765
+#: tina/projects/models.py:785 tina/projects/models.py:809
+#: tina/users/admin.py:54 tina/users/models.py:312
+#: tina/webhooks/models.py:29
+msgid "name"
+msgstr ""
+
+#: tina/external_apps/models.py:37
+msgid "Icon url"
+msgstr ""
+
+#: tina/external_apps/models.py:38
+msgid "web"
+msgstr ""
+
+#: tina/external_apps/models.py:39 tina/projects/attachments/models.py:62
+#: tina/projects/custom_attributes/models.py:37
+#: tina/projects/epics/models.py:56
+#: tina/projects/history/templatetags/functions.py:25
+#: tina/projects/issues/models.py:61 tina/projects/models.py:152
+#: tina/projects/models.py:813 tina/projects/tasks/models.py:63
+#: tina/projects/userstories/models.py:96
+msgid "description"
+msgstr ""
+
+#: tina/external_apps/models.py:41
+msgid "Next url"
+msgstr ""
+
+#: tina/external_apps/models.py:55 tina/projects/contact/models.py:26
+#: tina/projects/likes/models.py:31 tina/projects/notifications/models.py:90
+#: tina/projects/votes/models.py:52
+msgid "user"
+msgstr ""
+
+#: tina/external_apps/models.py:59
+msgid "application"
+msgstr ""
+
+#: tina/feedback/models.py:25 tina/users/models.py:147
+msgid "full name"
+msgstr ""
+
+#: tina/feedback/models.py:27 tina/users/models.py:142
+msgid "email address"
+msgstr ""
+
+#: tina/feedback/models.py:29 tina/projects/contact/models.py:31
+msgid "comment"
+msgstr ""
+
+#: tina/feedback/models.py:31 tina/projects/attachments/models.py:48
+#: tina/projects/contact/models.py:34
+#: tina/projects/custom_attributes/models.py:46
+#: tina/projects/epics/models.py:49 tina/projects/issues/models.py:53
+#: tina/projects/likes/models.py:33 tina/projects/milestones/models.py:48
+#: tina/projects/models.py:159 tina/projects/models.py:817
+#: tina/projects/notifications/models.py:92 tina/projects/tasks/models.py:49
+#: tina/projects/userstories/models.py:88 tina/projects/votes/models.py:54
+#: tina/projects/wiki/models.py:44 tina/userstorage/models.py:29
+msgid "created date"
+msgstr ""
+
+#: tina/hooks/api.py:54
+msgid "The payload is not a valid json"
+msgstr ""
+
+#: tina/hooks/api.py:63 tina/projects/epics/api.py:154
+#: tina/projects/issues/api.py:147 tina/projects/tasks/api.py:215
+#: tina/projects/userstories/api.py:299
+msgid "The project doesn't exist"
+msgstr ""
+
+#: tina/hooks/api.py:66
+msgid "Bad signature"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:66
+#, python-brace-format
+msgid ""
+"[@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") says in "
+"[{platform}#{number}]({comment_url} \"Go to comment\"):\n"
+"\n"
+"\"{comment_message}\""
+msgstr ""
+
+#: tina/hooks/event_hooks.py:71
+#, python-brace-format
+msgid ""
+"Comment From {platform}:\n"
+"\n"
+"> {comment_message}"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:84
+msgid "Invalid issue comment information"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:103
+#, python-brace-format
+msgid ""
+"Issue created by [@{user_name}]({user_url} \"See @{user_name}'s {platform} "
+"profile\") from [{platform}#{number}]({url} \"Go to issue\")."
+msgstr ""
+
+#: tina/hooks/event_hooks.py:107
+#, python-brace-format
+msgid "Issue created from {platform}."
+msgstr ""
+
+#: tina/hooks/event_hooks.py:120
+msgid "Invalid issue information"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:149 tina/hooks/event_hooks.py:171
+msgid "unknown user"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:156
+#, python-brace-format
+msgid ""
+"{user_text} changed the status from [{platform} commit]({commit_url} \"See "
+"commit '{commit_id} - {commit_short_message}'\")\n"
+"\n"
+"  - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:161
+#, python-brace-format
+msgid ""
+"Changed status from {platform} commit.\n"
+"\n"
+" - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:179
+#, python-brace-format
+msgid ""
+"This {type_name} has been mentioned by {user_text} in the [{platform} commit]"
+"({commit_url} \"See commit '{commit_id} - {commit_short_message}'\") "
+"\"{commit_message}\""
+msgstr ""
+
+#: tina/hooks/event_hooks.py:184
+#, python-brace-format
+msgid ""
+"This issue has been mentioned in the {platform} commit \"{commit_message}\""
+msgstr ""
+
+#: tina/hooks/event_hooks.py:206
+msgid "The referenced element doesn't exist"
+msgstr ""
+
+#: tina/hooks/event_hooks.py:222
+msgid "The status doesn't exist"
+msgstr ""
+
+#: tina/importers/asana/api.py:43 tina/importers/asana/api.py:85
+#: tina/importers/github/api.py:44 tina/importers/github/api.py:74
+#: tina/importers/jira/api.py:60 tina/importers/jira/api.py:106
+#: tina/importers/pivotal/api.py:43 tina/importers/pivotal/api.py:80
+#: tina/importers/trello/api.py:46 tina/importers/trello/api.py:83
+msgid "The project param is needed"
+msgstr ""
+
+#: tina/importers/asana/api.py:50 tina/importers/asana/api.py:73
+#: tina/importers/asana/api.py:139
+msgid "Invalid Asana API request"
+msgstr ""
+
+#: tina/importers/asana/api.py:52 tina/importers/asana/api.py:75
+#: tina/importers/asana/api.py:141
+msgid "Failed to make the request to Asana API"
+msgstr ""
+
+#: tina/importers/asana/api.py:129 tina/importers/github/api.py:123
+msgid "Code param needed"
+msgstr ""
+
+#: tina/importers/asana/tasks.py:42 tina/importers/asana/tasks.py:43
+msgid "Error importing Asana project"
+msgstr ""
+
+#: tina/importers/github/api.py:135
+msgid "Invalid auth data"
+msgstr ""
+
+#: tina/importers/github/api.py:137
+msgid "Third party service failing"
+msgstr ""
+
+#: tina/importers/github/tasks.py:42 tina/importers/github/tasks.py:43
+msgid "Error importing GitHub project"
+msgstr ""
+
+#: tina/importers/jira/api.py:62 tina/importers/jira/api.py:89
+#: tina/importers/jira/api.py:109 tina/importers/jira/api.py:182
+msgid "The url param is needed"
+msgstr ""
+
+#: tina/importers/jira/api.py:158
+msgid "Invalid project_type {}"
+msgstr ""
+
+#: tina/importers/jira/api.py:192
+msgid "Invalid Jira server configuration."
+msgstr ""
+
+#: tina/importers/jira/api.py:233 tina/importers/pivotal/api.py:138
+#: tina/importers/trello/api.py:143
+msgid "Invalid or expired auth token"
+msgstr ""
+
+#: tina/importers/jira/tasks.py:48 tina/importers/jira/tasks.py:49
+msgid "Error importing Jira project"
+msgstr ""
+
+#: tina/importers/pivotal/tasks.py:42 tina/importers/pivotal/tasks.py:43
+msgid "Error importing PivotalTracker project"
+msgstr ""
+
+#: tina/importers/trello/importer.py:78
+#, python-format
+msgid "Invalid Request: %s at %s"
+msgstr ""
+
+#: tina/importers/trello/importer.py:80 tina/importers/trello/importer.py:82
+#, python-format
+msgid "Unauthorized: %s at %s"
+msgstr ""
+
+#: tina/importers/trello/importer.py:84 tina/importers/trello/importer.py:86
+#, python-format
+msgid "Resource Unavailable: %s at %s"
+msgstr ""
+
+#: tina/importers/trello/tasks.py:42 tina/importers/trello/tasks.py:43
+msgid "Error importing Trello project"
+msgstr ""
+
+#: tina/permissions/choices.py:23 tina/permissions/choices.py:34
+msgid "View project"
+msgstr ""
+
+#: tina/permissions/choices.py:24 tina/permissions/choices.py:36
+msgid "View milestones"
+msgstr ""
+
+#: tina/permissions/choices.py:25 tina/permissions/choices.py:41
+msgid "View epic"
+msgstr ""
+
+#: tina/permissions/choices.py:26
+msgid "View user stories"
+msgstr ""
+
+#: tina/permissions/choices.py:27 tina/permissions/choices.py:53
+msgid "View tasks"
+msgstr ""
+
+#: tina/permissions/choices.py:28 tina/permissions/choices.py:59
+msgid "View issues"
+msgstr ""
+
+#: tina/permissions/choices.py:29 tina/permissions/choices.py:65
+msgid "View wiki pages"
+msgstr ""
+
+#: tina/permissions/choices.py:30 tina/permissions/choices.py:71
+msgid "View wiki links"
+msgstr ""
+
+#: tina/permissions/choices.py:37
+msgid "Add milestone"
+msgstr ""
+
+#: tina/permissions/choices.py:38
+msgid "Modify milestone"
+msgstr ""
+
+#: tina/permissions/choices.py:39
+msgid "Delete milestone"
+msgstr ""
+
+#: tina/permissions/choices.py:42
+msgid "Add epic"
+msgstr ""
+
+#: tina/permissions/choices.py:43
+msgid "Modify epic"
+msgstr ""
+
+#: tina/permissions/choices.py:44
+msgid "Comment epic"
+msgstr ""
+
+#: tina/permissions/choices.py:45
+msgid "Delete epic"
+msgstr ""
+
+#: tina/permissions/choices.py:47
+msgid "View user story"
+msgstr ""
+
+#: tina/permissions/choices.py:48
+msgid "Add user story"
+msgstr ""
+
+#: tina/permissions/choices.py:49
+msgid "Modify user story"
+msgstr ""
+
+#: tina/permissions/choices.py:50
+msgid "Comment user story"
+msgstr ""
+
+#: tina/permissions/choices.py:51
+msgid "Delete user story"
+msgstr ""
+
+#: tina/permissions/choices.py:54
+msgid "Add task"
+msgstr ""
+
+#: tina/permissions/choices.py:55
+msgid "Modify task"
+msgstr ""
+
+#: tina/permissions/choices.py:56
+msgid "Comment task"
+msgstr ""
+
+#: tina/permissions/choices.py:57
+msgid "Delete task"
+msgstr ""
+
+#: tina/permissions/choices.py:60
+msgid "Add issue"
+msgstr ""
+
+#: tina/permissions/choices.py:61
+msgid "Modify issue"
+msgstr ""
+
+#: tina/permissions/choices.py:62
+msgid "Comment issue"
+msgstr ""
+
+#: tina/permissions/choices.py:63
+msgid "Delete issue"
+msgstr ""
+
+#: tina/permissions/choices.py:66
+msgid "Add wiki page"
+msgstr ""
+
+#: tina/permissions/choices.py:67
+msgid "Modify wiki page"
+msgstr ""
+
+#: tina/permissions/choices.py:68
+msgid "Comment wiki page"
+msgstr ""
+
+#: tina/permissions/choices.py:69
+msgid "Delete wiki page"
+msgstr ""
+
+#: tina/permissions/choices.py:72
+msgid "Add wiki link"
+msgstr ""
+
+#: tina/permissions/choices.py:73
+msgid "Modify wiki link"
+msgstr ""
+
+#: tina/permissions/choices.py:74
+msgid "Delete wiki link"
+msgstr ""
+
+#: tina/permissions/choices.py:78
+msgid "Modify project"
+msgstr ""
+
+#: tina/permissions/choices.py:79
+msgid "Delete project"
+msgstr ""
+
+#: tina/permissions/choices.py:80
+msgid "Add member"
+msgstr ""
+
+#: tina/permissions/choices.py:81
+msgid "Remove member"
+msgstr ""
+
+#: tina/permissions/choices.py:82
+msgid "Admin project values"
+msgstr ""
+
+#: tina/permissions/choices.py:83
+msgid "Admin roles"
+msgstr ""
+
+#: tina/projects/admin.py:100
+msgid "Privacity"
+msgstr ""
+
+#: tina/projects/admin.py:106 tina/users/admin.py:120
+msgid "Extra info"
+msgstr ""
+
+#: tina/projects/admin.py:111
+msgid "Modules"
+msgstr ""
+
+#: tina/projects/admin.py:119
+msgid "Default values"
+msgstr ""
+
+#: tina/projects/admin.py:126
+msgid "Activity"
+msgstr ""
+
+#: tina/projects/admin.py:131
+msgid "Fans"
+msgstr ""
+
+#: tina/projects/admin.py:145 tina/projects/attachments/models.py:39
+#: tina/projects/epics/models.py:40 tina/projects/issues/models.py:38
+#: tina/projects/milestones/models.py:42 tina/projects/models.py:164
+#: tina/projects/notifications/models.py:65 tina/projects/tasks/models.py:40
+#: tina/projects/userstories/models.py:70 tina/projects/wiki/models.py:40
+#: tina/users/admin.py:69 tina/userstorage/models.py:27
+msgid "owner"
+msgstr ""
+
+#: tina/projects/admin.py:193
+#, python-brace-format
+msgid "{count} successfully made public."
+msgstr ""
+
+#: tina/projects/admin.py:194
+msgid "Make public"
+msgstr ""
+
+#: tina/projects/admin.py:208
+#, python-brace-format
+msgid "{count} successfully made private."
+msgstr ""
+
+#: tina/projects/admin.py:209
+msgid "Make private"
+msgstr ""
+
+#: tina/projects/admin.py:239
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: tina/projects/api.py:176 tina/users/api.py:244
+msgid "Incomplete arguments"
+msgstr ""
+
+#: tina/projects/api.py:180 tina/users/api.py:249
+msgid "Invalid image format"
+msgstr ""
+
+#: tina/projects/api.py:241
+msgid "Not valid template name"
+msgstr ""
+
+#: tina/projects/api.py:244
+msgid "Not valid template description"
+msgstr ""
+
+#: tina/projects/api.py:407 tina/projects/api.py:1010
+msgid "Invalid user id"
+msgstr ""
+
+#: tina/projects/api.py:413 tina/projects/api.py:1016
+msgid "The user doesn't exist"
+msgstr ""
+
+#: tina/projects/api.py:417
+msgid "The user must be already a project member"
+msgstr ""
+
+#: tina/projects/api.py:643
+msgid "You can't delete user story due date by default"
+msgstr ""
+
+#: tina/projects/api.py:659
+msgid "Project already have due dates"
+msgstr ""
+
+#: tina/projects/api.py:719
+msgid "You can't delete task due date by default"
+msgstr ""
+
+#: tina/projects/api.py:735
+msgid "Project already have task due dates"
+msgstr ""
+
+#: tina/projects/api.py:859
+msgid "You can't delete issue due date by default"
+msgstr ""
+
+#: tina/projects/api.py:875
+msgid "Project already have issue due dates"
+msgstr ""
+
+#: tina/projects/api.py:1028
+msgid ""
+"This user can't be removed from the following projects, because would leave "
+"them without any active admin: {}."
+msgstr ""
+
+#: tina/projects/api.py:1038
+msgid ""
+"The project must have an owner and at least one of the users must be an "
+"active admin"
+msgstr ""
+
+#: tina/projects/api.py:1072
+msgid "You don't have permisions to see that."
+msgstr ""
+
+#: tina/projects/attachments/api.py:54
+msgid "Partial updates are not supported"
+msgstr ""
+
+#: tina/projects/attachments/api.py:69
+msgid "Object id issue isn't exists"
+msgstr ""
+
+#: tina/projects/attachments/api.py:72
+msgid "Project ID not matches between object and project"
+msgstr ""
+
+#: tina/projects/attachments/models.py:41 tina/projects/contact/models.py:29
+#: tina/projects/custom_attributes/models.py:43
+#: tina/projects/epics/models.py:38 tina/projects/issues/models.py:51
+#: tina/projects/milestones/models.py:44 tina/projects/models.py:509
+#: tina/projects/models.py:531 tina/projects/models.py:568
+#: tina/projects/models.py:596 tina/projects/models.py:620
+#: tina/projects/models.py:645 tina/projects/models.py:677
+#: tina/projects/models.py:699 tina/projects/models.py:719
+#: tina/projects/models.py:743 tina/projects/models.py:771
+#: tina/projects/models.py:795 tina/projects/notifications/models.py:77
+#: tina/projects/notifications/models.py:94 tina/projects/tasks/models.py:44
+#: tina/projects/userstories/models.py:68 tina/projects/wiki/models.py:34
+#: tina/projects/wiki/models.py:72 tina/users/models.py:323
+msgid "project"
+msgstr ""
+
+#: tina/projects/attachments/models.py:43
+msgid "content type"
+msgstr ""
+
+#: tina/projects/attachments/models.py:45
+msgid "object id"
+msgstr ""
+
+#: tina/projects/attachments/models.py:51
+#: tina/projects/custom_attributes/models.py:48
+#: tina/projects/epics/models.py:52 tina/projects/issues/models.py:56
+#: tina/projects/milestones/models.py:51 tina/projects/models.py:162
+#: tina/projects/models.py:820 tina/projects/tasks/models.py:52
+#: tina/projects/userstories/models.py:91 tina/projects/wiki/models.py:47
+#: tina/userstorage/models.py:31
+msgid "modified date"
+msgstr ""
+
+#: tina/projects/attachments/models.py:56
+msgid "attached file"
+msgstr ""
+
+#: tina/projects/attachments/models.py:58
+msgid "sha1"
+msgstr ""
+
+#: tina/projects/attachments/models.py:60
+msgid "is deprecated"
+msgstr ""
+
+#: tina/projects/attachments/models.py:61
+msgid "from comment"
+msgstr ""
+
+#: tina/projects/attachments/models.py:63
+#: tina/projects/custom_attributes/models.py:41
+#: tina/projects/epics/models.py:104 tina/projects/milestones/models.py:57
+#: tina/projects/models.py:525 tina/projects/models.py:558
+#: tina/projects/models.py:592 tina/projects/models.py:612
+#: tina/projects/models.py:639 tina/projects/models.py:669
+#: tina/projects/models.py:695 tina/projects/models.py:715
+#: tina/projects/models.py:737 tina/projects/models.py:767
+#: tina/projects/models.py:787 tina/projects/wiki/models.py:77
+#: tina/users/models.py:318
+msgid "order"
+msgstr ""
+
+#: tina/projects/choices.py:23
+msgid "AppearIn"
+msgstr ""
+
+#: tina/projects/choices.py:24
+msgid "Jitsi"
+msgstr ""
+
+#: tina/projects/choices.py:25
+msgid "Custom"
+msgstr ""
+
+#: tina/projects/choices.py:26
+msgid "Talky"
+msgstr ""
+
+#: tina/projects/choices.py:35
+msgid "This project is blocked due to payment failure"
+msgstr ""
+
+#: tina/projects/choices.py:36
+msgid "This project is blocked by admin staff"
+msgstr ""
+
+#: tina/projects/choices.py:37
+msgid "This project is blocked because the owner left"
+msgstr ""
+
+#: tina/projects/choices.py:38
+msgid "This project is blocked while it's deleted"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:32
+msgid "Text"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:33
+msgid "Multi-Line Text"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:34
+msgid "Rich text"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:35
+msgid "Date"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:36
+msgid "Url"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:37
+msgid "Dropdown"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:38
+msgid "Checkbox"
+msgstr ""
+
+#: tina/projects/custom_attributes/choices.py:39
+msgid "Number"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:40
+#: tina/projects/issues/models.py:46
+msgid "type"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:95
+msgid "values"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:105
+msgid "epic"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:121
+#: tina/projects/tasks/models.py:36 tina/projects/userstories/models.py:39
+msgid "user story"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:137
+msgid "task"
+msgstr ""
+
+#: tina/projects/custom_attributes/models.py:153
+msgid "issue"
+msgstr ""
+
+#: tina/projects/custom_attributes/validators.py:58
+msgid "Already exists one with the same name."
+msgstr ""
+
+#: tina/projects/due_dates/models.py:21
+msgid "due date"
+msgstr ""
+
+#: tina/projects/due_dates/models.py:24
+msgid "reason for the due date"
+msgstr ""
+
+#: tina/projects/epics/api.py:94
+msgid "You don't have permissions to set this status to this epic."
+msgstr ""
+
+#: tina/projects/epics/models.py:36 tina/projects/issues/models.py:36
+#: tina/projects/tasks/models.py:38 tina/projects/userstories/models.py:63
+msgid "ref"
+msgstr ""
+
+#: tina/projects/epics/models.py:43 tina/projects/issues/models.py:40
+#: tina/projects/tasks/models.py:42 tina/projects/userstories/models.py:73
+msgid "status"
+msgstr ""
+
+#: tina/projects/epics/models.py:46
+msgid "epics order"
+msgstr ""
+
+#: tina/projects/epics/models.py:55 tina/projects/issues/models.py:60
+#: tina/projects/tasks/models.py:56 tina/projects/userstories/models.py:95
+msgid "subject"
+msgstr ""
+
+#: tina/projects/epics/models.py:59 tina/projects/models.py:529
+#: tina/projects/models.py:564 tina/projects/models.py:616
+#: tina/projects/models.py:643 tina/projects/models.py:673
+#: tina/projects/models.py:697 tina/projects/models.py:717
+#: tina/projects/models.py:741 tina/projects/models.py:769
+#: tina/projects/models.py:791 tina/users/models.py:149
+msgid "color"
+msgstr ""
+
+#: tina/projects/epics/models.py:62 tina/projects/issues/models.py:64
+#: tina/projects/tasks/models.py:66 tina/projects/userstories/models.py:99
+msgid "assigned to"
+msgstr ""
+
+#: tina/projects/epics/models.py:64 tina/projects/userstories/models.py:104
+msgid "is client requirement"
+msgstr ""
+
+#: tina/projects/epics/models.py:66 tina/projects/userstories/models.py:106
+msgid "is team requirement"
+msgstr ""
+
+#: tina/projects/epics/models.py:70
+msgid "user stories"
+msgstr ""
+
+#: tina/projects/epics/models.py:72 tina/projects/issues/models.py:67
+#: tina/projects/tasks/models.py:71 tina/projects/userstories/models.py:117
+msgid "external reference"
+msgstr ""
+
+#: tina/projects/epics/validators.py:37
+msgid "There's no epic with that id"
+msgstr ""
+
+#: tina/projects/history/api.py:100
+msgid "comment is required"
+msgstr ""
+
+#: tina/projects/history/api.py:103
+msgid "deleted comments can't be edited"
+msgstr ""
+
+#: tina/projects/history/api.py:146
+msgid "Comment already deleted"
+msgstr ""
+
+#: tina/projects/history/api.py:167
+msgid "Comment not deleted"
+msgstr ""
+
+#: tina/projects/history/choices.py:31
+msgid "Change"
+msgstr ""
+
+#: tina/projects/history/choices.py:32
+msgid "Create"
+msgstr ""
+
+#: tina/projects/history/choices.py:33
+msgid "Delete"
+msgstr ""
+
+#: tina/projects/history/templatetags/functions.py:26
+#: tina/projects/wiki/models.py:38
+msgid "content"
+msgstr ""
+
+#: tina/projects/history/templatetags/functions.py:27
+#: tina/projects/mixins/blocked.py:33
+msgid "blocked note"
+msgstr ""
+
+#: tina/projects/history/templatetags/functions.py:28
+msgid "sprint"
+msgstr ""
+
+#: tina/projects/issues/api.py:169
+msgid "You don't have permissions to set this sprint to this issue."
+msgstr ""
+
+#: tina/projects/issues/api.py:173
+msgid "You don't have permissions to set this status to this issue."
+msgstr ""
+
+#: tina/projects/issues/api.py:177
+msgid "You don't have permissions to set this severity to this issue."
+msgstr ""
+
+#: tina/projects/issues/api.py:181
+msgid "You don't have permissions to set this priority to this issue."
+msgstr ""
+
+#: tina/projects/issues/api.py:185
+msgid "You don't have permissions to set this type to this issue."
+msgstr ""
+
+#: tina/projects/issues/models.py:42
+msgid "severity"
+msgstr ""
+
+#: tina/projects/issues/models.py:44
+msgid "priority"
+msgstr ""
+
+#: tina/projects/issues/models.py:49 tina/projects/tasks/models.py:47
+#: tina/projects/userstories/models.py:66
+msgid "milestone"
+msgstr ""
+
+#: tina/projects/issues/models.py:58 tina/projects/tasks/models.py:54
+msgid "finished date"
+msgstr ""
+
+#: tina/projects/issues/validators.py:68
+#: tina/projects/tasks/validators.py:176
+#: tina/projects/userstories/validators.py:158
+msgid "The milestone isn't valid for the project"
+msgstr ""
+
+#: tina/projects/issues/validators.py:78
+msgid "All the issues must be from the same project"
+msgstr ""
+
+#: tina/projects/likes/models.py:36
+msgid "Like"
+msgstr ""
+
+#: tina/projects/likes/models.py:37
+msgid "Likes"
+msgstr ""
+
+#: tina/projects/milestones/models.py:40 tina/projects/models.py:150
+#: tina/projects/models.py:523 tina/projects/models.py:556
+#: tina/projects/models.py:637 tina/projects/models.py:735
+#: tina/projects/models.py:811 tina/projects/wiki/models.py:36
+#: tina/users/admin.py:58 tina/users/models.py:314
+msgid "slug"
+msgstr ""
+
+#: tina/projects/milestones/models.py:45
+msgid "estimated start date"
+msgstr ""
+
+#: tina/projects/milestones/models.py:46
+msgid "estimated finish date"
+msgstr ""
+
+#: tina/projects/milestones/models.py:53 tina/projects/models.py:527
+#: tina/projects/models.py:560 tina/projects/models.py:641
+#: tina/projects/models.py:739
+msgid "is closed"
+msgstr ""
+
+#: tina/projects/milestones/models.py:55
+msgid "disponibility"
+msgstr ""
+
+#: tina/projects/milestones/models.py:79
+msgid "The estimated start must be previous to the estimated finish."
+msgstr ""
+
+#: tina/projects/milestones/validators.py:35
+msgid "There's no milestone with that id"
+msgstr ""
+
+#: tina/projects/milestones/validators.py:66
+#: tina/projects/userstories/validators.py:168
+msgid "All the user stories must be from the same project"
+msgstr ""
+
+#: tina/projects/mixins/blocked.py:31
+msgid "is blocked"
+msgstr ""
+
+#: tina/projects/mixins/by_ref.py:32
+msgid "ref param is needed"
+msgstr ""
+
+#: tina/projects/mixins/by_ref.py:35
+msgid "project or project__slug param is needed"
+msgstr ""
+
+#: tina/projects/mixins/ordering.py:49
+#, python-brace-format
+msgid "'{param}' parameter is mandatory"
+msgstr ""
+
+#: tina/projects/mixins/ordering.py:53
+msgid "'project' parameter is mandatory"
+msgstr ""
+
+#: tina/projects/mixins/validators.py:19
+msgid "The user must be a project member."
+msgstr ""
+
+#: tina/projects/models.py:79
+msgid "email"
+msgstr ""
+
+#: tina/projects/models.py:81
+msgid "create at"
+msgstr ""
+
+#: tina/projects/models.py:83 tina/users/models.py:166
+msgid "token"
+msgstr ""
+
+#: tina/projects/models.py:89
+msgid "invitation extra text"
+msgstr ""
+
+#: tina/projects/models.py:92 tina/projects/models.py:815
+msgid "user order"
+msgstr ""
+
+#: tina/projects/models.py:108
+msgid "The user is already member of the project"
+msgstr ""
+
+#: tina/projects/models.py:115
+msgid "default epic status"
+msgstr ""
+
+#: tina/projects/models.py:119
+msgid "default US status"
+msgstr ""
+
+#: tina/projects/models.py:122
+msgid "default points"
+msgstr ""
+
+#: tina/projects/models.py:126
+msgid "default task status"
+msgstr ""
+
+#: tina/projects/models.py:129
+msgid "default priority"
+msgstr ""
+
+#: tina/projects/models.py:132
+msgid "default severity"
+msgstr ""
+
+#: tina/projects/models.py:136
+msgid "default issue status"
+msgstr ""
+
+#: tina/projects/models.py:140
+msgid "default issue type"
+msgstr ""
+
+#: tina/projects/models.py:156
+msgid "logo"
+msgstr ""
+
+#: tina/projects/models.py:166
+msgid "members"
+msgstr ""
+
+#: tina/projects/models.py:169
+msgid "total of milestones"
+msgstr ""
+
+#: tina/projects/models.py:170
+msgid "total story points"
+msgstr ""
+
+#: tina/projects/models.py:172 tina/projects/models.py:825
+msgid "active contact"
+msgstr ""
+
+#: tina/projects/models.py:174 tina/projects/models.py:827
+msgid "active epics panel"
+msgstr ""
+
+#: tina/projects/models.py:176 tina/projects/models.py:829
+msgid "active backlog panel"
+msgstr ""
+
+#: tina/projects/models.py:178 tina/projects/models.py:831
+msgid "active kanban panel"
+msgstr ""
+
+#: tina/projects/models.py:180 tina/projects/models.py:833
+msgid "active wiki panel"
+msgstr ""
+
+#: tina/projects/models.py:182 tina/projects/models.py:835
+msgid "active issues panel"
+msgstr ""
+
+#: tina/projects/models.py:185 tina/projects/models.py:842
+msgid "videoconference system"
+msgstr ""
+
+#: tina/projects/models.py:187 tina/projects/models.py:844
+msgid "videoconference extra data"
+msgstr ""
+
+#: tina/projects/models.py:193
+msgid "creation template"
+msgstr ""
+
+#: tina/projects/models.py:196 tina/users/admin.py:62
+msgid "is private"
+msgstr ""
+
+#: tina/projects/models.py:198
+msgid "anonymous permissions"
+msgstr ""
+
+#: tina/projects/models.py:200
+msgid "user permissions"
+msgstr ""
+
+#: tina/projects/models.py:203
+msgid "is featured"
+msgstr ""
+
+#: tina/projects/models.py:206 tina/projects/models.py:837
+msgid "is looking for people"
+msgstr ""
+
+#: tina/projects/models.py:208 tina/projects/models.py:839
+msgid "looking for people note"
+msgstr ""
+
+#: tina/projects/models.py:222
+msgid "project transfer token"
+msgstr ""
+
+#: tina/projects/models.py:226
+msgid "blocked code"
+msgstr ""
+
+#: tina/projects/models.py:229 tina/projects/notifications/models.py:69
+msgid "updated date time"
+msgstr ""
+
+#: tina/projects/models.py:232 tina/projects/models.py:244
+#: tina/projects/votes/models.py:30
+msgid "count"
+msgstr ""
+
+#: tina/projects/models.py:235
+msgid "fans last week"
+msgstr ""
+
+#: tina/projects/models.py:238
+msgid "fans last month"
+msgstr ""
+
+#: tina/projects/models.py:241
+msgid "fans last year"
+msgstr ""
+
+#: tina/projects/models.py:248
+msgid "activity last week"
+msgstr ""
+
+#: tina/projects/models.py:252
+msgid "activity last month"
+msgstr ""
+
+#: tina/projects/models.py:256
+msgid "activity last year"
+msgstr ""
+
+#: tina/projects/models.py:510
+msgid "modules config"
+msgstr ""
+
+#: tina/projects/models.py:562
+msgid "is archived"
+msgstr ""
+
+#: tina/projects/models.py:566
+msgid "work in progress limit"
+msgstr ""
+
+#: tina/projects/models.py:594 tina/userstorage/models.py:33
+msgid "value"
+msgstr ""
+
+#: tina/projects/models.py:614 tina/projects/models.py:671
+#: tina/projects/models.py:789
+msgid "by default"
+msgstr ""
+
+#: tina/projects/models.py:618 tina/projects/models.py:675
+#: tina/projects/models.py:793
+msgid "days to due"
+msgstr ""
+
+#: tina/projects/models.py:823
+msgid "default owner's role"
+msgstr ""
+
+#: tina/projects/models.py:846
+msgid "default options"
+msgstr ""
+
+#: tina/projects/models.py:847
+msgid "epic statuses"
+msgstr ""
+
+#: tina/projects/models.py:848
+msgid "us statuses"
+msgstr ""
+
+#: tina/projects/models.py:849
+msgid "us duedates"
+msgstr ""
+
+#: tina/projects/models.py:850 tina/projects/userstories/models.py:45
+#: tina/projects/userstories/models.py:78
+msgid "points"
+msgstr ""
+
+#: tina/projects/models.py:851
+msgid "task statuses"
+msgstr ""
+
+#: tina/projects/models.py:852
+msgid "task duedates"
+msgstr ""
+
+#: tina/projects/models.py:853
+msgid "issue statuses"
+msgstr ""
+
+#: tina/projects/models.py:854
+msgid "issue types"
+msgstr ""
+
+#: tina/projects/models.py:855
+msgid "issue duedates"
+msgstr ""
+
+#: tina/projects/models.py:856
+msgid "priorities"
+msgstr ""
+
+#: tina/projects/models.py:857
+msgid "severities"
+msgstr ""
+
+#: tina/projects/models.py:858
+msgid "roles"
+msgstr ""
+
+#: tina/projects/models.py:859
+msgid "epic custom attributes"
+msgstr ""
+
+#: tina/projects/models.py:860
+msgid "us custom attributes"
+msgstr ""
+
+#: tina/projects/models.py:861
+msgid "task custom attributes"
+msgstr ""
+
+#: tina/projects/models.py:862
+msgid "issue custom attributes"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:30
+msgid "Involved"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:31
+msgid "All"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:32
+msgid "None"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:46
+msgid "Assigned"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:47
+msgid "Mentioned"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:48
+msgid "Added as watcher"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:49
+msgid "Added as member"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:50
+msgid "Comment"
+msgstr ""
+
+#: tina/projects/notifications/choices.py:51
+msgid "Mentioned in comment"
+msgstr ""
+
+#: tina/projects/notifications/models.py:67
+msgid "created date time"
+msgstr ""
+
+#: tina/projects/notifications/models.py:71
+msgid "history entries"
+msgstr ""
+
+#: tina/projects/notifications/models.py:74
+msgid "notify users"
+msgstr ""
+
+#: tina/projects/notifications/models.py:96
+#: tina/projects/notifications/models.py:97
+msgid "Watched"
+msgstr ""
+
+#: tina/projects/notifications/services.py:75
+#: tina/projects/notifications/services.py:99
+#: tina/projects/settings/services.py:49
+#: tina/projects/settings/services.py:67
+msgid "Notify exists for specified user and project"
+msgstr ""
+
+#: tina/projects/notifications/services.py:487
+msgid "Invalid value for notify level"
+msgstr ""
+
+#: tina/projects/notifications/validators.py:48
+msgid "Watchers contains invalid users"
+msgstr ""
+
+#: tina/projects/occ/mixins.py:37
+msgid "The version must be an integer"
+msgstr ""
+
+#: tina/projects/occ/mixins.py:60
+msgid "The version parameter is not valid"
+msgstr ""
+
+#: tina/projects/occ/mixins.py:76
+msgid "The version doesn't match with the current one"
+msgstr ""
+
+#: tina/projects/occ/mixins.py:95
+msgid "version"
+msgstr ""
+
+#: tina/projects/permissions.py:44
+msgid ""
+"You can't leave the project if you are the owner or there are no more admins"
+msgstr ""
+
+#: tina/projects/services/members.py:133
+msgid "Project without owner"
+msgstr ""
+
+#: tina/projects/services/members.py:138
+msgid "You have reached your current limit of memberships for private projects"
+msgstr ""
+
+#: tina/projects/services/members.py:142
+msgid "You have reached your current limit of memberships for public projects"
+msgstr ""
+
+#: tina/projects/services/members.py:148
+msgid "You have reached the current limit of pending memberships"
+msgstr ""
+
+#: tina/projects/services/projects.py:101
+#: tina/projects/services/projects.py:141 tina/users/services.py:600
+msgid "You can't have more private projects"
+msgstr ""
+
+#: tina/projects/services/projects.py:105
+#: tina/projects/services/projects.py:145 tina/users/services.py:603
+msgid ""
+"This project reaches your current limit of memberships for private projects"
+msgstr ""
+
+#: tina/projects/services/projects.py:109
+#: tina/projects/services/projects.py:149 tina/users/services.py:607
+msgid "You can't have more public projects"
+msgstr ""
+
+#: tina/projects/services/projects.py:113
+#: tina/projects/services/projects.py:153 tina/users/services.py:610
+msgid ""
+"This project reaches your current limit of memberships for public projects"
+msgstr ""
+
+#: tina/projects/services/stats.py:55 tina/projects/services/stats.py:56
+msgid "Unassigned"
+msgstr ""
+
+#: tina/projects/services/stats.py:197
+msgid "Future sprint"
+msgstr ""
+
+#: tina/projects/services/stats.py:217
+msgid "Project End"
+msgstr ""
+
+#: tina/projects/services/transfer.py:62
+#: tina/projects/services/transfer.py:69
+#: tina/projects/services/transfer.py:72 tina/users/api.py:193
+#: tina/users/api.py:198
+msgid "Token is invalid"
+msgstr ""
+
+#: tina/projects/services/transfer.py:67
+msgid "Token has expired"
+msgstr ""
+
+#: tina/projects/settings/choices.py:33
+msgid "Timeline"
+msgstr ""
+
+#: tina/projects/settings/choices.py:34
+msgid "Epics"
+msgstr ""
+
+#: tina/projects/settings/choices.py:35
+msgid "Backlog"
+msgstr ""
+
+#. Translators: Name of kanban project template.
+#: tina/projects/settings/choices.py:36 tina/projects/translations.py:35
+msgid "Kanban"
+msgstr ""
+
+#: tina/projects/settings/choices.py:37
+msgid "Issues"
+msgstr ""
+
+#: tina/projects/settings/choices.py:38
+msgid "TeamWiki"
+msgstr ""
+
+#: tina/projects/settings/validators.py:36
+msgid "You don't have access to this section"
+msgstr ""
+
+#: tina/projects/tagging/fields.py:52
+#, python-brace-format
+msgid "Invalid tag '{value}'. The color is not a valid HEX color or null."
+msgstr ""
+
+#: tina/projects/tagging/fields.py:55
+#, python-brace-format
+msgid ""
+"Invalid tag '{value}'. it must be the name or a pair '[\"name\", \"hex color/"
+"\" | null]'."
+msgstr ""
+
+#: tina/projects/tagging/fields.py:77
+#, python-brace-format
+msgid "Invalid tag '{value}'. It must be the tag name."
+msgstr ""
+
+#: tina/projects/tagging/models.py:27
+msgid "tags"
+msgstr ""
+
+#: tina/projects/tagging/models.py:35
+msgid "tags colors"
+msgstr ""
+
+#: tina/projects/tagging/validators.py:47
+#: tina/projects/tagging/validators.py:74
+msgid "This tag already exists."
+msgstr ""
+
+#: tina/projects/tagging/validators.py:54
+#: tina/projects/tagging/validators.py:81
+msgid "The color is not a valid HEX color."
+msgstr ""
+
+#: tina/projects/tagging/validators.py:67
+#: tina/projects/tagging/validators.py:101
+#: tina/projects/tagging/validators.py:114
+#: tina/projects/tagging/validators.py:121
+msgid "The tag doesn't exist."
+msgstr ""
+
+#: tina/projects/tasks/api.py:112 tina/projects/tasks/api.py:121
+msgid "You don't have permissions to set this sprint to this task."
+msgstr ""
+
+#: tina/projects/tasks/api.py:115
+msgid "You don't have permissions to set this user story to this task."
+msgstr ""
+
+#: tina/projects/tasks/api.py:118
+msgid "You don't have permissions to set this status to this task."
+msgstr ""
+
+#: tina/projects/tasks/models.py:59
+msgid "us order"
+msgstr ""
+
+#: tina/projects/tasks/models.py:61
+msgid "taskboard order"
+msgstr ""
+
+#: tina/projects/tasks/models.py:69
+msgid "is iocaine"
+msgstr ""
+
+#: tina/projects/tasks/validators.py:61
+msgid "Invalid milestone id."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:72
+msgid "Invalid task status id."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:85
+msgid "Invalid user story id."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:109
+msgid "Invalid task status id. The status must belong to the same project."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:123
+msgid "Invalid user story id. The user story must belong to the same project."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:135
+msgid "Invalid milestone id. The milestone must belong to the same project."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:152
+msgid ""
+"Invalid task ids. All tasks must belong to the same project and, if it "
+"exists, to the same status, user story and/or milestone."
+msgstr ""
+
+#: tina/projects/tasks/validators.py:186
+msgid "All the tasks must be from the same project"
+msgstr ""
+
+#. Translators: Name of scrum project template.
+#: tina/projects/translations.py:30
+msgid "Scrum"
+msgstr ""
+
+#. Translators: Description of scrum project template.
+#: tina/projects/translations.py:32
+msgid ""
+"The agile product backlog in Scrum is a prioritized features list, "
+"containing short descriptions of all functionality desired in the product. "
+"When applying Scrum, it's not necessary to start a project with a lengthy, "
+"upfront effort to document all requirements. The Scrum product backlog is "
+"then allowed to grow and change as more is learned about the product and its "
+"customers"
+msgstr ""
+
+#. Translators: Description of kanban project template.
+#: tina/projects/translations.py:37
+msgid ""
+"Kanban is a method for managing knowledge work with an emphasis on just-in-"
+"time delivery while not overloading the team members. In this approach, the "
+"process, from definition of a task to its delivery to the customer, is "
+"displayed for participants to see and team members pull work from a queue."
+msgstr ""
+
+#. Translators: User story point value (value = undefined)
+#: tina/projects/translations.py:45
+msgid "?"
+msgstr ""
+
+#. Translators: User story point value (value = 0)
+#: tina/projects/translations.py:47
+msgid "0"
+msgstr ""
+
+#. Translators: User story point value (value = 0.5)
+#: tina/projects/translations.py:49
+msgid "1/2"
+msgstr ""
+
+#. Translators: User story point value (value = 1)
+#: tina/projects/translations.py:51
+msgid "1"
+msgstr ""
+
+#. Translators: User story point value (value = 2)
+#: tina/projects/translations.py:53
+msgid "2"
+msgstr ""
+
+#. Translators: User story point value (value = 3)
+#: tina/projects/translations.py:55
+msgid "3"
+msgstr ""
+
+#. Translators: User story point value (value = 5)
+#: tina/projects/translations.py:57
+msgid "5"
+msgstr ""
+
+#. Translators: User story point value (value = 8)
+#: tina/projects/translations.py:59
+msgid "8"
+msgstr ""
+
+#. Translators: User story point value (value = 10)
+#: tina/projects/translations.py:61
+msgid "10"
+msgstr ""
+
+#. Translators: User story point value (value = 13)
+#: tina/projects/translations.py:63
+msgid "13"
+msgstr ""
+
+#. Translators: User story point value (value = 20)
+#: tina/projects/translations.py:65
+msgid "20"
+msgstr ""
+
+#. Translators: User story point value (value = 40)
+#: tina/projects/translations.py:67
+msgid "40"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:75 tina/projects/translations.py:98
+#: tina/projects/translations.py:114
+msgid "New"
+msgstr ""
+
+#. Translators: User story status
+#: tina/projects/translations.py:78
+msgid "Ready"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:81 tina/projects/translations.py:100
+#: tina/projects/translations.py:116
+msgid "In progress"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:84 tina/projects/translations.py:102
+#: tina/projects/translations.py:118
+msgid "Ready for test"
+msgstr ""
+
+#. Translators: User story status
+#: tina/projects/translations.py:87
+msgid "Done"
+msgstr ""
+
+#. Translators: User story status
+#: tina/projects/translations.py:90
+msgid "Archived"
+msgstr ""
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:104 tina/projects/translations.py:120
+msgid "Closed"
+msgstr ""
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tina/projects/translations.py:106 tina/projects/translations.py:122
+msgid "Needs Info"
+msgstr ""
+
+#. Translators: Issue status
+#: tina/projects/translations.py:124
+msgid "Postponed"
+msgstr ""
+
+#. Translators: Issue status
+#: tina/projects/translations.py:126
+msgid "Rejected"
+msgstr ""
+
+#. Translators: Issue type
+#: tina/projects/translations.py:134
+msgid "Bug"
+msgstr ""
+
+#. Translators: Issue type
+#: tina/projects/translations.py:136
+msgid "Question"
+msgstr ""
+
+#. Translators: Issue type
+#: tina/projects/translations.py:138
+msgid "Enhancement"
+msgstr ""
+
+#. Translators: Issue priority
+#: tina/projects/translations.py:146
+msgid "Low"
+msgstr ""
+
+#. Translators: Issue priority
+#. Translators: Issue severity
+#: tina/projects/translations.py:148 tina/projects/translations.py:161
+msgid "Normal"
+msgstr ""
+
+#. Translators: Issue priority
+#: tina/projects/translations.py:150
+msgid "High"
+msgstr ""
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:157
+msgid "Wishlist"
+msgstr ""
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:159
+msgid "Minor"
+msgstr ""
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:163
+msgid "Important"
+msgstr ""
+
+#. Translators: Issue severity
+#: tina/projects/translations.py:165
+msgid "Critical"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:172
+msgid "UX"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:174
+msgid "Design"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:176
+msgid "Front"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:178
+msgid "Back"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:180
+msgid "Product Owner"
+msgstr ""
+
+#. Translators: User role
+#: tina/projects/translations.py:182
+msgid "Stakeholder"
+msgstr ""
+
+#: tina/projects/userstories/api.py:143
+msgid "You don't have permissions to set this sprint to this user story."
+msgstr ""
+
+#: tina/projects/userstories/api.py:147
+msgid "You don't have permissions to set this status to this user story."
+msgstr ""
+
+#: tina/projects/userstories/api.py:241
+#, python-brace-format
+msgid "Invalid role id '{role_id}'"
+msgstr ""
+
+#: tina/projects/userstories/api.py:248
+#, python-brace-format
+msgid "Invalid points id '{points_id}'"
+msgstr ""
+
+#: tina/projects/userstories/api.py:266
+#, python-brace-format
+msgid "Generating the user story #{ref} - {subject}"
+msgstr ""
+
+#: tina/projects/userstories/models.py:42
+msgid "role"
+msgstr ""
+
+#: tina/projects/userstories/models.py:81
+msgid "backlog order"
+msgstr ""
+
+#: tina/projects/userstories/models.py:83
+msgid "sprint order"
+msgstr ""
+
+#: tina/projects/userstories/models.py:85
+msgid "kanban order"
+msgstr ""
+
+#: tina/projects/userstories/models.py:93
+msgid "finish date"
+msgstr ""
+
+#: tina/projects/userstories/models.py:102
+msgid "assigned users"
+msgstr ""
+
+#: tina/projects/userstories/models.py:111
+msgid "generated from issue"
+msgstr ""
+
+#: tina/projects/userstories/models.py:115
+msgid "generated from task"
+msgstr ""
+
+#: tina/projects/userstories/validators.py:43
+msgid "There's no user story with that id"
+msgstr ""
+
+#: tina/projects/userstories/validators.py:83
+#: tina/projects/userstories/validators.py:109
+msgid ""
+"Invalid user story status id. The status must belong to the same project."
+msgstr ""
+
+#: tina/projects/userstories/validators.py:121
+msgid "Invalid milestone id. The milistone must belong to the same project."
+msgstr ""
+
+#: tina/projects/userstories/validators.py:134
+msgid ""
+"Invalid user story ids. All stories must belong to the same project and, if "
+"it exists, to the same status and milestone."
+msgstr ""
+
+#: tina/projects/validators.py:63
+msgid "There's no project with that id"
+msgstr ""
+
+#: tina/projects/validators.py:164
+msgid "The user yet exists in the project"
+msgstr ""
+
+#: tina/projects/validators.py:174
+msgid "Invalid role for the project"
+msgstr ""
+
+#: tina/projects/validators.py:189 tina/projects/validators.py:244
+msgid "The user must be a valid contact"
+msgstr ""
+
+#: tina/projects/validators.py:210
+msgid "The project owner must be admin."
+msgstr ""
+
+#: tina/projects/validators.py:214
+msgid "At least one user must be an active admin for this project."
+msgstr ""
+
+#: tina/projects/validators.py:259
+msgid "Invalid role ids. All roles must belong to the same project."
+msgstr ""
+
+#: tina/projects/validators.py:283
+msgid "Default options"
+msgstr ""
+
+#: tina/projects/validators.py:284
+msgid "User story's statuses"
+msgstr ""
+
+#: tina/projects/validators.py:285
+msgid "Points"
+msgstr ""
+
+#: tina/projects/validators.py:286
+msgid "Task's statuses"
+msgstr ""
+
+#: tina/projects/validators.py:287
+msgid "Issue's statuses"
+msgstr ""
+
+#: tina/projects/validators.py:288
+msgid "Issue's types"
+msgstr ""
+
+#: tina/projects/validators.py:289
+msgid "Priorities"
+msgstr ""
+
+#: tina/projects/validators.py:290
+msgid "Severities"
+msgstr ""
+
+#: tina/projects/validators.py:291
+msgid "Roles"
+msgstr ""
+
+#: tina/projects/votes/models.py:33 tina/projects/votes/models.py:34
+#: tina/projects/votes/models.py:58
+msgid "Votes"
+msgstr ""
+
+#: tina/projects/votes/models.py:57
+msgid "Vote"
+msgstr ""
+
+#: tina/projects/wiki/api.py:77
+msgid "'content' parameter is mandatory"
+msgstr ""
+
+#: tina/projects/wiki/api.py:80
+msgid "'project_id' parameter is mandatory"
+msgstr ""
+
+#: tina/projects/wiki/models.py:42
+msgid "last modifier"
+msgstr ""
+
+#: tina/projects/wiki/models.py:75
+msgid "href"
+msgstr ""
+
+#: tina/timeline/signals.py:65
+msgid "Check the history API for the exact diff"
+msgstr ""
+
+#: tina/users/admin.py:39
+msgid "Project Member"
+msgstr ""
+
+#: tina/users/admin.py:40
+msgid "Project Members"
+msgstr ""
+
+#: tina/users/admin.py:50
+msgid "id"
+msgstr ""
+
+#: tina/users/admin.py:81
+msgid "Project Ownership"
+msgstr ""
+
+#: tina/users/admin.py:82
+msgid "Project Ownerships"
+msgstr ""
+
+#: tina/users/admin.py:119
+msgid "Personal info"
+msgstr ""
+
+#: tina/users/admin.py:122
+msgid "Permissions"
+msgstr ""
+
+#: tina/users/admin.py:123
+msgid "Restrictions"
+msgstr ""
+
+#: tina/users/admin.py:125
+msgid "Important dates"
+msgstr ""
+
+#: tina/users/api.py:132
+msgid "Duplicated email"
+msgstr ""
+
+#: tina/users/api.py:134
+msgid "Not valid email"
+msgstr ""
+
+#: tina/users/api.py:172
+msgid "Invalid username or email"
+msgstr ""
+
+#: tina/users/api.py:181
+msgid "Mail sended successful!"
+msgstr ""
+
+#: tina/users/api.py:219
+msgid "Current password parameter needed"
+msgstr ""
+
+#: tina/users/api.py:222
+msgid "New password parameter needed"
+msgstr ""
+
+#: tina/users/api.py:225
+msgid "Invalid password length at least 6 charaters needed"
+msgstr ""
+
+#: tina/users/api.py:228
+msgid "Invalid current password"
+msgstr ""
+
+#: tina/users/api.py:275 tina/users/api.py:281
+msgid ""
+"Invalid, are you sure the token is correct and you didn't use it before?"
+msgstr ""
+
+#: tina/users/api.py:317 tina/users/api.py:325 tina/users/api.py:328
+msgid "Invalid, are you sure the token is correct?"
+msgstr ""
+
+#: tina/users/models.py:99
+msgid "superuser status"
+msgstr ""
+
+#: tina/users/models.py:100
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr ""
+
+#: tina/users/models.py:136
+msgid "username"
+msgstr ""
+
+#: tina/users/models.py:137
+msgid ""
+"Required. 30 characters or fewer. Letters, numbers and /./-/_ characters"
+msgstr ""
+
+#: tina/users/models.py:140
+msgid "Enter a valid username."
+msgstr ""
+
+#: tina/users/models.py:143
+msgid "active"
+msgstr ""
+
+#: tina/users/models.py:144
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+
+#: tina/users/models.py:150
+msgid "biography"
+msgstr ""
+
+#: tina/users/models.py:153
+msgid "photo"
+msgstr ""
+
+#: tina/users/models.py:154
+msgid "date joined"
+msgstr ""
+
+#: tina/users/models.py:155
+msgid "accepted terms"
+msgstr ""
+
+#: tina/users/models.py:156
+msgid "new terms read"
+msgstr ""
+
+#: tina/users/models.py:158
+msgid "default language"
+msgstr ""
+
+#: tina/users/models.py:160
+msgid "default theme"
+msgstr ""
+
+#: tina/users/models.py:162
+msgid "default timezone"
+msgstr ""
+
+#: tina/users/models.py:164
+msgid "colorize tags"
+msgstr ""
+
+#: tina/users/models.py:169
+msgid "email token"
+msgstr ""
+
+#: tina/users/models.py:171
+msgid "new email address"
+msgstr ""
+
+#: tina/users/models.py:178
+msgid "max number of owned private projects"
+msgstr ""
+
+#: tina/users/models.py:181
+msgid "max number of owned public projects"
+msgstr ""
+
+#: tina/users/models.py:184
+msgid "max number of memberships for each owned private project"
+msgstr ""
+
+#: tina/users/models.py:188
+msgid "max number of memberships for each owned public project"
+msgstr ""
+
+#: tina/users/models.py:316
+msgid "permissions"
+msgstr ""
+
+#: tina/users/services.py:58 tina/users/services.py:75
+msgid "Username or password does not matches user."
+msgstr ""
+
+#: tina/users/validators.py:45
+msgid "invalid"
+msgstr ""
+
+#: tina/users/validators.py:56
+msgid "Invalid username. Try with a different one."
+msgstr ""
+
+#: tina/users/validators.py:73
+msgid "Read new terms has to be true'"
+msgstr ""
+
+#: tina/userstorage/api.py:53
+msgid ""
+"Duplicate key value violates unique constraint. Key '{}' already exists."
+msgstr ""
+
+#: tina/userstorage/models.py:32
+msgid "key"
+msgstr ""
+
+#: tina/webhooks/models.py:30 tina/webhooks/models.py:40
+msgid "URL"
+msgstr ""
+
+#: tina/webhooks/models.py:31
+msgid "secret key"
+msgstr ""
+
+#: tina/webhooks/models.py:41
+msgid "status code"
+msgstr ""
+
+#: tina/webhooks/models.py:42
+msgid "request data"
+msgstr ""
+
+#: tina/webhooks/models.py:43
+msgid "request headers"
+msgstr ""
+
+#: tina/webhooks/models.py:44
+msgid "response data"
+msgstr ""
+
+#: tina/webhooks/models.py:45
+msgid "response headers"
+msgstr ""
+
+#: tina/webhooks/models.py:46
+msgid "duration"
+msgstr ""
+
+#: tina/webhooks/validators.py:42
+msgid "Not allowed IP Address"
+msgstr ""
