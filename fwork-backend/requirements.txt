@@ -32,7 +32,7 @@ html5lib==1.0.1
 idna==2.8
 jinja2==2.10.1
 kombu==4.0.2
-lxml==4.3.3
+lxml==4.9.1
 markdown==3.0.1
 markupsafe==1.1.1
 netaddr==0.7.19
